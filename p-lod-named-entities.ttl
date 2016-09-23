@@ -227,42 +227,58 @@ p-lod:r3-i14 a p-lod:insula ;
    
 
 p-lod:r1-i1-p1 a p-lod:property ;
-   dcterms:title "I 1, 1.10" .
+   dcterms:title "I 1, 1-1a.10" .
    
 p-lod:r1-i1-p2 a p-lod:property ;
-   dcterms:title "I 1, 1.10" .
+   dcterms:title "I 1, 2" .
    
-p-lod:r1-i1-p10 a p-lod:property ;
-   dcterms:title "I 1, 1-2.10" .
+p-lod:r1-i1-p3 a p-lod:property ;
+   dcterms:title "I 1, 3-5" .
+   
+p-lod:r1-i1-p4 a p-lod:property ;
+   dcterms:title "I 1, 6-9" .
    
    
    
 p-lod:r1-i1-d1 a p-lod:doorway ;
-   dcterms:title "Doorway 1 of Region I, Insula 1" .
+   dcterms:title "Doorway 1 of Region I, Insula 1" ;
+   dcterms:isPartOf p-lod:r1-i1-p1 .
+   
+p-lod:r1-i1-d1a a p-lod:doorway ;
+   dcterms:title "Doorway 1a of Region I, Insula 1" ;
+   dcterms:isPartOf p-lod:r1-i1-p1 .
    
 p-lod:r1-i1-d2 a p-lod:doorway ;
-   dcterms:title "Doorway 2 of Region I, Insula 1" .
+   dcterms:title "Doorway 2 of Region I, Insula 1" ;
+   dcterms:isPartOf p-lod:r1-i1-p2 .
    
 p-lod:r1-i1-d3 a p-lod:doorway ;
-   dcterms:title "Doorway 3 of Region I, Insula 1" .
+   dcterms:title "Doorway 3 of Region I, Insula 1" ;
+   dcterms:isPartOf p-lod:r1-i1-p3 .
    
 p-lod:r1-i1-d4 a p-lod:doorway ;
-   dcterms:title "Doorway 4 of Region I, Insula 1" .
+   dcterms:title "Doorway 4 of Region I, Insula 1" ;
+   dcterms:isPartOf p-lod:r1-i1-p3 .
    
 p-lod:r1-i1-d5 a p-lod:doorway ;
-   dcterms:title "Doorway 5 of Region I, Insula 1" .
+   dcterms:title "Doorway 5 of Region I, Insula 1" ;
+   dcterms:isPartOf p-lod:r1-i1-p3 .
    
 p-lod:r1-i1-d6 a p-lod:doorway ;
-   dcterms:title "Doorway 6 of Region I, Insula 1" .
+   dcterms:title "Doorway 6 of Region I, Insula 1" ;
+   dcterms:isPartOf p-lod:r1-i1-p4 .
    
 p-lod:r1-i1-d7 a p-lod:doorway ;
-   dcterms:title "Doorway 7 of Region I, Insula 1" .
+   dcterms:title "Doorway 7 of Region I, Insula 1" ;
+   dcterms:isPartOf p-lod:r1-i1-p4 .
    
 p-lod:r1-i1-d8 a p-lod:doorway ;
-   dcterms:title "Doorway 8 of Region I, Insula 1" .
+   dcterms:title "Doorway 8 of Region I, Insula 1" ;
+   dcterms:isPartOf p-lod:r1-i1-p4 .
    
 p-lod:r1-i1-d9 a p-lod:doorway ;
-   dcterms:title "Doorway 9 of Region I, Insula 1" .
+   dcterms:title "Doorway 9 of Region I, Insula 1" ;
+   dcterms:isPartOf p-lod:r1-i1-p4 .
    
 p-lod:r1-i1-d10 a p-lod:doorway ;
    dcterms:title "Doorway 10 of Region I, Insula 1" ;
