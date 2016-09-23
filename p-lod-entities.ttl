@@ -1,4 +1,4 @@
-@prefix p-lod: <http://digitalhumanities.umass.edu/pbmp/p-lod/> .
+@prefix p-lod: <http://digitalhumanities.umass.edu/p-lod/identifiers> .
 
 
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -7,34 +7,45 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-p-lod:1 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 1" .
 
-p-lod:2 a p-lod:entity ;
+
+p-lod:1 a p-lod:entity ;
    dcterms:title "P-LOD Entity 2" ;
    owl:sameAs p-lod:r1 .
 
-p-lod:3 a p-lod:entity ;
+p-lod:2 a p-lod:entity ;
+   dcterms:title "P-LOD Entity 3";
    owl:sameAs p-lod:r2 .
+
+p-lod:3 a p-lod:entity ;
+   owl:sameAs p-lod:r3 .
 
 p-lod:4 a p-lod:entity ;
    owl:sameAs p-lod:r4 .
 
 p-lod:5 a p-lod:entity ;
-   owl:sameAs p-lod:r4 .
+   owl:sameAs p-lod:r5 .
 
-p-lod:6 a p-lod:entity .
+p-lod:6 a p-lod:entity ;
+    owl:sameAs p-lod:r6 .
 
-p-lod:7 a p-lod:entity .
+p-lod:7 a p-lod:entity ;
+    owl:sameAs p-lod:r7 .
 
-p-lod:8 a p-lod:entity .
+p-lod:8 a p-lod:entity ;
+   owl:sameAs p-lod:r8 .
 
-p-lod:9 a p-lod:entity .
+p-lod:9 a p-lod:entity ;
+    owl:sameAs p-lod:r9 .
+    
+p-lod:10 a p-lod:entity ;
+     
+   dcterms:title "P-LOD Entity 10";
+   owl:sameAs p-lod:pompeii .
+   
+p-lod:11 a p-lod:entity ;
+	dcterms:title "P-LOD Entity 11" ;
+	owl:sameAs p-lod:r1-i1 .
 
-p-lod:10 a p-lod:entity .
-
-p-lod:11 a p-lod:entity .
-
-p-lod:12 a p-lod:entity .
 
 
