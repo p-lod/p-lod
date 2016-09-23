@@ -1,4 +1,4 @@
-@prefix p-lod: <http://digitalhumanities.umass.edu/p-lod/> .
+@prefix p-lod: <http://digitalhumanities.umass.edu/p-lod/identifiers/> .
 
 
 @prefix dcterms: <http://purl.org/dc/terms/> .
