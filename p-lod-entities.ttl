@@ -10,32 +10,39 @@
 
 
 p-lod:1 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 2" ;
+   dcterms:title "P-LOD Entity 1" ;
    owl:sameAs p-lod:r1 .
 
 p-lod:2 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 3";
+   dcterms:title "P-LOD Entity 2" ;
    owl:sameAs p-lod:r2 .
 
 p-lod:3 a p-lod:entity ;
+   dcterms:title "P-LOD Entity 3" ;
    owl:sameAs p-lod:r3 .
 
 p-lod:4 a p-lod:entity ;
+   dcterms:title "P-LOD Entity 4";
    owl:sameAs p-lod:r4 .
 
 p-lod:5 a p-lod:entity ;
+   dcterms:title "P-LOD Entity 5";
    owl:sameAs p-lod:r5 .
 
 p-lod:6 a p-lod:entity ;
+   dcterms:title "P-LOD Entity 6";
     owl:sameAs p-lod:r6 .
 
 p-lod:7 a p-lod:entity ;
+   dcterms:title "P-LOD Entity 7";
     owl:sameAs p-lod:r7 .
 
 p-lod:8 a p-lod:entity ;
+   dcterms:title "P-LOD Entity 8" ;
    owl:sameAs p-lod:r8 .
 
 p-lod:9 a p-lod:entity ;
+   dcterms:title "P-LOD Entity 9";
     owl:sameAs p-lod:r9 .
     
 p-lod:10 a p-lod:entity ;
@@ -83,43 +90,43 @@ p-lod:20 a p-lod:entity ;
 	owl:sameAs p-lod:r1-i10 .
 
 p-lod:21 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 11" ;
+	dcterms:title "P-LOD Entity 21" ;
 	owl:sameAs p-lod:r1-i11 .
 
 p-lod:22 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 12" ;
+	dcterms:title "P-LOD Entity 22" ;
 	owl:sameAs p-lod:r1-i12 .
 
 p-lod:23 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 13" ;
+	dcterms:title "P-LOD Entity 23" ;
 	owl:sameAs p-lod:r1-i13 .
 	
 p-lod:24 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 14" ;
+	dcterms:title "P-LOD Entity 24" ;
 	owl:sameAs p-lod:r1-i14 .
 	
 p-lod:25 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 15" ;
+	dcterms:title "P-LOD Entity 25" ;
 	owl:sameAs p-lod:r1-i15 .
 	
 p-lod:26 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 16" ;
+	dcterms:title "P-LOD Entity 26" ;
 	owl:sameAs p-lod:r1-i16 .
 
 p-lod:27 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 17" ;
+	dcterms:title "P-LOD Entity 27" ;
 	owl:sameAs p-lod:r1-i17 .
 	
 p-lod:28 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 18" ;
+	dcterms:title "P-LOD Entity 28" ;
 	owl:sameAs p-lod:r1-i18 .
 
 p-lod:29 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 19" ;
+	dcterms:title "P-LOD Entity 29" ;
 	owl:sameAs p-lod:r1-i19 .
 	
 p-lod:30 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 20" ;
+	dcterms:title "P-LOD Entity 30" ;
 	owl:sameAs p-lod:r1-i20 .
 	
 p-lod:28 a p-lod:entity ;
