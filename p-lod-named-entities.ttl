@@ -42,7 +42,9 @@ p-lod:r9 a p-lod:region ;
    dcterms:title "Pompeii Region IX" .
    
 p-lod:r1-i1 a p-lod:insula ;
-   dcterms:title "Pompeii Regiion I, Insula 1" .
+   dcterms:title "Pompeii Regiion I, Insula 1" ;
+   dcterms:isPartOf p-lod:r1 .
    
 p-lod:r1-i2 a p-lod:insula ;
-   dcterms:title "Pompeii Regiion I, Insula 2" .   
+   dcterms:title "Pompeii Regiion I, Insula 2" ;
+   dcterms:isPartOf p-lod:r1 .
