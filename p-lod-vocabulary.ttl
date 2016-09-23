@@ -7,9 +7,16 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-p-lod:insula a owl:Thing ;
-    dcterms:title "A Pompeian Insula" .
+p-lod:entity a owl:Class ;
+    rdfs:label "P-LOD Entity" 
 
-p-lod:region a owl:Thing ;
-    dcterms:title "A Pompeian Region" .
+p-lod:insula a owl:Class ;
+    owl:SubClassOf p-lod:entity ;
+    rdfs:label "Pompeian Insula" .
+
+p-lod:region a owl:Class ;
+    rdfs:label "Pompeian Region" ;
+    owl:SubClassOf p-lod:entity .
+    
+
 
