@@ -58,7 +58,7 @@ p-lod:r1-i4 a p-lod:insula ;
    dcterms:isPartOf p-lod:r1 .
    
 p-lod:r1-i5 a p-lod:insula ;
-   dcterms:title "Pompeii Regiion I, Insula %" ;
+   dcterms:title "Pompeii Regiion I, Insula 5" ;
    dcterms:isPartOf p-lod:r1 .
    
 p-lod:r1-i6 a p-lod:insula ;
@@ -207,6 +207,22 @@ p-lod:r3-i9 a p-lod:insula ;
    
 p-lod:r3-i10 a p-lod:insula ;
    dcterms:title "Pompeii Regiion III, Insula 10" ;
+   dcterms:isPartOf p-lod:r3 .
+   
+p-lod:r3-i11 a p-lod:insula ;
+   dcterms:title "Pompeii Regiion III, Insula 11" ;
+   dcterms:isPartOf p-lod:r3 .
+   
+p-lod:r3-i12 a p-lod:insula ;
+   dcterms:title "Pompeii Regiion III, Insula 12" ;
+   dcterms:isPartOf p-lod:r3 .
+   
+p-lod:r3-i13 a p-lod:insula ;
+   dcterms:title "Pompeii Regiion III, Insula 13" ;
+   dcterms:isPartOf p-lod:r3 .
+   
+p-lod:r3-i14 a p-lod:insula ;
+   dcterms:title "Pompeii Regiion III, Insula 14" ;
    dcterms:isPartOf p-lod:r3 .
    
 
