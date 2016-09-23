@@ -17,26 +17,32 @@ p-lod:r1 a p-lod:region ;
    dcterms:title "Pompeii Region I" ;
    p-lod:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_1.htm> .
 
-p-lod:r2
+p-lod:r2 a p-lod:region ;
    dcterms:title "Pompeii Region II" .
 
-p-lod:r3
+p-lod:r3 a p-lod:region ;
    dcterms:title "Pompeii Region III" .
 
-p-lod:r4
+p-lod:r4 a p-lod:region ;
    dcterms:title "Pompeii Region IV" .
 
-p-lod:r5
+p-lod:r5 a p-lod:region ;
    dcterms:title "Pompeii Region V" .
 
-p-lod:r6
+p-lod:r6 a p-lod:region ;
    dcterms:title "Pompeii Region VI" .
 
-p-lod:r7
+p-lod:r7 a p-lod:region ;
    dcterms:title "Pompeii Region VII" .
 
-p-lod:r8
+p-lod:r8 a p-lod:region ;
    dcterms:title "Pompeii Region VIII" .
 
-p-lod:r9
+p-lod:r9 a p-lod:region ;
    dcterms:title "Pompeii Region IX" .
+   
+p-lod:r1-i1 a p-lod:insula ;
+   dcterms:title "Pompeii Regiion I, Insula 1" .
+   
+p-lod:r1-i2 a p-lod:insula ;
+   dcterms:title "Pompeii Regiion I, Insula 2" .   
