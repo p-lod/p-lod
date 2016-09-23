@@ -1,0 +1,41 @@
+@prefix p-lod: <http://digitalhumanities.umass.edu/pbmp/p-lod/> .
+
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+p-lod:pompeii a owl:Thing ;
+   dcterms:title "Pompeii" ;
+   dcterms:description "High level identifier for the concept of Pompeii." ;
+   dcterms:id 1 .
+
+p-lod:r1 a p-lod:region ;
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r2
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r3
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r4
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r5
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r6
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r7
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r8
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r9
+   dcterms:title "Pompeii Region 1" .
