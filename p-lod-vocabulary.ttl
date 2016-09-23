@@ -8,7 +8,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 p-lod:entity a owl:Class ;
-    rdfs:label "P-LOD Entity" 
+    rdfs:label "P-LOD Entity"  .
 
 p-lod:insula a owl:Class ;
     owl:SubClassOf p-lod:entity ;
@@ -20,4 +20,8 @@ p-lod:region a owl:Class ;
     
 p-lod:property a owl:Class ;
     rdfs:label "Pompeian Property" ;
+    owl:SubClassOf p-lod:entity .
+    
+p-lod:room a owl:Class ;
+    rdfs:label "Room" ;
     owl:SubClassOf p-lod:entity .
