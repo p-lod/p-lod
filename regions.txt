@@ -1,9 +1,0 @@
-p-lod:r1
-p-lod:r2
-p-lod:r3
-p-lod:r4
-p-lod:r5
-p-lod:r6
-p-lod:r7
-p-lod:r8
-p-lod:r9

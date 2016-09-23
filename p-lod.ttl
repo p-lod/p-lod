@@ -1,0 +1,64 @@
+@prefix p-lod: <http://digitalhumanities.umass.edu/pbmp/p-lod/> .
+@prefix p-lod: <http://umass.edu/pbmp/p-lod/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+p-lod:1 a p-lod:entity ;
+   dcterms:title "P-LOD Entity 1" .
+
+p-lod:2 a p-lod:entity ;
+   dcterms:title "P-LOD Entity 2" ;
+   owl:sameAs p-lod:r1 .
+
+p-lod:3 a p-lod:entity ;
+   owl:sameAs p-lod:r2 .
+
+p-lod:4 a p-lod:entity ;
+   owl:sameAs p-lod:r4 .
+
+p-lod:5 a p-lod:entity ;
+   owl:sameAs p-lod:r4 .
+
+p-lod:6 a p-lod:entity ;
+
+p-lod:7 a p-lod:entity ;
+
+p-lod:8 a p-lod:entity ;
+
+p-lod:9 a p-lod:entity ;
+
+p-lod:10 a p-lod:entity ;
+
+p-lod:pompeii a lawd:site ;
+   dcterms:title "Pompeii" ;
+   dcterms:description "High level identifier for the concept of Pompeii."
+   dcterms:id 1 .
+
+p-lod:r1 a p-lod:region ;
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r2
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r3
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r4
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r5
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r6
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r7
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r8
+   dcterms:title "Pompeii Region 1" .
+
+p-lod:r9
+   dcterms:title "Pompeii Region 1" .
