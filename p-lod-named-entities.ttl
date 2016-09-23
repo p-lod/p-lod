@@ -13,6 +13,11 @@ p-lod:pompeii a owl:Thing ;
    dcterms:description "High level identifier for the concept of Pompeii." ;
    dcterms:id 1 .
 
+
+
+
+# REGIONS
+
 p-lod:r1 a p-lod:region ;
    dcterms:title "Pompeii Region I" ;
    p-lod:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_1.htm> .
@@ -40,6 +45,14 @@ p-lod:r8 a p-lod:region ;
 
 p-lod:r9 a p-lod:region ;
    dcterms:title "Pompeii Region IX" .
+   
+   
+   
+   
+   
+   
+   
+   # INSULAE
    
 p-lod:r1-i1 a p-lod:insula ;
    dcterms:title "Pompeii Regiion I, Insula 1" ;
@@ -226,8 +239,12 @@ p-lod:r3-i14 a p-lod:insula ;
    dcterms:isPartOf p-lod:r3 .
    
 
+
+# PROPERTIES
+
 p-lod:r1-i1-p1 a p-lod:property ;
-   dcterms:title "I 1, 1-1a.10" .
+   dcterms:title "I 1, 1-1a.10" ;
+   dcterms:isPartOf p-lod:r1-i1
    
 p-lod:r1-i1-p2 a p-lod:property ;
    dcterms:title "I 1, 2" .
@@ -238,11 +255,41 @@ p-lod:r1-i1-p3 a p-lod:property ;
 p-lod:r1-i1-p4 a p-lod:property ;
    dcterms:title "I 1, 6-9" .
    
+
+# ROOMS
+
+p-lod:r1-i1-p1-rm.a a p-lod:room ;
+   dcterms:title "I 1, 1, room a" ;
+   dcterms:isPartOf p-lod:r1-i1-p1 .
    
+p-lod:r1-i1-p1-rm.b a p-lod:room ;
+   dcterms:title "I 1, 1, room b" ;
+   dcterms:isPartOf p-lod:r1-i1-p1 .
+   
+p-lod:r1-i1-p1-rm.c a p-lod:room ;
+   dcterms:title "I 1, 1, room c" ;
+   dcterms:isPartOf p-lod:r1-i1-p1 .
+   
+p-lod:r1-i1-p1-rm.d a p-lod:room ;
+   dcterms:title "I 1, 1, room d" ;
+   dcterms:isPartOf p-lod:r1-i1-p1 .
+   
+p-lod:r1-i1-p1-rm.e a p-lod:room ;
+   dcterms:title "I 1, 1, room e" ;
+   dcterms:isPartOf p-lod:r1-i1-p1 .
+   
+p-lod:r1-i1-p1-rm.f a p-lod:room ;
+   dcterms:title "I 1, 1, room f" ;
+   dcterms:isPartOf p-lod:r1-i1-p1 .
+
+   
+   
+   # DOORWAYS
    
 p-lod:r1-i1-d1 a p-lod:doorway ;
    dcterms:title "Doorway 1 of Region I, Insula 1" ;
-   dcterms:isPartOf p-lod:r1-i1-p1 .
+   dcterms:isPartOf p-lod:r1-i1-p1 ;
+   dcterms:isPartOf p-lod:r1-i1-p1-rm.a .
    
 p-lod:r1-i1-d1a a p-lod:doorway ;
    dcterms:title "Doorway 1a of Region I, Insula 1" ;
@@ -282,6 +329,7 @@ p-lod:r1-i1-d9 a p-lod:doorway ;
    
 p-lod:r1-i1-d10 a p-lod:doorway ;
    dcterms:title "Doorway 10 of Region I, Insula 1" ;
-   dcterms:isPartOf p-lod:r1-i1-p1 .
+   dcterms:isPartOf p-lod:r1-i1-p1 , p-lod:r1-i1-p1-rm.f .
+
    
 
