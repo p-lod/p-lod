@@ -226,14 +226,14 @@ p-lod:r3-i14 a p-lod:insula ;
    dcterms:isPartOf p-lod:r3 .
    
 
-p-lod:r1-i1-p1 a p-lod:property ;
+p-lod:r1-i1-p1 a p-lod:property .
    dcterms:title "I 1, 1.10"
    
-p-lod:r1-i1-p2 a p-lod:property ;
+p-lod:r1-i1-p2 a p-lod:property .
    dcterms:title "I 1, 1.10"
    
-p-lod:r1-i1-p10 a p-lod:property ;
-   dcterms:title "I 1, 1.10"
+p-lod:r1-i1-p10 a p-lod:property .
+   dcterms:title "I 1, 1-2.10"
    
    
    
@@ -253,9 +253,16 @@ p-lod:r1-i1-d5 a p-lod:doorway ;
    dcterms:title "Doorway 5 of Region I, Insula 1" .
    
 p-lod:r1-i1-d6 a p-lod:doorway ;
-   dcterms:title "Doorway 2 of Region I, Insula 1" .
+   dcterms:title "Doorway 6 of Region I, Insula 1" .
    
+p-lod:r1-i1-d7 a p-lod:doorway ;
+   dcterms:title "Doorway 7 of Region I, Insula 1" .
    
+p-lod:r1-i1-d8 a p-lod:doorway ;
+   dcterms:title "Doorway 8 of Region I, Insula 1" .
+   
+p-lod:r1-i1-d9 a p-lod:doorway ;
+   dcterms:title "Doorway 9 of Region I, Insula 1" .
    
 p-lod:r1-i1-d10 a p-lod:doorway ;
    dcterms:title "Doorway 10 of Region I, Insula 1" ;
