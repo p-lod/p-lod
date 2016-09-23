@@ -18,5 +18,6 @@ p-lod:region a owl:Class ;
     rdfs:label "Pompeian Region" ;
     owl:SubClassOf p-lod:entity .
     
-
-
+p-lod:property a owl:Class ;
+    rdfs:label "Pompeian Property" ;
+    owl:SubClassOf p-lod:entity .
