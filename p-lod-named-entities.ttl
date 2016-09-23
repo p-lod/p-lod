@@ -14,7 +14,8 @@ p-lod:pompeii a owl:Thing ;
    dcterms:id 1 .
 
 p-lod:r1 a p-lod:region ;
-   dcterms:title "Pompeii Region I" .
+   dcterms:title "Pompeii Region I" ;
+   p-lod:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_1.htm> .
 
 p-lod:r2
    dcterms:title "Pompeii Region II" .
