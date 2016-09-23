@@ -14,28 +14,28 @@ p-lod:pompeii a owl:Thing ;
    dcterms:id 1 .
 
 p-lod:r1 a p-lod:region ;
-   dcterms:title "Pompeii Region 1" .
+   dcterms:title "Pompeii Region I" .
 
 p-lod:r2
-   dcterms:title "Pompeii Region 1" .
+   dcterms:title "Pompeii Region II" .
 
 p-lod:r3
-   dcterms:title "Pompeii Region 1" .
+   dcterms:title "Pompeii Region III" .
 
 p-lod:r4
-   dcterms:title "Pompeii Region 1" .
+   dcterms:title "Pompeii Region IV" .
 
 p-lod:r5
-   dcterms:title "Pompeii Region 1" .
+   dcterms:title "Pompeii Region V" .
 
 p-lod:r6
-   dcterms:title "Pompeii Region 1" .
+   dcterms:title "Pompeii Region VI" .
 
 p-lod:r7
-   dcterms:title "Pompeii Region 1" .
+   dcterms:title "Pompeii Region VII" .
 
 p-lod:r8
-   dcterms:title "Pompeii Region 1" .
+   dcterms:title "Pompeii Region VIII" .
 
 p-lod:r9
-   dcterms:title "Pompeii Region 1" .
+   dcterms:title "Pompeii Region IX" .
