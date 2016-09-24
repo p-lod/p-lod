@@ -12,6 +12,11 @@
 p-lod-v:entity a owl:Class ;
     rdfs:label "P-LOD Entity"  .
 
+p-lod-v:doorway a owl:Class ;
+    rdfs:label "Doorway" ;
+    rdfs:comment "This class is used 
+    rdfs:subClassOf p-lod:entity .
+
 p-lod-v:insula a owl:Class ;
     rdfs:subClassOf p-lod:entity ;
     rdfs:label "Pompeian Insula" .
