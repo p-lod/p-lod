@@ -66,187 +66,187 @@ p-lod-e:r9 a p-lod-v:region ;
    # INSULAE
    
 p-lod-e:r1-i1 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 1" ;
+   rdfs:label "Pompeii Region I, Insula 1" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i2 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 2" ;
+   rdfs:label "Pompeii Region I, Insula 2" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i3 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 3" ;
+   rdfs:label "Pompeii Region I, Insula 3" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i4 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 4" ;
+   rdfs:label "Pompeii Region I, Insula 4" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i5 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 5" ;
+   rdfs:label "Pompeii Region I, Insula 5" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i6 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 6" ;
+   rdfs:label "Pompeii Region I, Insula 6" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i7 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 7" ;
+   rdfs:label "Pompeii Region I, Insula 7" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i8 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 8" ;
+   rdfs:label "Pompeii Region I, Insula 8" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i9 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 9" ;
+   rdfs:label "Pompeii Region I, Insula 9" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i10 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 10" ;
+   rdfs:label "Pompeii Region I, Insula 10" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i11 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 11" ;
+   rdfs:label "Pompeii Region I, Insula 11" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i12 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 12" ;
+   rdfs:label "Pompeii Region I, Insula 12" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i13 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 13" ;
+   rdfs:label "Pompeii Region I, Insula 13" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i14 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 14" ;
+   rdfs:label "Pompeii Region I, Insula 14" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i15 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 15" ;
+   rdfs:label "Pompeii Region I, Insula 15" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i16 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 16" ;
+   rdfs:label "Pompeii Region I, Insula 16" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i17 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 17" ;
+   rdfs:label "Pompeii Region I, Insula 17" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i18 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 18" ;
+   rdfs:label "Pompeii Region I, Insula 18" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i19 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 19" ;
+   rdfs:label "Pompeii Region I, Insula 19" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i20 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 20" ;
+   rdfs:label "Pompeii Region I, Insula 20" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i21 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 21" ;
+   rdfs:label "Pompeii Region I, Insula 21" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i22 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 22" ;
+   rdfs:label "Pompeii Region I, Insula 22" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r1-i23 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion I, Insula 23" ;
+   rdfs:label "Pompeii Region I, Insula 23" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:r2-i1 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion II, Insula 1" ;
+   rdfs:label "Pompeii Region II, Insula 1" ;
    dcterms:isPartOf p-lod-e:r2 .
    
 p-lod-e:r2-i2 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion II, Insula 2" ;
+   rdfs:label "Pompeii Region II, Insula 2" ;
    dcterms:isPartOf p-lod-e:r2 .
    
 p-lod-e:r2-i3 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion II, Insula 3" ;
+   rdfs:label "Pompeii Region II, Insula 3" ;
    dcterms:isPartOf p-lod-e:r2 .
    
 p-lod-e:r2-i4 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion II, Insula 4" ;
+   rdfs:label "Pompeii Region II, Insula 4" ;
    dcterms:isPartOf p-lod-e:r2 .
    
 p-lod-e:r2-i5 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion II, Insula 5" ;
+   rdfs:label "Pompeii Region II, Insula 5" ;
    dcterms:isPartOf p-lod-e:r2 .
    
 p-lod-e:r2-i6 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion II, Insula 6" ;
+   rdfs:label "Pompeii Region II, Insula 6" ;
    dcterms:isPartOf p-lod-e:r2 .
    
 p-lod-e:r2-i7 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion II, Insula 7" ;
+   rdfs:label "Pompeii Region II, Insula 7" ;
    dcterms:isPartOf p-lod-e:r2 .
    
 p-lod-e:r2-i8 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion II, Insula 8" ;
+   rdfs:label "Pompeii Region II, Insula 8" ;
    dcterms:isPartOf p-lod-e:r2 .
    
 p-lod-e:r2-i9 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion II, Insula 9" ;
+   rdfs:label "Pompeii Region II, Insula 9" ;
    dcterms:isPartOf p-lod-e:r2 .
    
 p-lod-e:r3-i1 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion III, Insula 1" ;
+   rdfs:label "Pompeii Region III, Insula 1" ;
    dcterms:isPartOf p-lod-e:r3 .
    
 p-lod-e:r3-i2 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion III, Insula 2" ;
+   rdfs:label "Pompeii Region III, Insula 2" ;
    dcterms:isPartOf p-lod-e:r3 .
    
 p-lod-e:r3-i3 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion III, Insula 3" ;
+   rdfs:label "Pompeii Region III, Insula 3" ;
    dcterms:isPartOf p-lod-e:r3 .
    
 p-lod-e:r3-i4 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion III, Insula 4" ;
+   rdfs:label "Pompeii Region III, Insula 4" ;
    dcterms:isPartOf p-lod-e:r3 .
    
 p-lod-e:r3-i5 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion III, Insula 5" ;
+   rdfs:label "Pompeii Region III, Insula 5" ;
    dcterms:isPartOf p-lod-e:r3 .
 
 p-lod-e:r3-i6 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion III, Insula 6" ;
+   rdfs:label "Pompeii Region III, Insula 6" ;
    dcterms:isPartOf p-lod-e:r3 .
    
 p-lod-e:r3-i7 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion III, Insula 7" ;
+   rdfs:label "Pompeii Region III, Insula 7" ;
    dcterms:isPartOf p-lod-e:r3 .
    
 p-lod-e:r3-i8 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion III, Insula 8" ;
+   rdfs:label "Pompeii Region III, Insula 8" ;
    dcterms:isPartOf p-lod-e:r3 .
    
 p-lod-e:r3-i9 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion III, Insula 9" ;
+   rdfs:label "Pompeii Region III, Insula 9" ;
    dcterms:isPartOf p-lod-e:r3 .
    
 p-lod-e:r3-i10 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion III, Insula 10" ;
+   rdfs:label "Pompeii Region III, Insula 10" ;
    dcterms:isPartOf p-lod-e:r3 .
    
 p-lod-e:r3-i11 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion III, Insula 11" ;
+   rdfs:label "Pompeii Region III, Insula 11" ;
    dcterms:isPartOf p-lod-e:r3 .
    
 p-lod-e:r3-i12 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion III, Insula 12" ;
+   rdfs:label "Pompeii Region III, Insula 12" ;
    dcterms:isPartOf p-lod-e:r3 .
    
 p-lod-e:r3-i13 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion III, Insula 13" ;
+   rdfs:label "Pompeii Region III, Insula 13" ;
    dcterms:isPartOf p-lod-e:r3 .
    
 p-lod-e:r3-i14 a p-lod-v:insula ;
-   rdfs:label "Pompeii Regiion III, Insula 14" ;
+   rdfs:label "Pompeii Region III, Insula 14" ;
    dcterms:isPartOf p-lod-e:r3 .
    
 
