@@ -1,5 +1,6 @@
-@prefix p-lod: <http://digitalhumanities.umass.edu/p-lod/identifiers/> .
-
+@prefix p-lod: <http://digitalhumanities.umass.edu/p-lod/> .
+@prefix p-lod-e: <http://digitalhumanities.umass.edu/p-lod/entities/> .
+@prefix p-lod-v: <http://digitalhumanities.umass.edu/p-lod/vocabulary/> .
 
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -9,310 +10,310 @@
 
 
 
-p-lod:1 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 1" ;
+p-lod:1 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 1" ;
    owl:sameAs p-lod:r1 .
 
-p-lod:2 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 2" ;
+p-lod:2 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 2" ;
    owl:sameAs p-lod:r2 .
 
-p-lod:3 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 3" ;
+p-lod:3 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 3" ;
    owl:sameAs p-lod:r3 .
 
-p-lod:4 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 4";
+p-lod:4 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 4";
    owl:sameAs p-lod:r4 .
 
-p-lod:5 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 5";
+p-lod:5 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 5";
    owl:sameAs p-lod:r5 .
 
-p-lod:6 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 6";
+p-lod:6 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 6";
     owl:sameAs p-lod:r6 .
 
-p-lod:7 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 7";
+p-lod:7 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 7";
     owl:sameAs p-lod:r7 .
 
-p-lod:8 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 8" ;
+p-lod:8 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 8" ;
    owl:sameAs p-lod:r8 .
 
-p-lod:9 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 9";
+p-lod:9 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 9";
     owl:sameAs p-lod:r9 .
     
-p-lod:10 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 10";
+p-lod:10 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 10";
    owl:sameAs p-lod:pompeii .
    
-p-lod:11 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 11" ;
+p-lod:11 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 11" ;
 	owl:sameAs p-lod:r1-i1 .
 
-p-lod:12 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 12" ;
+p-lod:12 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 12" ;
 	owl:sameAs p-lod:r1-i2 .
 
-p-lod:13 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 13" ;
+p-lod:13 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 13" ;
 	owl:sameAs p-lod:r1-i3 .
 	
-p-lod:14 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 14" ;
+p-lod:14 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 14" ;
 	owl:sameAs p-lod:r1-i4 .
 	
-p-lod:15 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 15" ;
+p-lod:15 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 15" ;
 	owl:sameAs p-lod:r1-i5 .
 	
-p-lod:16 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 16" ;
+p-lod:16 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 16" ;
 	owl:sameAs p-lod:r1-i6 .
 
-p-lod:17 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 17" ;
+p-lod:17 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 17" ;
 	owl:sameAs p-lod:r1-i7 .
 	
-p-lod:18 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 18" ;
+p-lod:18 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 18" ;
 	owl:sameAs p-lod:r1-i8 .
 
-p-lod:19 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 19" ;
+p-lod:19 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 19" ;
 	owl:sameAs p-lod:r1-i9 .
 	
-p-lod:20 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 20" ;
+p-lod:20 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 20" ;
 	owl:sameAs p-lod:r1-i10 .
 
-p-lod:21 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 21" ;
+p-lod:21 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 21" ;
 	owl:sameAs p-lod:r1-i11 .
 
-p-lod:22 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 22" ;
+p-lod:22 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 22" ;
 	owl:sameAs p-lod:r1-i12 .
 
-p-lod:23 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 23" ;
+p-lod:23 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 23" ;
 	owl:sameAs p-lod:r1-i13 .
 	
-p-lod:24 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 24" ;
+p-lod:24 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 24" ;
 	owl:sameAs p-lod:r1-i14 .
 	
-p-lod:25 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 25" ;
+p-lod:25 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 25" ;
 	owl:sameAs p-lod:r1-i15 .
 	
-p-lod:26 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 26" ;
+p-lod:26 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 26" ;
 	owl:sameAs p-lod:r1-i16 .
 
-p-lod:27 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 27" ;
+p-lod:27 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 27" ;
 	owl:sameAs p-lod:r1-i17 .
 	
-p-lod:28 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 28" ;
+p-lod:28 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 28" ;
 	owl:sameAs p-lod:r1-i18 .
 
-p-lod:29 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 29" ;
+p-lod:29 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 29" ;
 	owl:sameAs p-lod:r1-i19 .
 	
-p-lod:30 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 30" ;
+p-lod:30 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 30" ;
 	owl:sameAs p-lod:r1-i20 .
 	
-p-lod:31 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 31" ;
+p-lod:31 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 31" ;
 	owl:sameAs p-lod:r1-i21 .
 
-p-lod:32 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 32" ;
+p-lod:32 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 32" ;
 	owl:sameAs p-lod:r1-i22 .
 	
-p-lod:33 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 33" ;
+p-lod:33 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 33" ;
 	owl:sameAs p-lod:r1-i23 .
 
-p-lod:34 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 34" ;
+p-lod:34 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 34" ;
 	owl:sameAs p-lod:r2-i1 .
 
-p-lod:35 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 35" ;
+p-lod:35 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 35" ;
 	owl:sameAs p-lod:r2-i2 .
 
-p-lod:36 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 36" ;
+p-lod:36 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 36" ;
 	owl:sameAs p-lod:r2-i3 .
 	
-p-lod:37 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 37" ;
+p-lod:37 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 37" ;
 	owl:sameAs p-lod:r2-i4 .
 	
-p-lod:38 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 38" ;
+p-lod:38 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 38" ;
 	owl:sameAs p-lod:r2-i5 .
 	
-p-lod:39 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 39" ;
+p-lod:39 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 39" ;
 	owl:sameAs p-lod:r2-i6 .
 
-p-lod:40 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 40" ;
+p-lod:40 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 40" ;
 	owl:sameAs p-lod:r2-i7 .
 	
-p-lod:41 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 41" ;
+p-lod:41 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 41" ;
 	owl:sameAs p-lod:r2-i8 .
 
-p-lod:42 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 42" ;
+p-lod:42 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 42" ;
 	owl:sameAs p-lod:r2-i9 .
 	
-p-lod:43 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 43" ;
+p-lod:43 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 43" ;
 	owl:sameAs p-lod:r3-i1 .
 
-p-lod:44 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 44" ;
+p-lod:44 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 44" ;
 	owl:sameAs p-lod:r3-i2 .
 
-p-lod:45 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 45" ;
+p-lod:45 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 45" ;
 	owl:sameAs p-lod:r3-i3 .
 	
-p-lod:46 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 46" ;
+p-lod:46 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 46" ;
 	owl:sameAs p-lod:r3-i4 .
 	
-p-lod:47 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 47" ;
+p-lod:47 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 47" ;
 	owl:sameAs p-lod:r3-i5 .
 	
-p-lod:48 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 48" ;
+p-lod:48 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 48" ;
 	owl:sameAs p-lod:r3-i6 .
 
-p-lod:49 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 49" ;
+p-lod:49 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 49" ;
 	owl:sameAs p-lod:r3-i7 .
 	
-p-lod:50 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 50" ;
+p-lod:50 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 50" ;
 	owl:sameAs p-lod:r3-i8 .
 
-p-lod:51 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 51" ;
+p-lod:51 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 51" ;
 	owl:sameAs p-lod:r3-i9 .
 	
-p-lod:52 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 52" ;
+p-lod:52 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 52" ;
 	owl:sameAs p-lod:r3-i10 .
 
-p-lod:53 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 53" ;
+p-lod:53 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 53" ;
 	owl:sameAs p-lod:r3-i11 .
 
-p-lod:54 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 54" ;
+p-lod:54 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 54" ;
 	owl:sameAs p-lod:r3-i12 .
 
-p-lod:55 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 55" ;
+p-lod:55 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 55" ;
 	owl:sameAs p-lod:r3-i13 .
 	
-p-lod:56 a p-lod:entity ;
-	dcterms:title "P-LOD Entity 56" ;
+p-lod:56 a p-lod-v:entity ;
+	rdfs:label "P-LOD Entity 56" ;
 	owl:sameAs p-lod:r3-i14 .
 	
-p-lod:57 a p-lod:entity ;
-    dcterms:title "P-LOD Entity 57" ;
+p-lod:57 a p-lod-v:entity ;
+    rdfs:label "P-LOD Entity 57" ;
     owl:sameAs p-lod:r1-i1-p1 .
 
-p-lod:58 a p-lod:entity ;
-  dcterms:title "P-LOD Entity 58" ;
+p-lod:58 a p-lod-v:entity ;
+  rdfs:label "P-LOD Entity 58" ;
   owl:sameAs p-lod:r1-i1-d1 .
 
-p-lod:59 a p-lod:entity ;
-  dcterms:title "P-LOD Entity 60" ;
+p-lod:59 a p-lod-v:entity ;
+  rdfs:label "P-LOD Entity 60" ;
   owl:sameAs p-lod:r1-i1-d2 .
   
-p-lod:60 a p-lod:entity ;
-  dcterms:title "P-LOD Entity 60" ;
+p-lod:60 a p-lod-v:entity ;
+  rdfs:label "P-LOD Entity 60" ;
   owl:sameAs p-lod:r1-i1-d3 .
   
-p-lod:61 a p-lod:entity ;
-  dcterms:title "P-LOD Entity 61" ;
+p-lod:61 a p-lod-v:entity ;
+  rdfs:label "P-LOD Entity 61" ;
   owl:sameAs p-lod:r1-i1-d4 .
   
-p-lod:62 a p-lod:entity ;
-  dcterms:title "P-LOD Entity 62" ;
+p-lod:62 a p-lod-v:entity ;
+  rdfs:label "P-LOD Entity 62" ;
   owl:sameAs p-lod:r1-i1-d5 .
   
-p-lod:63 a p-lod:entity ;
-  dcterms:title "P-LOD Entity 63" ;
+p-lod:63 a p-lod-v:entity ;
+  rdfs:label "P-LOD Entity 63" ;
   owl:sameAs p-lod:r1-i1-d6 .
   
-p-lod:64 a p-lod:entity ;
-  dcterms:title "P-LOD Entity 64" ;
+p-lod:64 a p-lod-v:entity ;
+  rdfs:label "P-LOD Entity 64" ;
   owl:sameAs p-lod:r1-i1-d7 .
   
-p-lod:65 a p-lod:entity ;
-  dcterms:title "P-LOD Entity 65" ;
+p-lod:65 a p-lod-v:entity ;
+  rdfs:label "P-LOD Entity 65" ;
   owl:sameAs p-lod:r1-i1-d8 .
   
-p-lod:66 a p-lod:entity ;
-  dcterms:title "P-LOD Entity 66" ;
+p-lod:66 a p-lod-v:entity ;
+  rdfs:label "P-LOD Entity 66" ;
   owl:sameAs p-lod:r1-i1-d9 .
 
-p-lod:67 a p-lod:entity ;
-  dcterms:title "P-LOD Entity 67" ;
+p-lod:67 a p-lod-v:entity ;
+  rdfs:label "P-LOD Entity 67" ;
   owl:sameAs p-lod:r1-i1-d10 .
   
-p-lod:68 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 68" ;
+p-lod:68 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 68" ;
    owl:sameAs p-lod:r1-i1-p2 . 
     
-p-lod:69 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 69" ;
+p-lod:69 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 69" ;
    owl:sameAs p-lod:r1-i1-p3 .
     
-p-lod:70 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 70" ;
+p-lod:70 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 70" ;
    owl:sameAs p-lod:r1-i1-p4 .
    
-p-lod:71 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 71" ;
+p-lod:71 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 71" ;
    owl:sameAs p-lod:r1-i1-d1a .
    
-p-lod:72 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 72" ;
+p-lod:72 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 72" ;
    owl:sameAs p-lod:ri-i1-p1-rm.a .
 
-p-lod:73 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 73" ;
+p-lod:73 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 73" ;
    owl:sameAs p-lod:ri-i1-p1-rm.b .
    
-p-lod:74 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 74" ;
+p-lod:74 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 74" ;
    owl:sameAs p-lod:ri-i1-p1-rm.c .
 
-p-lod:75 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 75" ;
+p-lod:75 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 75" ;
    owl:sameAs p-lod:ri-i1-p1-rm.d .
 
-p-lod:76 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 76" ;
+p-lod:76 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 76" ;
    owl:sameAs p-lod:ri-i1-p1-rm.e .
 
-p-lod:77 a p-lod:entity ;
-   dcterms:title "P-LOD Entity 77" ;
+p-lod:77 a p-lod-v:entity ;
+   rdfs:label "P-LOD Entity 77" ;
    owl:sameAs p-lod:ri-i1-p1-rm.f .

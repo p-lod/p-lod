@@ -1,4 +1,6 @@
-@prefix p-lod: <http://digitalhumanities.umass.edu/p-lod/identifiers/> .
+@prefix p-lod: <http://digitalhumanities.umass.edu/p-lod/> .
+@prefix p-lod-e: <http://digitalhumanities.umass.edu/p-lod/entities/> .
+@prefix p-lod-v: <http://digitalhumanities.umass.edu/p-lod/vocabulary/> .
 
 
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -7,21 +9,26 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-p-lod:entity a owl:Class ;
+p-lod-v:entity a owl:Class ;
     rdfs:label "P-LOD Entity"  .
 
-p-lod:insula a owl:Class ;
+p-lod-v:insula a owl:Class ;
     rdfs:subClassOf p-lod:entity ;
     rdfs:label "Pompeian Insula" .
 
-p-lod:region a owl:Class ;
-    rdfs:label "Pompeian Region" ;
-    dfs:subClassOf p-lod:entity .
-    
-p-lod:property a owl:Class ;
+p-lod-v:property a owl:Class ;
     rdfs:label "Pompeian Property" ;
-    dfs:subClassOf p-lod:entity .
+    rdfs:subClassOf p-lod:entity .
     
-p-lod:room a owl:Class ;
+p-lod-v:room a owl:Class ;
     rdfs:label "Room" ;
-   dfs:subClassOf p-lod:entity .
+    rdfs:subClassOf p-lod:entity .
+
+p-lod-v:region a owl:Class ;
+    rdfs:label "Pompeian Region" ;
+    rdfs:subClassOf p-lod:entity .
+    
+    
+p-lod-v:p-in-p-equiv a owl:ObjectProperty ;
+    rdfs:label "Pompeii in Pictures URL" ;
+    rdfs:domain p-lod-v:entity .
