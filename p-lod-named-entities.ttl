@@ -242,7 +242,6 @@ p-lod:r3-i14 a p-lod-v:insula ;
    dcterms:isPartOf p-lod:r3 .
    
 
-
 # PROPERTIES
 
 p-lod:r1-i1-p1 a p-lod-v:property ;
@@ -285,9 +284,8 @@ p-lod:r1-i1-p1-rm.f a p-lod-v:room ;
    rdfs:label "I 1, 1, room f" ;
    dcterms:isPartOf p-lod:r1-i1-p1 .
 
-   
-   
-   # DOORWAYS
+
+# DOORWAYS
    
 p-lod:r1-i1-d1 a p-lod-v:doorway ;
    rdfs:label "Doorway 1 of Region I, Insula 1" ;
