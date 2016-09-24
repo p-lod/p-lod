@@ -23,28 +23,36 @@ p-lod:r1 a p-lod-v:region ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_1.htm> .
 
 p-lod:r2 a p-lod-v:region ;
-   rdfs:label "Pompeii Region II" .
+   rdfs:label "Pompeii Region II" ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_2.htm> .
 
 p-lod:r3 a p-lod-v:region ;
-   rdfs:label "Pompeii Region III" .
+   rdfs:label "Pompeii Region III" ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_3.htm> .
 
 p-lod:r4 a p-lod-v:region ;
-   rdfs:label "Pompeii Region IV" .
+   rdfs:label "Pompeii Region IV" ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_4.htm> .
 
 p-lod:r5 a p-lod-v:region ;
-   rdfs:label "Pompeii Region V" .
+   rdfs:label "Pompeii Region V" ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_5.htm> .
 
 p-lod:r6 a p-lod-v:region ;
-   rdfs:label "Pompeii Region VI" .
+   rdfs:label "Pompeii Region VI" ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_6.htm> .
 
 p-lod:r7 a p-lod-v:region ;
-   rdfs:label "Pompeii Region VII" .
+   rdfs:label "Pompeii Region VII" ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_7.htm> .
 
 p-lod:r8 a p-lod-v:region ;
-   rdfs:label "Pompeii Region VIII" .
+   rdfs:label "Pompeii Region VIII" ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_8.htm> .
 
 p-lod:r9 a p-lod-v:region ;
-   rdfs:label "Pompeii Region IX" .
+   rdfs:label "Pompeii Region IX" ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_9.htm> .
    
    
    # INSULAE
