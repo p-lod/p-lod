@@ -14,7 +14,7 @@ p-lod-v:entity a owl:Class ;
 
 p-lod-v:doorway a owl:Class ;
     rdfs:label "Doorway" ;
-    rdfs:comment "This class is used 
+    rdfs:comment "This class is used for public facing entrances." ;
     rdfs:subClassOf p-lod:entity .
 
 p-lod-v:insula a owl:Class ;
