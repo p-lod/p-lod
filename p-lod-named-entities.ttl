@@ -274,7 +274,42 @@ p-lod-e:r4-i5 a p-lod-v:insula ;
    dcterms:isPartOf p-lod-e:r4 ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_05.htm> .
 
-# PROPERTIES
+p-lod-e:r5-i1 a p-lod-v:insula ;
+   rdfs:label "Pompeii Region V, Insula 1" ;
+   dcterms:isPartOf p-lod-e:r5 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_01.htm> .
+   
+p-lod-e:r5-i2 a p-lod-v:insula ;
+   rdfs:label "Pompeii Region V, Insula 2" ;
+   dcterms:isPartOf p-lod-e:r5 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_02.htm> .
+
+p-lod-e:r5-i3 a p-lod-v:insula ;
+   rdfs:label "Pompeii Region V, Insula 3" ;
+   dcterms:isPartOf p-lod-e:r5 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_03.htm> .
+   
+p-lod-e:r5-i4 a p-lod-v:insula ;
+   rdfs:label "Pompeii Region V, Insula 4" ;
+   dcterms:isPartOf p-lod-e:r5 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_04.htm> .
+   
+p-lod-e:r5-i5 a p-lod-v:insula ;
+   rdfs:label "Pompeii Region V, Insula 5" ;
+   dcterms:isPartOf p-lod-e:r5 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_05.htm> .
+
+p-lod-e:r5-i6 a p-lod-v:insula ;
+   rdfs:label "Pompeii Region V, Insula 6" ;
+   dcterms:isPartOf p-lod-e:r5 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_06.htm> .
+   
+p-lod-e:r5-i7 a p-lod-v:insula ;
+   rdfs:label "Pompeii Region V, Insula 7" ;
+   dcterms:isPartOf p-lod-e:r5 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_07.htm> .
+   
+# PROPERTIES (p-lod-v:property)
 
 p-lod-e:r1-i1-p1 a p-lod-v:property ;
    rdfs:label "I 1, 1-1a.10" ;
