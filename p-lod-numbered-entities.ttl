@@ -337,3 +337,31 @@
 p-lod-e:82 a p-lod-v:numbered-entity ;
    rdfs:label "P-LOD Entity 82" ;
    owl:sameAs p-lod-e:r4-i5 .
+
+ p-lod-e:83 a p-lod-v:numbered-entity ;
+   rdfs:label "P-LOD Entity 83" ;
+   owl:sameAs p-lod-e:r5-i1 .
+
+ p-lod-e:84 a p-lod-v:numbered-entity ;
+   rdfs:label "P-LOD Entity 84" ;
+   owl:sameAs p-lod-e:r5-i2 .
+   
+ p-lod-e:85 a p-lod-v:numbered-entity ;
+   rdfs:label "P-LOD Entity 85" ;
+   owl:sameAs p-lod-e:r5-i3 .
+
+ p-lod-e:86 a p-lod-v:numbered-entity ;
+   rdfs:label "P-LOD Entity 86" ;
+   owl:sameAs p-lod-e:r5-i4 .
+
+ p-lod-e:87 a p-lod-v:numbered-entity ;
+   rdfs:label "P-LOD Entity 87" ;
+   owl:sameAs p-lod-e:r5-i5 .
+
+ p-lod-e:88 a p-lod-v:numbered-entity ;
+   rdfs:label "P-LOD Entity 88" ;
+   owl:sameAs p-lod-e:r5-i6 .
+   
+p-lod-e:89 a p-lod-v:numbered-entity ;
+   rdfs:label "P-LOD Entity 89" ;
+   owl:sameAs p-lod-e:r5-i7 .
