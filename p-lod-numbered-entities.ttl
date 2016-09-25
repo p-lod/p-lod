@@ -296,24 +296,44 @@
    
  p-lod-e:72 a p-lod-v:numbered-entity ;
    rdfs:label "P-LOD Entity 72" ;
-   owl:sameAs p-lod-e:ri-i1-p1-rm.a .
+   owl:sameAs p-lod-e:r1-i1-p1-rm.a .
 
  p-lod-e:73 a p-lod-v:numbered-entity ;
    rdfs:label "P-LOD Entity 73" ;
-   owl:sameAs p-lod-e:ri-i1-p1-rm.b .
+   owl:sameAs p-lod-e:r1-i1-p1-rm.b .
    
  p-lod-e:74 a p-lod-v:numbered-entity ;
    rdfs:label "P-LOD Entity 74" ;
-   owl:sameAs p-lod-e:ri-i1-p1-rm.c .
+   owl:sameAs p-lod-e:r1-i1-p1-rm.c .
 
  p-lod-e:75 a p-lod-v:numbered-entity ;
    rdfs:label "P-LOD Entity 75" ;
-   owl:sameAs p-lod-e:ri-i1-p1-rm.d .
+   owl:sameAs p-lod-e:r1-i1-p1-rm.d .
 
  p-lod-e:76 a p-lod-v:numbered-entity ;
    rdfs:label "P-LOD Entity 76" ;
-   owl:sameAs p-lod-e:ri-i1-p1-rm.e .
+   owl:sameAs p-lod-e:r1-i1-p1-rm.e .
 
  p-lod-e:77 a p-lod-v:numbered-entity ;
    rdfs:label "P-LOD Entity 77" ;
-   owl:sameAs p-lod-e:ri-i1-p1-rm.f .
+   owl:sameAs p-lod-e:r1-i1-p1-rm.f .
+   
+ p-lod-e:78 a p-lod-v:numbered-entity ;
+   rdfs:label "P-LOD Entity 78" ;
+   owl:sameAs p-lod-e:r4-i1 .
+
+ p-lod-e:79 a p-lod-v:numbered-entity ;
+   rdfs:label "P-LOD Entity 79" ;
+   owl:sameAs p-lod-e:r4-i2 .
+
+ p-lod-e:80 a p-lod-v:numbered-entity ;
+   rdfs:label "P-LOD Entity 80" ;
+   owl:sameAs p-lod-e:r4-i3 .
+
+ p-lod-e:81 a p-lod-v:numbered-entity ;
+   rdfs:label "P-LOD Entity 81" ;
+   owl:sameAs p-lod-e:r4-i4 .
+   
+p-lod-e:82 a p-lod-v:numbered-entity ;
+   rdfs:label "P-LOD Entity 82" ;
+   owl:sameAs p-lod-e:r4-i5 .

@@ -10,7 +10,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-p-lod-e:pompeii a p-lod-v:entity ;
+p-lod-e:pompeii a p-lod-v:named-entity ;
    rdfs:label "Pompeii" ;
    dcterms:description "High level identifier for the concept of Pompeii." ;
    dcterms:id 1 .
@@ -248,7 +248,31 @@ p-lod-e:r3-i13 a p-lod-v:insula ;
 p-lod-e:r3-i14 a p-lod-v:insula ;
    rdfs:label "Pompeii Region III, Insula 14" ;
    dcterms:isPartOf p-lod-e:r3 .
+
+p-lod-e:r4-i1 a p-lod-v:insula ;
+   rdfs:label "Pompeii Region IV, Insula 1" ;
+   dcterms:isPartOf p-lod-e:r4 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_01.htm> .
    
+p-lod-e:r4-i2 a p-lod-v:insula ;
+   rdfs:label "Pompeii Region IV, Insula 2" ;
+   dcterms:isPartOf p-lod-e:r4 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_02.htm> .
+   
+p-lod-e:r4-i3 a p-lod-v:insula ;
+   rdfs:label "Pompeii Region IV, Insula 3" ;
+   dcterms:isPartOf p-lod-e:r4 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_03.htm> .
+   
+p-lod-e:r4-i4 a p-lod-v:insula ;
+   rdfs:label "Pompeii Region IV, Insula 4" ;
+   dcterms:isPartOf p-lod-e:r4 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_04.htm> .
+   
+p-lod-e:r4-i5 a p-lod-v:insula ;
+   rdfs:label "Pompeii Region IV, Insula 5" ;
+   dcterms:isPartOf p-lod-e:r4 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_05.htm> .
 
 # PROPERTIES
 
