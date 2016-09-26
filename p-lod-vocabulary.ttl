@@ -9,6 +9,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+dcterms:isPartOf rdfs:label "Is part of" .
+rdf:type rdfs:label "Type" .
+
+
 p-lod-v:entity a owl:Class ;
     rdfs:label "P-LOD Entity"  .
     
