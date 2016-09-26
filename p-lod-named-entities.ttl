@@ -13,6 +13,7 @@
 p-lod-e:pompeii a p-lod-v:named-entity ;
    rdfs:label "Pompeii" ;
    dcterms:description "High level identifier for the concept of Pompeii." ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/index.htm> ;
    owl:sameAs <https://pleiades.stoa.org/places/433032> .
 
 
@@ -64,7 +65,7 @@ p-lod-e:r9 a p-lod-v:region ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_9.htm> .
    
    
-   # INSULAE
+# INSULAE
    
 p-lod-e:r1-i1 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 1" ;
