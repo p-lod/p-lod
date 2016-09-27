@@ -29,6 +29,11 @@ p-lod-v:doorway a owl:Class ;
     rdfs:comment "This class is used for public facing entrances." ;
     rdfs:subClassOf p-lod-v:named-entity .
 
+p-lod-v:city-gate a owl:Class ;
+    rdfs:label "City gate" ;
+    rdfs:comment "This class is used for the major city gates of Pompeii." ;
+    rdfs:subClassOf p-lod-v:named-entity .
+
 p-lod-v:insula a owl:Class ;
     rdfs:subClassOf p-lod-v:named-entity ;
     rdfs:label "Pompeian Insula" .
@@ -44,8 +49,7 @@ p-lod-v:room a owl:Class ;
 p-lod-v:region a owl:Class ;
     rdfs:label "Pompeian Region" ;
     rdfs:subClassOf p-lod-v:named-entity .
-    
-    
+
 p-lod-v:p-in-p-equiv a owl:ObjectProperty ;
     rdfs:label "Pompeii in Pictures URL" ;
     rdfs:domain p-lod-v:named-entity .
