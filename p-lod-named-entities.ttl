@@ -620,5 +620,39 @@ p-lod-e:r1-i1-d10 a p-lod-v:doorway ;
    rdfs:label "Doorway 10 of Region I, Insula 1" ;
    dcterms:isPartOf p-lod-e:r1-i1-p1 , p-lod-e:r1-i1-p1-rm.f .
 
-   
+# GATES
 
+p-lod-e:porta-nola a p-lod-v:city-gate ;
+   rdfs:label "Porta Nola" ;
+   dcterms:isPartOf p-lod-e:pompeii ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Nola.htm> .
+
+p-lod-e:porta-sarno a p-lod-v:city-gate ;
+   rdfs:label "Porta Sarno" ;
+   dcterms:isPartOf p-lod-e:pompeii ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Sarnus.htm>  .
+   
+p-lod-e:porta-nocera a p-lod-v:city-gate ;
+   rdfs:label "Porta Nocera" ;
+   dcterms:isPartOf p-lod-e:pompeii;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Nuceria.htm>  .
+   
+p-lod-e:porta-stabia a p-lod-v:city-gate ;
+   rdfs:label "Porta Stabia" ;
+   dcterms:isPartOf p-lod-e:pompeii;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Stabian.htm>  .
+
+p-lod-e:porta-marina a p-lod-v:city-gate ;
+   rdfs:label "Porta Marina" ;
+   dcterms:isPartOf p-lod-e:pompeii;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Marine.htm>  .
+
+p-lod-e:porta-ercolano a p-lod-v:city-gate ;
+   rdfs:label "Porta Ercolano" ;
+   dcterms:isPartOf p-lod-e:pompeii;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Ercolano.htm>  .
+
+p-lod-e:porta-vesuvio a p-lod-v:city-gate ;
+   rdfs:label "Porta Vesuvio" ;
+   dcterms:isPartOf p-lod-e:pompeii;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Vesuvio.htm>  .
