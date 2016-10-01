@@ -12,7 +12,7 @@
 
 p-lod-e:pompeii a p-lod-v:named-entity ;
    rdfs:label "Pompeii" ;
-   dcterms:description "High level identifier for the concept of Pompeii." ;
+   p-lod-v:description "High level identifier for the concept of Pompeii." ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/index.htm> ;
    owl:sameAs <https://pleiades.stoa.org/places/433032> .
 

@@ -1,6 +1,6 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeii" .
-<http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://purl.org/dc/terms/description> "High level identifier for the concept of Pompeii." .
+<http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://digitalhumanities.umass.edu/p-lod/vocabulary/description> "High level identifier for the concept of Pompeii." .
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/index.htm> .
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://www.w3.org/2002/07/owl#sameAs> <https://pleiades.stoa.org/places/433032> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/region> .
@@ -748,7 +748,15 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/89> <http://www.w3.org/2000/01/rdf-schema#label> "P-LOD Entity 89" .
 <http://digitalhumanities.umass.edu/p-lod/entities/89> <http://www.w3.org/2002/07/owl#sameAs> <http://digitalhumanities.umass.edu/p-lod/entities/r5-i7> .
 <http://purl.org/dc/terms/isPartOf> <http://www.w3.org/2000/01/rdf-schema#label> "Is part of" .
+<http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2000/01/rdf-schema#label> "Category/class of entity" .
+<http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Data Property" .
+<http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Object Property" .
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#label> "Same as" .
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#label> "Type" .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/2000/01/rdf-schema#label> "Comment or description" .
+<http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#label> "RDF Domain" .
+<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#label> "RDF Range" .
+<http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#label> "Subclass of" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/entity> <http://www.w3.org/2000/01/rdf-schema#label> "P-LOD Entity" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/numbered-entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -777,6 +785,8 @@
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/region> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeian Region" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/description> <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeii in Pictures URL" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .

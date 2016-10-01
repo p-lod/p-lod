@@ -10,7 +10,16 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 dcterms:isPartOf rdfs:label "Is part of" .
+owl:Class rdfs:label "Category/class of entity" .
+owl:DatatypeProperty rdfs:label "Data Property" .
+owl:ObjectProperty rdfs:label "Object Property" .
+owl:sameAs rdfs:label "Same as" .
 rdf:type rdfs:label "Type" .
+rdfs:comment rdfs:label "Comment or description" .
+rdfs:domain rdfs:label "RDF Domain" .
+rdfs:range rdfs:label "RDF Range" .
+rdfs:subClassOf rdfs:label "Subclass of" .
+
 
 
 p-lod-v:entity a owl:Class ;
@@ -49,6 +58,9 @@ p-lod-v:room a owl:Class ;
 p-lod-v:region a owl:Class ;
     rdfs:label "Pompeian Region" ;
     rdfs:subClassOf p-lod-v:named-entity .
+
+p-lod-v:description a owl:DatatypeProperty ;
+    rdfs:label "Description" .
 
 p-lod-v:p-in-p-equiv a owl:ObjectProperty ;
     rdfs:label "Pompeii in Pictures URL" ;
