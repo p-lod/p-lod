@@ -9,53 +9,64 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+p-lod-e:named-entities a p-lod-v:named-entity ;
+   rdfs:label "All P-LOD named entities" .
 
 p-lod-e:pompeii a p-lod-v:named-entity ;
    rdfs:label "Pompeii" ;
+   dcterms:isPartOf p-lod-e:named-entities ;
+   p-lod-v:arachne <https://gazetteer.dainst.org/place/2338718> ;
    p-lod-v:description "High level identifier for the concept of Pompeii." ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/index.htm> ;
-   owl:sameAs <https://pleiades.stoa.org/places/433032> .
-
+   p-lod-v:pleiades <https://pleiades.stoa.org/places/433032> ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/index.htm> .
 
 # REGIONS
 
 p-lod-e:r1 a p-lod-v:region ;
    rdfs:label "Pompeii Region I" ;
    dcterms:isPartOf p-lod-e:pompeii ;
+   p-lod-v:next p-lod-e:r2 ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_1.htm> .
 
 p-lod-e:r2 a p-lod-v:region ;
    rdfs:label "Pompeii Region II" ;
    dcterms:isPartOf p-lod-e:pompeii ;
+   p-lod-v:next p-lod-e:r3 ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_2.htm> .
 
 p-lod-e:r3 a p-lod-v:region ;
    rdfs:label "Pompeii Region III"  ;
    dcterms:isPartOf p-lod-e:pompeii ;
+   p-lod-v:next p-lod-e:r4 ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_3.htm> .
 
 p-lod-e:r4 a p-lod-v:region ;
    rdfs:label "Pompeii Region IV"  ;
    dcterms:isPartOf p-lod-e:pompeii ;
+   p-lod-v:next p-lod-e:r5 ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_4.htm> .
 
 p-lod-e:r5 a p-lod-v:region ;
    rdfs:label "Pompeii Region V"  ;
    dcterms:isPartOf p-lod-e:pompeii ;
+   p-lod-v:next p-lod-e:r6 ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_5.htm> .
 
 p-lod-e:r6 a p-lod-v:region ;
    rdfs:label "Pompeii Region VI"  ;
    dcterms:isPartOf p-lod-e:pompeii ;
+   p-lod-v:next p-lod-e:r7 ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_6.htm> .
 
 p-lod-e:r7 a p-lod-v:region ;
    rdfs:label "Pompeii Region VII"  ;
    dcterms:isPartOf p-lod-e:pompeii ;
+   p-lod-v:next p-lod-e:r8 ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_7.htm> .
 
 p-lod-e:r8 a p-lod-v:region ;
-   rdfs:label "Pompeii Region VIII"  ;
+   rdfs:label "Pompeii Region VIII" ;
+   p-lod-v:next p-lod-e:r9 ;
    dcterms:isPartOf p-lod-e:pompeii ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/regio_8.htm> .
 
@@ -650,9 +661,14 @@ p-lod-e:porta-marina a p-lod-v:city-gate ;
 p-lod-e:porta-ercolano a p-lod-v:city-gate ;
    rdfs:label "Porta Ercolano" ;
    dcterms:isPartOf p-lod-e:pompeii;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Ercolano.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Ercolano.htm> ;
+   p-lod-v:latitude 40.751823 ;
+   p-lod-v:longitude 14.481116 .
 
 p-lod-e:porta-vesuvio a p-lod-v:city-gate ;
    rdfs:label "Porta Vesuvio" ;
    dcterms:isPartOf p-lod-e:pompeii;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Vesuvio.htm>  .
+   
+# LANGUAGES
+

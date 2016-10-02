@@ -21,31 +21,37 @@ rdfs:range rdfs:label "RDF Range" .
 rdfs:subClassOf rdfs:label "Subclass of" .
 
 
+# CLASSES
 
 p-lod-v:entity a owl:Class ;
-    rdfs:label "P-LOD Entity"  .
+    rdfs:label "P-LOD Entity" ;
+    rdfs:subClassOf owl:NamedIndividual .
+    
+p-lod-v:named-entity a owl:Class ;
+    rdfs:label "P-LOD Named Entity" ;
+    rdfs:subClassOf  p-lod-v:entity .
     
 p-lod-v:numbered-entity a owl:Class ;
     rdfs:label "P-LOD Numbered Entity" ;
     rdfs:subClassOf  p-lod-v:entity .
-
-p-lod-v:named-entity a owl:Class ;
-    rdfs:label "P-LOD Named Entity" ;
-    rdfs:subClassOf  p-lod-v:entity .
-
-p-lod-v:doorway a owl:Class ;
-    rdfs:label "Doorway" ;
-    rdfs:comment "This class is used for public facing entrances." ;
-    rdfs:subClassOf p-lod-v:named-entity .
 
 p-lod-v:city-gate a owl:Class ;
     rdfs:label "City gate" ;
     rdfs:comment "This class is used for the major city gates of Pompeii." ;
     rdfs:subClassOf p-lod-v:named-entity .
 
+p-lod-v:doorway a owl:Class ;
+    rdfs:label "Doorway" ;
+    rdfs:comment "This class is used for public facing entrances." ;
+    rdfs:subClassOf p-lod-v:named-entity .
+
 p-lod-v:insula a owl:Class ;
     rdfs:subClassOf p-lod-v:named-entity ;
     rdfs:label "Pompeian Insula" .
+
+p-lod-v:region a owl:Class ;
+    rdfs:label "Pompeian Region" ;
+    rdfs:subClassOf p-lod-v:named-entity .
 
 p-lod-v:property a owl:Class ;
     rdfs:label "Pompeian Property" ;
@@ -55,13 +61,31 @@ p-lod-v:room a owl:Class ;
     rdfs:label "Room" ;
     rdfs:subClassOf p-lod-v:named-entity .
 
-p-lod-v:region a owl:Class ;
-    rdfs:label "Pompeian Region" ;
-    rdfs:subClassOf p-lod-v:named-entity .
+
+# DATATYPE PROPERTIES
 
 p-lod-v:description a owl:DatatypeProperty ;
     rdfs:label "Description" .
+    
+p-lod-v:latitude  a owl:DatatypeProperty ;
+    rdfs:label "Latitude" . 
+    
+p-lod-v:longitude  a owl:DatatypeProperty ;
+    rdfs:label "Longitude" .
+
+# OBJECT PROPERTIES
+
+p-lod-v:arachne-equiv a owl:ObjectProperty ;
+    rdfs:label "Arachne" ;
+    rdfs:domain p-lod-v:named-entity .
+
+p-lod-v:pleiades-equiv a owl:ObjectProperty ;
+    rdfs:label "Pleiades" ;
+    rdfs:domain p-lod-v:named-entity .
 
 p-lod-v:p-in-p-equiv a owl:ObjectProperty ;
-    rdfs:label "Pompeii in Pictures URL" ;
+    rdfs:label "Pompeii in Pictures" ;
     rdfs:domain p-lod-v:named-entity .
+    
+p-lod-v:next a owl:ObjectProperty ;
+    rdfs:label "Next" .
