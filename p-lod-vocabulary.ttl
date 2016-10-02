@@ -87,5 +87,9 @@ p-lod-v:p-in-p-equiv a owl:ObjectProperty ;
     rdfs:label "Pompeii in Pictures" ;
     rdfs:domain p-lod-v:named-entity .
     
+p-lod-v:wikidata-equiv a owl:ObjectProperty ;
+    rdfs:label "Wikidata" ;
+    rdfs:domain p-lod-v:named-entity .
+    
 p-lod-v:next a owl:ObjectProperty ;
     rdfs:label "Next" .

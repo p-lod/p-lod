@@ -15,9 +15,10 @@ p-lod-e:named-entities a p-lod-v:named-entity ;
 p-lod-e:pompeii a p-lod-v:named-entity ;
    rdfs:label "Pompeii" ;
    dcterms:isPartOf p-lod-e:named-entities ;
-   p-lod-v:arachne <https://gazetteer.dainst.org/place/2338718> ;
+   p-lod-v:arachne-equiv <https://gazetteer.dainst.org/place/2338718> ;
    p-lod-v:description "High level identifier for the concept of Pompeii." ;
-   p-lod-v:pleiades <https://pleiades.stoa.org/places/433032> ;
+   p-lod-v:pleiades-equiv <https://pleiades.stoa.org/places/433032> ;
+   p-lod-v:wikidata-equiv <https://www.wikidata.org/wiki/Q43332> ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/index.htm> .
 
 # REGIONS
