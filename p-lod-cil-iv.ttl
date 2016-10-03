@@ -101,82 +101,98 @@ p-lod-e:cil-iv-0014 a p-lod-v:cil-inscription ;
     
 p-lod-e:cil-iv-0015 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 15" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0016 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 16" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0017 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 17" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0018 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 18" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0019 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 19" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0020 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 20" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0021 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 21" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0022 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 22" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0023 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 23" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0024 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 24" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0025 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 25" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0026 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 26" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0027 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 27" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0028 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 28" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0029 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 29" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0030 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 30" ;
-    dcterms:isPartOf p-lod-e:cil-iv .
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/554883> .
     
     
 p-lod-e:cil-iv-0031 a p-lod-v:cil-inscription ;

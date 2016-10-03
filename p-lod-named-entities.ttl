@@ -679,7 +679,7 @@ p-lod-e:r9-i3 a p-lod-v:insula ;
 p-lod-e:r9-i4 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IX, Insula 4" ;
    dcterms:isPartOf p-lod-e:r9 ;
-   p-lod-v:next p-lod-e:r9-i ;
+   p-lod-v:next p-lod-e:r9-i5 ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_04.htm> .
    
 p-lod-e:r9-i5 a p-lod-v:insula ;
