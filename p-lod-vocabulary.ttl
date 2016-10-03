@@ -37,7 +37,7 @@ p-lod-v:numbered-entity a owl:Class ;
 
 p-lod-v:bibliographic-resource a owl:Class ;
     rdfs:label "Bibliographic Resource" ;
-    rdfs::subClassOf p-lod-v:named-entity .
+    rdfs:subClassOf p-lod-v:named-entity .
 
 p-lod-v:cil-inscription a owl:Class ;
     rdfs:label "Inscription as published in CIL" ;

@@ -984,7 +984,7 @@
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/numbered-entity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/entity> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/bibliographic-resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/bibliographic-resource> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliographic Resource" .
-<http://digitalhumanities.umass.edu/p-lod/vocabulary/bibliographic-resource> <http://www.w3.org/2000/01/rdf-schema#:subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/bibliographic-resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> <http://www.w3.org/2000/01/rdf-schema#label> "Inscription as published in CIL" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
@@ -1034,6 +1034,7 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/bibliographic-resource> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/named-entities> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> <http://digitalhumanities.umass.edu/p-lod/vocabulary/description> "Zangemeister, K. F. W., & Scho\u0308ne, R. (1871). <i>Corpus inscriptionum latinarum</i>: Vol. 4. Berolini: Apud Georgium Reimerum." .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-0001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-0001> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-0001> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .

@@ -12,7 +12,8 @@
 
 p-lod-e:cil-iv a p-lod-v:bibliographic-resource ;
     rdfs:label "CIL IV" ;
-    dcterms:isPartOf p-lod-e:named-entities .
+    dcterms:isPartOf p-lod-e:named-entities ;
+    p-lod-v:description "Zangemeister, K. F. W., & Schöne, R. (1871). <i>Corpus inscriptionum latinarum</i>: Vol. 4. Berolini: Apud Georgium Reimerum." .
     
     
 p-lod-e:cil-iv-0001 a p-lod-v:cil-inscription ;
