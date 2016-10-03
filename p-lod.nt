@@ -4073,57 +4073,76 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1003> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1003" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1003> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1003> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1004> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1004" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1004> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1004> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1005> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1005" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1005> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1005> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1006> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1006" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1006> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1006> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1007> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1007" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1007> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1007> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1008> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1008" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1008> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1008> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1009> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1009" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1009> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1009> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1010> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1010" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1010> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1010> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1011> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1011" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1011> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1011> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1012> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1012" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1012> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1012> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1013> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1013" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1013> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1013> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1014> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1014" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1014> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1014> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1015> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1015" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1015> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1015> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p1> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1015> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1016> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1016" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1016> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1016> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1017> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1017" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1017> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1017> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1018> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1018" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1018> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1018> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1019> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1019" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1019> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1019> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1020> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1020" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1020> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1020> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://arachne.uni-koeln.de/item/buchseite/554939> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1021> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1021" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1021> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
