@@ -35,6 +35,14 @@ p-lod-v:numbered-entity a owl:Class ;
     rdfs:label "P-LOD Numbered Entity" ;
     rdfs:subClassOf  p-lod-v:entity .
 
+p-lod-v:bibliographic-resource a owl:Class ;
+    rdfs:label "Bibliographic Resource" ;
+    rdfs::subClassOf p-lod-v:named-entity .
+
+p-lod-v:cil-inscription a owl:Class ;
+    rdfs:label "Inscription as published in CIL" ;
+    rdfs:subClassOf p-lod-v:named-entity .
+
 p-lod-v:city-gate a owl:Class ;
     rdfs:label "City gate" ;
     rdfs:comment "This class is used for the major city gates of Pompeii." ;
@@ -73,10 +81,15 @@ p-lod-v:latitude  a owl:DatatypeProperty ;
 p-lod-v:longitude  a owl:DatatypeProperty ;
     rdfs:label "Longitude" .
 
+
 # OBJECT PROPERTIES
 
 p-lod-v:arachne-equiv a owl:ObjectProperty ;
     rdfs:label "Arachne" ;
+    rdfs:domain p-lod-v:named-entity .
+
+p-lod-v:pagescan a owl:ObjectProperty ;
+     rdfs:label "Pagescan" ;
     rdfs:domain p-lod-v:named-entity .
 
 p-lod-v:pleiades-equiv a owl:ObjectProperty ;
