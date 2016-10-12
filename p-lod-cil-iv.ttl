@@ -17764,7 +17764,7 @@ p-lod-e:cie-8774 a p-lod-v:cie-inscription ;
     p-lod-v:next p-lod-e:cie-8775 .
 
 p-lod-e:cie-8775 a p-lod-v:cie-inscription ;
-    rdfs:label "Corpus Inscriptionum Etruscarum 8770" ;
+    rdfs:label "Corpus Inscriptionum Etruscarum 8775" ;
     p-lod-v:has-language p-lod-e:etruscan-language ;
     dcterms:isPartOf p-lod-e:cie-2-2 .
 

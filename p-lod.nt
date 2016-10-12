@@ -15904,6 +15904,6 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/cie-8774> <http://digitalhumanities.umass.edu/p-lod/vocabulary/has-language> <http://digitalhumanities.umass.edu/p-lod/entities/etruscan-language> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cie-8774> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/cie-8775> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cie-8775> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cie-inscription> .
-<http://digitalhumanities.umass.edu/p-lod/entities/cie-8775> <http://www.w3.org/2000/01/rdf-schema#label> "Corpus Inscriptionum Etruscarum 8770" .
+<http://digitalhumanities.umass.edu/p-lod/entities/cie-8775> <http://www.w3.org/2000/01/rdf-schema#label> "Corpus Inscriptionum Etruscarum 8775" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cie-8775> <http://digitalhumanities.umass.edu/p-lod/vocabulary/has-language> <http://digitalhumanities.umass.edu/p-lod/entities/etruscan-language> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cie-8775> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cie-2-2> .
