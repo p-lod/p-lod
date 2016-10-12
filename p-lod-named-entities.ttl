@@ -17,6 +17,7 @@ p-lod-e:pompeii a p-lod-v:named-entity ;
    dcterms:isPartOf p-lod-e:named-entities ;
    p-lod-v:arachne-equiv <https://gazetteer.dainst.org/place/2338718> ;
    p-lod-v:description "High level identifier for the concept of Pompeii." ;
+   p-lod-v:edh-equiv <http://edh-www.adw.uni-heidelberg.de/edh/geographie/11925/karte> ;
    p-lod-v:pleiades-equiv <https://pleiades.stoa.org/places/433032> ;
    p-lod-v:wikidata-equiv <http://www.wikidata.org/entity/Q43332> ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/index.htm> .
@@ -874,3 +875,19 @@ p-lod-e:porta-vesuvio a p-lod-v:city-gate ;
    
 # LANGUAGES
 
+p-lod-e:etruscan-language a p-lod-v:language ;
+    rdfs:label "Etruscan (language)" ;
+    dcterms:isPartOf p-lod-e:named-entities .
+
+p-lod-e:greek-language a p-lod-v:language ;
+    rdfs:label "Greek (language)" ;
+    dcterms:isPartOf p-lod-e:named-entities .
+
+p-lod-e:latin-language a p-lod-v:language ;
+    rdfs:label "Latin (language)" ;
+    dcterms:isPartOf p-lod-e:named-entities .
+    
+p-lod-e:oscan-language a p-lod-v:language ;
+    rdfs:label "Oscan (language)" ;
+    dcterms:isPartOf p-lod-e:named-entities .
+    

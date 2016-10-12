@@ -39,6 +39,10 @@ p-lod-v:bibliographic-resource a owl:Class ;
     rdfs:label "Bibliographic Resource" ;
     rdfs:subClassOf p-lod-v:named-entity .
 
+p-lod-v:cie-inscription a owl:Class ;
+    rdfs:label "Inscription as published in Corpus Inscriptionum Etruscarum, Vol. II, fasc. 2" ;
+    rdfs:subClassOf p-lod-v:named-entity .
+
 p-lod-v:cil-inscription a owl:Class ;
     rdfs:label "Inscription as published in CIL" ;
     rdfs:subClassOf p-lod-v:named-entity .
@@ -56,6 +60,10 @@ p-lod-v:doorway a owl:Class ;
 p-lod-v:insula a owl:Class ;
     rdfs:subClassOf p-lod-v:named-entity ;
     rdfs:label "Pompeian Insula" .
+
+p-lod-v:language a owl:Class ;
+    rdfs:subClassOf p-lod-v:named-entity ;
+    rdfs:label "Language" .
 
 p-lod-v:region a owl:Class ;
     rdfs:label "Pompeian Region" ;
@@ -87,6 +95,14 @@ p-lod-v:longitude  a owl:DatatypeProperty ;
 p-lod-v:arachne-equiv a owl:ObjectProperty ;
     rdfs:label "Arachne" ;
     rdfs:domain p-lod-v:named-entity .
+    
+p-lod-v:edh-equiv a owl:ObjectProperty ;
+    rdfs:label "Epigraphic Database Heidelberg" ;
+    rdfs:domain p-lod-v:named-entity .
+
+p-lod-v:has-language a owl:ObjectProperty ;
+    rdfs:label "Has language" ;
+    rdfs:domain p-lod-v:named-entity .
 
 p-lod-v:pagescan a owl:ObjectProperty ;
      rdfs:label "Pagescan" ;
@@ -103,6 +119,11 @@ p-lod-v:p-in-p-equiv a owl:ObjectProperty ;
 p-lod-v:wikidata-equiv a owl:ObjectProperty ;
     rdfs:label "Wikidata" ;
     rdfs:domain p-lod-v:named-entity .
-    
-p-lod-v:next a owl:ObjectProperty ;
+
+
+# ANNOTATION PROPERTIES
+p-lod-v:next a owl:AnnotationProperty ;
     rdfs:label "Next" .
+    
+p-lod-v:see-also a owl:AnnotationProperty ;
+    rdfs:label "See also" .
