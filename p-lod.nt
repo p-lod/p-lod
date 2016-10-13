@@ -768,9 +768,9 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/via-di-nocera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-di-nocera> <http://www.w3.org/2000/01/rdf-schema#label> "via di Nocera" .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-di-nocera> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
-<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-murcurio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
-<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-murcurio> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo di Mercurio" .
-<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-murcurio> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-mercurio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-mercurio> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo di Mercurio" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-mercurio> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
 <http://digitalhumanities.umass.edu/p-lod/entities/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/numbered-entity> .
 <http://digitalhumanities.umass.edu/p-lod/entities/1> <http://www.w3.org/2000/01/rdf-schema#label> "P-LOD Entity 1" .
 <http://digitalhumanities.umass.edu/p-lod/entities/1> <http://www.w3.org/2002/07/owl#sameAs> <http://digitalhumanities.umass.edu/p-lod/entities/r1> .

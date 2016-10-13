@@ -970,6 +970,6 @@ p-lod-e:via-di-nocera a p-lod-v:street ;
    rdfs:label "via di Nocera" ;
    dcterms:isPartOf p-lod-e:pompeii .
 
-p-lod-e:vicolo-di-murcurio a p-lod-v:street ;
+p-lod-e:vicolo-di-mercurio a p-lod-v:street ;
    rdfs:label "vicolo di Mercurio" ;
    dcterms:isPartOf p-lod-e:r6 .
