@@ -745,19 +745,23 @@ p-lod-e:r9-i14 a p-lod-v:insula ;
 
 p-lod-e:r1-i1-p1 a p-lod-v:property ;
    rdfs:label "I 1, 1-1a.10" ;
-   dcterms:isPartOf p-lod-e:r1-i1 .
+   dcterms:isPartOf p-lod-e:r1-i1 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2001%2001.htm> .
    
 p-lod-e:r1-i1-p2 a p-lod-v:property ;
    rdfs:label "I 1, 2" ;
-   dcterms:isPartOf p-lod-e:r1-i1 .
+   dcterms:isPartOf p-lod-e:r1-i1 ;
+   p-lod-v:p-in-equiv <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2001%2002.htm> .
    
 p-lod-e:r1-i1-p3 a p-lod-v:property ;
    rdfs:label "I 1, 3-5" ;
-   dcterms:isPartOf p-lod-e:r1-i1 .
+   dcterms:isPartOf p-lod-e:r1-i1 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2001%2003.htm> .
    
 p-lod-e:r1-i1-p4 a p-lod-v:property ;
    rdfs:label "I 1, 6-9" ;
-   dcterms:isPartOf p-lod-e:r1-i1 .
+   dcterms:isPartOf p-lod-e:r1-i1 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2001%2006.htm> .
 
 
 # ROOMS
@@ -914,7 +918,7 @@ p-lod-e:vicolo-della-fullonica a p-lod-v:street ;
    rdfs:label "vicolo della Fullonica" ;
    dcterms:isPartOf p-lod-e:r6 .
 
-p-lod-e:via-di-mercurico a p-lod-v:street ;
+p-lod-e:via-di-mercurio a p-lod-v:street ;
    rdfs:label "via di Mercurio" ;
    dcterms:isPartOf p-lod-e:r6 .
 
@@ -928,4 +932,44 @@ p-lod-e:vicolo-del-labrinto a p-lod-v:street ;
 
 p-lod-e:vicolo-dei-vetii a p-lod-v:street ;
    rdfs:label "vicolo del Vetii" ;
+   dcterms:isPartOf p-lod-e:r6 .
+   
+p-lod-e:via-consolari a p-lod-v:street ;
+   rdfs:label "via Consolari" ;
+   dcterms:isPartOf p-lod-e:r6 .
+   
+p-lod-e:via-delle-terme a p-lod-v:street ;
+   rdfs:label "via delle Terme" ;
+   dcterms:isPartOf p-lod-e:pompeii .
+
+p-lod-e:via-della-fortuna a p-lod-v:street ;
+   rdfs:label "via della Fortuna" ;
+   dcterms:isPartOf p-lod-e:pompeii .
+
+p-lod-e:via-di-nola a p-lod-v:street ;
+   rdfs:label "via di Nola" ;
+   dcterms:isPartOf p-lod-e:pompeii .
+   
+p-lod-e:via-marina a p-lod-v:street ;
+   rdfs:label "via Marina" ;
+   dcterms:isPartOf p-lod-e:pompeii .
+
+p-lod-e:via-dell-abbondanza a p-lod-v:street ;
+   rdfs:label "via dell'Abbondanza" ;
+   dcterms:isPartOf p-lod-e:pompeii .
+   
+p-lod-e:via-del-vesuvia a p-lod-v:street ;
+   rdfs:label "via del Vesuvio" ;
+   dcterms:isPartOf p-lod-e:pompeii .
+
+p-lod-e:via-del-stabiana a p-lod-v:street ;
+   rdfs:label "via Stabiana" ;
+   dcterms:isPartOf p-lod-e:pompeii .
+   
+p-lod-e:via-di-nocera a p-lod-v:street ;
+   rdfs:label "via di Nocera" ;
+   dcterms:isPartOf p-lod-e:pompeii .
+
+p-lod-e:via-di-nocera a p-lod-v:street ;
+   rdfs:label "vicolo di Mercurio" ;
    dcterms:isPartOf p-lod-e:r6 .

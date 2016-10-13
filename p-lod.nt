@@ -605,15 +605,19 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p1> <http://www.w3.org/2000/01/rdf-schema#label> "I 1, 1-1a.10" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p1> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p1> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2001%2001.htm> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p2> <http://www.w3.org/2000/01/rdf-schema#label> "I 1, 2" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p2> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p2> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2001%2002.htm> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p3> <http://www.w3.org/2000/01/rdf-schema#label> "I 1, 3-5" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p3> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p3> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2001%2003.htm> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p4> <http://www.w3.org/2000/01/rdf-schema#label> "I 1, 6-9" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p4> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p4> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/R1/1%2001%2006.htm> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p1-rm.a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/room> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p1-rm.a> <http://www.w3.org/2000/01/rdf-schema#label> "I 1, 1, room a" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p1-rm.a> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p1> .
@@ -725,9 +729,9 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-fullonica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-fullonica> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo della Fullonica" .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-fullonica> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
-<http://digitalhumanities.umass.edu/p-lod/entities/via-di-mercurico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
-<http://digitalhumanities.umass.edu/p-lod/entities/via-di-mercurico> <http://www.w3.org/2000/01/rdf-schema#label> "via di Mercurio" .
-<http://digitalhumanities.umass.edu/p-lod/entities/via-di-mercurico> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-di-mercurio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-di-mercurio> <http://www.w3.org/2000/01/rdf-schema#label> "via di Mercurio" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-di-mercurio> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-fauna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-fauna> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo del Fauna" .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-fauna> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
@@ -737,6 +741,36 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dei-vetii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dei-vetii> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo del Vetii" .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dei-vetii> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-consolari> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-consolari> <http://www.w3.org/2000/01/rdf-schema#label> "via Consolari" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-consolari> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-delle-terme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-delle-terme> <http://www.w3.org/2000/01/rdf-schema#label> "via delle Terme" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-delle-terme> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-della-fortuna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-della-fortuna> <http://www.w3.org/2000/01/rdf-schema#label> "via della Fortuna" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-della-fortuna> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-di-nola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-di-nola> <http://www.w3.org/2000/01/rdf-schema#label> "via di Nola" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-di-nola> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-marina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-marina> <http://www.w3.org/2000/01/rdf-schema#label> "via Marina" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-marina> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-dell-abbondanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-dell-abbondanza> <http://www.w3.org/2000/01/rdf-schema#label> "via dell'Abbondanza" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-dell-abbondanza> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-vesuvia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-vesuvia> <http://www.w3.org/2000/01/rdf-schema#label> "via del Vesuvio" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-vesuvia> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-stabiana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-stabiana> <http://www.w3.org/2000/01/rdf-schema#label> "via Stabiana" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-stabiana> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-di-nocera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-di-nocera> <http://www.w3.org/2000/01/rdf-schema#label> "via di Nocera" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-di-nocera> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-di-nocera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-di-nocera> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo di Mercurio" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-di-nocera> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
 <http://digitalhumanities.umass.edu/p-lod/entities/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/numbered-entity> .
 <http://digitalhumanities.umass.edu/p-lod/entities/1> <http://www.w3.org/2000/01/rdf-schema#label> "P-LOD Entity 1" .
 <http://digitalhumanities.umass.edu/p-lod/entities/1> <http://www.w3.org/2002/07/owl#sameAs> <http://digitalhumanities.umass.edu/p-lod/entities/r1> .
