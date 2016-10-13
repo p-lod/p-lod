@@ -973,3 +973,79 @@ p-lod-e:via-di-nocera a p-lod-v:street ;
 p-lod-e:vicolo-di-mercurio a p-lod-v:street ;
    rdfs:label "vicolo di Mercurio" ;
    dcterms:isPartOf p-lod-e:r6 .
+
+p-lod-e:vicolo-delle-nozze-d-argento a p-lod-v:street ;
+   rdfs:label "vicolo delle nozze d'Argento" ;
+   dcterms:isPartOf p-lod-e:r5 .
+
+p-lod-e:vicolo-di-cecilio-giocondo a p-lod-v:street ;
+   rdfs:label "vicolo di Cecilio Giocondo" ;
+   dcterms:isPartOf p-lod-e:r5 .
+
+p-lod-e:vicolo-di-lucrezio-frontone a p-lod-v:street ;
+   rdfs:label "vicolo di Lucrezio Frontone" ;
+   dcterms:isPartOf p-lod-e:r5 .
+
+p-lod-e:vicolo-dei-gladiatore a p-lod-v:street ;
+   rdfs:label "vicolo dei Gladiatore" ;
+   dcterms:isPartOf p-lod-e:r5 .
+
+p-lod-e:via-mediana a p-lod-v:street ;
+   rdfs:label "via Mediana" ;
+   dcterms:isPartOf p-lod-e:pompeii .
+
+p-lod-e:vicolo-del-centenario a p-lod-v:street ;
+   rdfs:label "vicolo del Centenario" ;
+   dcterms:isPartOf p-lod-e:r9 .
+   
+p-lod-e:vicolo-di-balbo a p-lod-v:street ;
+   rdfs:label "vicolo di Balbo" ;
+   dcterms:isPartOf p-lod-e:r9 .
+
+p-lod-e:vicolo-di-tesmo a p-lod-v:street ;
+   rdfs:label "vicolo di Tesmo" ;
+   dcterms:isPartOf p-lod-e:r9 .
+   
+p-lod-e:vicolo-dell-anfiteatro a p-lod-v:street ;
+   rdfs:label "vicolo dell'Anfiteatro" ;
+   dcterms:isPartOf p-lod-e:r2 .
+   
+p-lod-e:vicolo-di-giulia-felice a p-lod-v:street ;
+   rdfs:label "vicolo di Giulia Felice" ;
+   dcterms:isPartOf p-lod-e:r2 .
+   
+p-lod-e:vicolo-della-venere a p-lod-v:street ;
+   rdfs:label "vicolo della Venere" ;
+   dcterms:isPartOf p-lod-e:r2 .
+   
+p-lod-e:vicolo-di-octavius-quartio a p-lod-v:street ;
+   rdfs:label "vicolo di Octavius Quartio" ;
+   dcterms:isPartOf p-lod-e:r2 .
+   
+p-lod-e:vicolo-dei-fuggiaschi a p-lod-v:street ;
+   rdfs:label "vicolo dei Fuggiaschi" ;
+   dcterms:isPartOf p-lod-e:r1 .
+   
+p-lod-e:vicolo-della-nave-europa a p-lod-v:street ;
+   rdfs:label "vicolo della Nave Europa" ;
+   dcterms:isPartOf p-lod-e:r1 .
+   
+p-lod-e:via-di-castricio a p-lod-v:street ;
+   rdfs:label "via di Castricio" ;
+   dcterms:isPartOf p-lod-e:r1 .
+   
+p-lod-e:vicolo-dell-efebo a p-lod-v:street ;
+   rdfs:label "vicolo dell'Efebo" ;
+   dcterms:isPartOf p-lod-e:r1 .
+   
+p-lod-e:vicolo-di-paquius-proculus a p-lod-v:street ;
+   rdfs:label "vicolo Paquius Proculus" ;
+   dcterms:isPartOf p-lod-e:r1 .
+   
+p-lod-e:via-del-menandro a p-lod-v:street ;
+   rdfs:label "via del Menandro" ;
+   dcterms:isPartOf p-lod-e:r2 .
+
+p-lod-e:via-del-citarista a p-lod-v:street ;
+   rdfs:label "via del Citarista" ;
+   dcterms:isPartOf p-lod-e:r2 .
