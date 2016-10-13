@@ -706,9 +706,37 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/latin-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/language> .
 <http://digitalhumanities.umass.edu/p-lod/entities/latin-language> <http://www.w3.org/2000/01/rdf-schema#label> "Latin (language)" .
 <http://digitalhumanities.umass.edu/p-lod/entities/latin-language> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/named-entities> .
+<http://digitalhumanities.umass.edu/p-lod/entities/old-arabic-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/language> .
+<http://digitalhumanities.umass.edu/p-lod/entities/old-arabic-language> <http://www.w3.org/2000/01/rdf-schema#label> "Old Arabic (language)" .
+<http://digitalhumanities.umass.edu/p-lod/entities/old-arabic-language> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/named-entities> .
+<http://digitalhumanities.umass.edu/p-lod/entities/old-arabic-language> <http://digitalhumanities.umass.edu/p-lod/vocabulary/description> "Used for inscriptions at Pompeii written in Safaitic script. There are two published in CIL IV." .
 <http://digitalhumanities.umass.edu/p-lod/entities/oscan-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/language> .
 <http://digitalhumanities.umass.edu/p-lod/entities/oscan-language> <http://www.w3.org/2000/01/rdf-schema#label> "Oscan (language)" .
 <http://digitalhumanities.umass.edu/p-lod/entities/oscan-language> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/named-entities> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-sepulcri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-sepulcri> <http://www.w3.org/2000/01/rdf-schema#label> "via dei Sepulcri" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-sepulcri> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-narciso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-narciso> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo di Narciso" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-narciso> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-modesto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-modesto> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo di Modesto" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-modesto> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-fullonica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-fullonica> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo della Fullonica" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-fullonica> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-di-mercurico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-di-mercurico> <http://www.w3.org/2000/01/rdf-schema#label> "via di Mercurio" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-di-mercurico> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-fauna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-fauna> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo del Fauna" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-fauna> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-labrinto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-labrinto> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo del Labrinto" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-labrinto> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dei-vetii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dei-vetii> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo del Vetii" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dei-vetii> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
 <http://digitalhumanities.umass.edu/p-lod/entities/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/numbered-entity> .
 <http://digitalhumanities.umass.edu/p-lod/entities/1> <http://www.w3.org/2000/01/rdf-schema#label> "P-LOD Entity 1" .
 <http://digitalhumanities.umass.edu/p-lod/entities/1> <http://www.w3.org/2002/07/owl#sameAs> <http://digitalhumanities.umass.edu/p-lod/entities/r1> .
@@ -1018,15 +1046,18 @@
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/language> <http://www.w3.org/2000/01/rdf-schema#label> "Language" .
-<http://digitalhumanities.umass.edu/p-lod/vocabulary/region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://digitalhumanities.umass.edu/p-lod/vocabulary/region> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeian Region" .
-<http://digitalhumanities.umass.edu/p-lod/vocabulary/region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeian Property" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/region> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeian Region" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/room> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/room> <http://www.w3.org/2000/01/rdf-schema#label> "Room" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/room> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/street> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/street> <http://www.w3.org/2000/01/rdf-schema#label> "Street" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/street> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/description> <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -12897,6 +12928,16 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-3556> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 3556" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-3556> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-3556> <http://digitalhumanities.umass.edu/p-lod/vocabulary/has-language> <http://digitalhumanities.umass.edu/p-lod/entities/greek-language> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-4961> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-4961> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 4961" .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-4961> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-4961> <http://digitalhumanities.umass.edu/p-lod/vocabulary/arachne-equiv> "http://arachne.uni-koeln.de/item/buchseite/555385" .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-4961> <http://digitalhumanities.umass.edu/p-lod/vocabulary/has-language> <http://digitalhumanities.umass.edu/p-lod/entities/old-arabic-language> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-4962> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-4962> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 4962" .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-4962> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-4962> <http://digitalhumanities.umass.edu/p-lod/vocabulary/arachne-equiv> "http://arachne.uni-koeln.de/item/buchseite/555385" .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-4962> <http://digitalhumanities.umass.edu/p-lod/vocabulary/has-language> <http://digitalhumanities.umass.edu/p-lod/entities/old-arabic-language> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-0001> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-0002> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-0002> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-0003> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-0003> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-0004> .

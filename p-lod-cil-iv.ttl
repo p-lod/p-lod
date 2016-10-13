@@ -14726,6 +14726,19 @@ p-lod-e:cil-iv-3556 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 3556" ;
     dcterms:isPartOf p-lod-e:cil-iv ;
     p-lod-v:has-language p-lod-e:greek-language .
+    
+p-lod-e:cil-iv-4961 a p-lod-v:cil-inscription ;
+    rdfs:label "CIL IV 4961" ;
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:arachne-equiv "http://arachne.uni-koeln.de/item/buchseite/555385" ;
+    p-lod-v:has-language p-lod-e:old-arabic-language .
+    
+p-lod-e:cil-iv-4962 a p-lod-v:cil-inscription ;
+    rdfs:label "CIL IV 4962" ;
+    dcterms:isPartOf p-lod-e:cil-iv ;
+    p-lod-v:arachne-equiv "http://arachne.uni-koeln.de/item/buchseite/555385" ;
+    p-lod-v:has-language p-lod-e:old-arabic-language .
+
 
 p-lod-e:cil-iv-0001 p-lod-v:next p-lod-e:cil-iv-0002 .
 p-lod-e:cil-iv-0002 p-lod-v:next p-lod-e:cil-iv-0003 .

@@ -887,7 +887,45 @@ p-lod-e:latin-language a p-lod-v:language ;
     rdfs:label "Latin (language)" ;
     dcterms:isPartOf p-lod-e:named-entities .
     
+p-lod-e:old-arabic-language a p-lod-v:language ;
+    rdfs:label "Old Arabic (language)" ;
+    dcterms:isPartOf p-lod-e:named-entities ;
+    p-lod-v:description "Used for inscriptions at Pompeii written in Safaitic script. There are two published in CIL IV." .
+    
 p-lod-e:oscan-language a p-lod-v:language ;
     rdfs:label "Oscan (language)" ;
     dcterms:isPartOf p-lod-e:named-entities .
-    
+
+# STREETS
+
+p-lod-e:via-del-sepulcri a p-lod-v:street ;
+   rdfs:label "via dei Sepulcri" ;
+   dcterms:isPartOf p-lod-e:pompeii .
+
+p-lod-e:vicolo-di-narciso a p-lod-v:street ;
+   rdfs:label "vicolo di Narciso" ;
+   dcterms:isPartOf p-lod-e:r6 .
+
+p-lod-e:vicolo-di-modesto a p-lod-v:street ;
+   rdfs:label "vicolo di Modesto" ;
+   dcterms:isPartOf p-lod-e:r6 .
+
+p-lod-e:vicolo-della-fullonica a p-lod-v:street ;
+   rdfs:label "vicolo della Fullonica" ;
+   dcterms:isPartOf p-lod-e:r6 .
+
+p-lod-e:via-di-mercurico a p-lod-v:street ;
+   rdfs:label "via di Mercurio" ;
+   dcterms:isPartOf p-lod-e:r6 .
+
+p-lod-e:vicolo-del-fauna a p-lod-v:street ;
+   rdfs:label "vicolo del Fauna" ;
+   dcterms:isPartOf p-lod-e:r6 .
+
+p-lod-e:vicolo-del-labrinto a p-lod-v:street ;
+   rdfs:label "vicolo del Labrinto" ;
+   dcterms:isPartOf p-lod-e:r6 .
+
+p-lod-e:vicolo-dei-vetii a p-lod-v:street ;
+   rdfs:label "vicolo del Vetii" ;
+   dcterms:isPartOf p-lod-e:r6 .
