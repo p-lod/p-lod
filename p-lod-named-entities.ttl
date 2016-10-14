@@ -902,7 +902,7 @@ p-lod-e:oscan-language a p-lod-v:language ;
 
 # STREETS
 
-p-lod-e:via-del-sepulcri a p-lod-v:street ;
+p-lod-e:via-dei-sepulcri a p-lod-v:street ;
    rdfs:label "via dei Sepulcri" ;
    dcterms:isPartOf p-lod-e:pompeii .
 
@@ -962,7 +962,7 @@ p-lod-e:via-del-vesuvia a p-lod-v:street ;
    rdfs:label "via del Vesuvio" ;
    dcterms:isPartOf p-lod-e:pompeii .
 
-p-lod-e:via-del-stabiana a p-lod-v:street ;
+p-lod-e:via-stabiana a p-lod-v:street ;
    rdfs:label "via Stabiana" ;
    dcterms:isPartOf p-lod-e:pompeii .
    
@@ -1071,7 +1071,7 @@ p-lod-e:vicolo-delle-pareti-rossa a p-lod-v:street ;
    dcterms:isPartOf p-lod-e:r8 .
 
 p-lod-e:vicolo-della-regina a p-lod-v:street ;
-   rdfs:label "vicola delle Regina" ;
+   rdfs:label "vicola della Regina" ;
    dcterms:isPartOf p-lod-e:r8 .
 
 p-lod-e:via-del-tempio-d-iside a p-lod-v:street ;

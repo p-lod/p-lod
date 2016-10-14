@@ -717,9 +717,9 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/oscan-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/language> .
 <http://digitalhumanities.umass.edu/p-lod/entities/oscan-language> <http://www.w3.org/2000/01/rdf-schema#label> "Oscan (language)" .
 <http://digitalhumanities.umass.edu/p-lod/entities/oscan-language> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/named-entities> .
-<http://digitalhumanities.umass.edu/p-lod/entities/via-del-sepulcri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
-<http://digitalhumanities.umass.edu/p-lod/entities/via-del-sepulcri> <http://www.w3.org/2000/01/rdf-schema#label> "via dei Sepulcri" .
-<http://digitalhumanities.umass.edu/p-lod/entities/via-del-sepulcri> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-dei-sepulcri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-dei-sepulcri> <http://www.w3.org/2000/01/rdf-schema#label> "via dei Sepulcri" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-dei-sepulcri> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-narciso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-narciso> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo di Narciso" .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-narciso> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
@@ -762,9 +762,9 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/via-del-vesuvia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-del-vesuvia> <http://www.w3.org/2000/01/rdf-schema#label> "via del Vesuvio" .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-del-vesuvia> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
-<http://digitalhumanities.umass.edu/p-lod/entities/via-del-stabiana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
-<http://digitalhumanities.umass.edu/p-lod/entities/via-del-stabiana> <http://www.w3.org/2000/01/rdf-schema#label> "via Stabiana" .
-<http://digitalhumanities.umass.edu/p-lod/entities/via-del-stabiana> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-stabiana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-stabiana> <http://www.w3.org/2000/01/rdf-schema#label> "via Stabiana" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-stabiana> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-di-nocera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-di-nocera> <http://www.w3.org/2000/01/rdf-schema#label> "via di Nocera" .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-di-nocera> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
@@ -844,7 +844,7 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-delle-pareti-rossa> <http://www.w3.org/2000/01/rdf-schema#label> "vicola delle Pareti rossa" .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-delle-pareti-rossa> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r8> .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-regina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
-<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-regina> <http://www.w3.org/2000/01/rdf-schema#label> "vicola delle Regina" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-regina> <http://www.w3.org/2000/01/rdf-schema#label> "vicola della Regina" .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-regina> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r8> .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-del-tempio-d-iside> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-del-tempio-d-iside> <http://www.w3.org/2000/01/rdf-schema#label> "via del Tempio d'Iside" .
