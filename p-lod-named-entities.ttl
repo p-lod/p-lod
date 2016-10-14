@@ -1039,13 +1039,101 @@ p-lod-e:vicolo-dell-efebo a p-lod-v:street ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:vicolo-di-paquius-proculus a p-lod-v:street ;
-   rdfs:label "vicolo Paquius Proculus" ;
+   rdfs:label "vicolo di Paquius Proculus" ;
    dcterms:isPartOf p-lod-e:r1 .
    
 p-lod-e:via-del-menandro a p-lod-v:street ;
    rdfs:label "via del Menandro" ;
-   dcterms:isPartOf p-lod-e:r2 .
+   dcterms:isPartOf p-lod-e:r1 .
 
-p-lod-e:via-del-citarista a p-lod-v:street ;
-   rdfs:label "via del Citarista" ;
-   dcterms:isPartOf p-lod-e:r2 .
+p-lod-e:vicolo-del-citarista a p-lod-v:street ;
+   rdfs:label "vicolo del Citarista" ;
+   dcterms:isPartOf p-lod-e:r1 .
+
+p-lod-e:vicolo-del-conciapelle a p-lod-v:street ;
+   rdfs:label "vicolo del Conciapelle" ;
+   dcterms:isPartOf p-lod-e:r1 .
+   
+p-lod-e:vicolo-di-championnet a p-lod-v:street ;
+   rdfs:label "vicolo di championnet" ;
+   dcterms:isPartOf p-lod-e:r8 .
+   
+p-lod-e:via-delle-scuole a p-lod-v:street ;
+   rdfs:label "via delle Scuole" ;
+   dcterms:isPartOf p-lod-e:r8 .
+   
+p-lod-e:vicolo-dei-12-dei a p-lod-v:street ;
+   rdfs:label "vicolo dei 12 Dei" ;
+   dcterms:isPartOf p-lod-e:r8 .
+
+p-lod-e:vicolo-delle-pareti-rossa a p-lod-v:street ;
+   rdfs:label "vicola delle Pareti rossa" ;
+   dcterms:isPartOf p-lod-e:r8 .
+
+p-lod-e:vicolo-della-regina a p-lod-v:street ;
+   rdfs:label "vicola delle Regina" ;
+   dcterms:isPartOf p-lod-e:r8 .
+
+p-lod-e:via-del-tempio-d-iside a p-lod-v:street ;
+   rdfs:label "via del Tempio d'Iside" ;
+   dcterms:isPartOf p-lod-e:r8 .
+
+p-lod-e:vicolo-del-farmacista a p-lod-v:street ;
+   rdfs:label "vicolo del Farmacista" ;
+   dcterms:isPartOf p-lod-e:r7 .
+
+p-lod-e:vicolo-delle-terme a p-lod-v:street ;
+   rdfs:label "vicolo delle Terme" ;
+   dcterms:isPartOf p-lod-e:r7 .
+
+p-lod-e:vicolo-delle-terme a p-lod-v:street ;
+   rdfs:label "vicolo delle Terme" ;
+   dcterms:isPartOf p-lod-e:r7 .
+
+p-lod-e:via-del-foro a p-lod-v:street ;
+   rdfs:label "via del Foro" ;
+   dcterms:isPartOf p-lod-e:r7 .
+
+p-lod-e:vicolo-storto a p-lod-v:street ;
+   rdfs:label "vicolo Storto" ;
+   dcterms:isPartOf p-lod-e:r7 .
+
+p-lod-e:vicolo-del-panettiere a p-lod-v:street ;
+   rdfs:label "vicolo del Panettiere" ;
+   dcterms:isPartOf p-lod-e:r7 .
+
+p-lod-e:vicolo-dei-soprastanti a p-lod-v:street ;
+   rdfs:label "vicolo dei Soprastanti" ;
+   dcterms:isPartOf p-lod-e:r7 .
+
+p-lod-e:vicolo-del-gigante a p-lod-v:street ;
+   rdfs:label "vicolo del Gigante" ;
+   dcterms:isPartOf p-lod-e:r7 .
+
+p-lod-e:vicolo-del-gallo a p-lod-v:street ;
+   rdfs:label "vicolo del Gallo" ;
+   dcterms:isPartOf p-lod-e:r7 .
+
+p-lod-e:vicolo-del-scheletri a p-lod-v:street ;
+   rdfs:label "vicolo del Scheletri" ;
+   dcterms:isPartOf p-lod-e:r7 .
+
+p-lod-e:vicolo-di-eumachia a p-lod-v:street ;
+   rdfs:label "vicolo di Eumachia" ;
+   dcterms:isPartOf p-lod-e:r7 .
+
+p-lod-e:vicolo-del-balcone-pensile a p-lod-v:street ;
+   rdfs:label "vicolo dei balcone pensile" ;
+   dcterms:isPartOf p-lod-e:r7 .
+
+p-lod-e:vicolo-della-maschera a p-lod-v:street ;
+   rdfs:label "vicolo della Maschera" ;
+   dcterms:isPartOf p-lod-e:r7 .
+
+p-lod-e:vicolo-del-lupanare a p-lod-v:street ;
+   rdfs:label "vicolo del Lupanare" ;
+   dcterms:isPartOf p-lod-e:r7 .
+
+p-lod-e:via-degli-augustali a p-lod-v:street ;
+   rdfs:label "via degli Augustali" ;
+   dcterms:isPartOf p-lod-e:r7 .

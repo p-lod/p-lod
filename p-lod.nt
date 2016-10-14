@@ -820,14 +820,80 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dell-efebo> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo dell'Efebo" .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dell-efebo> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r1> .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-paquius-proculus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
-<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-paquius-proculus> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo Paquius Proculus" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-paquius-proculus> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo di Paquius Proculus" .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-paquius-proculus> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r1> .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-del-menandro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-del-menandro> <http://www.w3.org/2000/01/rdf-schema#label> "via del Menandro" .
-<http://digitalhumanities.umass.edu/p-lod/entities/via-del-menandro> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r2> .
-<http://digitalhumanities.umass.edu/p-lod/entities/via-del-citarista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
-<http://digitalhumanities.umass.edu/p-lod/entities/via-del-citarista> <http://www.w3.org/2000/01/rdf-schema#label> "via del Citarista" .
-<http://digitalhumanities.umass.edu/p-lod/entities/via-del-citarista> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r2> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-menandro> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r1> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-citarista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-citarista> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo del Citarista" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-citarista> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r1> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-conciapelle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-conciapelle> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo del Conciapelle" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-conciapelle> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r1> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-championnet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-championnet> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo di championnet" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-championnet> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r8> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-delle-scuole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-delle-scuole> <http://www.w3.org/2000/01/rdf-schema#label> "via delle Scuole" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-delle-scuole> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r8> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dei-12-dei> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dei-12-dei> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo dei 12 Dei" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dei-12-dei> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r8> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-delle-pareti-rossa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-delle-pareti-rossa> <http://www.w3.org/2000/01/rdf-schema#label> "vicola delle Pareti rossa" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-delle-pareti-rossa> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r8> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-regina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-regina> <http://www.w3.org/2000/01/rdf-schema#label> "vicola delle Regina" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-regina> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r8> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-tempio-d-iside> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-tempio-d-iside> <http://www.w3.org/2000/01/rdf-schema#label> "via del Tempio d'Iside" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-tempio-d-iside> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r8> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-farmacista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-farmacista> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo del Farmacista" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-farmacista> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-delle-terme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-delle-terme> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo delle Terme" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-delle-terme> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-delle-terme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-delle-terme> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo delle Terme" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-delle-terme> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-foro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-foro> <http://www.w3.org/2000/01/rdf-schema#label> "via del Foro" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-del-foro> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-storto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-storto> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo Storto" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-storto> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-panettiere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-panettiere> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo del Panettiere" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-panettiere> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dei-soprastanti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dei-soprastanti> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo dei Soprastanti" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dei-soprastanti> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-gigante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-gigante> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo del Gigante" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-gigante> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-gallo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-gallo> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo del Gallo" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-gallo> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-scheletri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-scheletri> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo del Scheletri" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-scheletri> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-eumachia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-eumachia> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo di Eumachia" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-eumachia> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-balcone-pensile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-balcone-pensile> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo dei balcone pensile" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-balcone-pensile> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-maschera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-maschera> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo della Maschera" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-maschera> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-lupanare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-lupanare> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo del Lupanare" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-del-lupanare> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-degli-augustali> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-degli-augustali> <http://www.w3.org/2000/01/rdf-schema#label> "via degli Augustali" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-degli-augustali> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
 <http://digitalhumanities.umass.edu/p-lod/entities/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/numbered-entity> .
 <http://digitalhumanities.umass.edu/p-lod/entities/1> <http://www.w3.org/2000/01/rdf-schema#label> "P-LOD Entity 1" .
 <http://digitalhumanities.umass.edu/p-lod/entities/1> <http://www.w3.org/2002/07/owl#sameAs> <http://digitalhumanities.umass.edu/p-lod/entities/r1> .
