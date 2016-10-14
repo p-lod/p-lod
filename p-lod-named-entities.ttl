@@ -1067,11 +1067,11 @@ p-lod-e:vicolo-dei-12-dei a p-lod-v:street ;
    dcterms:isPartOf p-lod-e:r8 .
 
 p-lod-e:vicolo-delle-pareti-rossa a p-lod-v:street ;
-   rdfs:label "vicola delle Pareti rossa" ;
+   rdfs:label "vicolo delle Pareti rossa" ;
    dcterms:isPartOf p-lod-e:r8 .
 
 p-lod-e:vicolo-della-regina a p-lod-v:street ;
-   rdfs:label "vicola della Regina" ;
+   rdfs:label "vicolo della Regina" ;
    dcterms:isPartOf p-lod-e:r8 .
 
 p-lod-e:via-del-tempio-d-iside a p-lod-v:street ;

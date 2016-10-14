@@ -841,10 +841,10 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dei-12-dei> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo dei 12 Dei" .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-dei-12-dei> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r8> .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-delle-pareti-rossa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
-<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-delle-pareti-rossa> <http://www.w3.org/2000/01/rdf-schema#label> "vicola delle Pareti rossa" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-delle-pareti-rossa> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo delle Pareti rossa" .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-delle-pareti-rossa> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r8> .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-regina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
-<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-regina> <http://www.w3.org/2000/01/rdf-schema#label> "vicola della Regina" .
+<http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-regina> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo della Regina" .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-della-regina> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r8> .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-del-tempio-d-iside> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-del-tempio-d-iside> <http://www.w3.org/2000/01/rdf-schema#label> "via del Tempio d'Iside" .
