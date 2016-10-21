@@ -673,33 +673,33 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-d10> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p1-rm.f> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-nola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/city-gate> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-nola> <http://www.w3.org/2000/01/rdf-schema#label> "Porta Nola" .
-<http://digitalhumanities.umass.edu/p-lod/entities/porta-nola> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/porta-nola> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-nola> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Nola.htm> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-sarno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/city-gate> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-sarno> <http://www.w3.org/2000/01/rdf-schema#label> "Porta Sarno" .
-<http://digitalhumanities.umass.edu/p-lod/entities/porta-sarno> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/porta-sarno> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-sarno> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Sarnus.htm> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-nocera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/city-gate> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-nocera> <http://www.w3.org/2000/01/rdf-schema#label> "Porta Nocera" .
-<http://digitalhumanities.umass.edu/p-lod/entities/porta-nocera> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/porta-nocera> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-nocera> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Nuceria.htm> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-stabia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/city-gate> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-stabia> <http://www.w3.org/2000/01/rdf-schema#label> "Porta Stabia" .
-<http://digitalhumanities.umass.edu/p-lod/entities/porta-stabia> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/porta-stabia> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-stabia> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Stabian.htm> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-marina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/city-gate> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-marina> <http://www.w3.org/2000/01/rdf-schema#label> "Porta Marina" .
-<http://digitalhumanities.umass.edu/p-lod/entities/porta-marina> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/porta-marina> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-marina> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Marine.htm> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-ercolano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/city-gate> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-ercolano> <http://www.w3.org/2000/01/rdf-schema#label> "Porta Ercolano" .
-<http://digitalhumanities.umass.edu/p-lod/entities/porta-ercolano> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/porta-ercolano> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-ercolano> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Ercolano.htm> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-ercolano> <http://digitalhumanities.umass.edu/p-lod/vocabulary/latitude> "40.751823"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-ercolano> <http://digitalhumanities.umass.edu/p-lod/vocabulary/longitude> "14.481116"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-vesuvio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/city-gate> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-vesuvio> <http://www.w3.org/2000/01/rdf-schema#label> "Porta Vesuvio" .
-<http://digitalhumanities.umass.edu/p-lod/entities/porta-vesuvio> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/porta-vesuvio> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-vesuvio> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Vesuvio.htm> .
 <http://digitalhumanities.umass.edu/p-lod/entities/etruscan-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/language> .
 <http://digitalhumanities.umass.edu/p-lod/entities/etruscan-language> <http://www.w3.org/2000/01/rdf-schema#label> "Etruscan (language)" .
@@ -894,6 +894,72 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/via-degli-augustali> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-degli-augustali> <http://www.w3.org/2000/01/rdf-schema#label> "via degli Augustali" .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-degli-augustali> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r7> .
+<http://digitalhumanities.umass.edu/p-lod/entities/first-style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/wall-painting-style> .
+<http://digitalhumanities.umass.edu/p-lod/entities/first-style> <http://www.w3.org/2000/01/rdf-schema#label> "First Style" .
+<http://digitalhumanities.umass.edu/p-lod/entities/first-style> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/named-entities> .
+<http://digitalhumanities.umass.edu/p-lod/entities/first-style> <http://digitalhumanities.umass.edu/p-lod/vocabulary/getty-lod-equiv> <http://vocab.getty.edu/aat/300020607> .
+<http://digitalhumanities.umass.edu/p-lod/entities/second-style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/wall-painting-style> .
+<http://digitalhumanities.umass.edu/p-lod/entities/second-style> <http://www.w3.org/2000/01/rdf-schema#label> "Second Style" .
+<http://digitalhumanities.umass.edu/p-lod/entities/second-style> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/named-entities> .
+<http://digitalhumanities.umass.edu/p-lod/entities/second-style> <http://digitalhumanities.umass.edu/p-lod/vocabulary/getty-lod-equiv> <http://vocab.getty.edu/aat/300020609> .
+<http://digitalhumanities.umass.edu/p-lod/entities/third-style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/wall-painting-style> .
+<http://digitalhumanities.umass.edu/p-lod/entities/third-style> <http://www.w3.org/2000/01/rdf-schema#label> "Third Style" .
+<http://digitalhumanities.umass.edu/p-lod/entities/third-style> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/named-entities> .
+<http://digitalhumanities.umass.edu/p-lod/entities/third-style> <http://digitalhumanities.umass.edu/p-lod/vocabulary/getty-lod-equiv> <http://vocab.getty.edu/aat/300020611> .
+<http://digitalhumanities.umass.edu/p-lod/entities/fourth-style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/wall-painting-style> .
+<http://digitalhumanities.umass.edu/p-lod/entities/fourth-style> <http://www.w3.org/2000/01/rdf-schema#label> "Fourth Style" .
+<http://digitalhumanities.umass.edu/p-lod/entities/fourth-style> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/named-entities> .
+<http://digitalhumanities.umass.edu/p-lod/entities/fourth-style> <http://digitalhumanities.umass.edu/p-lod/vocabulary/getty-lod-equiv> <http://vocab.getty.edu/aat/300020613> .
+<http://digitalhumanities.umass.edu/p-lod/entities/city-wall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/entities/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/entities/city-wall> <http://www.w3.org/2000/01/rdf-schema#label> "City Wall of Pompeii" .
+<http://digitalhumanities.umass.edu/p-lod/entities/city-wall> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/entities/tower> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower01> <http://www.w3.org/2000/01/rdf-schema#label> "Tower 1" .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower01> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower01> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/tower02> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/entities/tower> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower02> <http://www.w3.org/2000/01/rdf-schema#label> "Tower 2" .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower02> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower02> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/tower03> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/entities/tower> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower03> <http://www.w3.org/2000/01/rdf-schema#label> "Tower 3" .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower03> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower03> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/tower04> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/entities/tower> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower04> <http://www.w3.org/2000/01/rdf-schema#label> "Tower 4" .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower04> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower04> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/tower05> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/entities/tower> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower05> <http://www.w3.org/2000/01/rdf-schema#label> "Tower 5" .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower05> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower05> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/tower06> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/entities/tower> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower06> <http://www.w3.org/2000/01/rdf-schema#label> "Tower 6" .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower06> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower06> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/tower07> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/entities/tower> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower07> <http://www.w3.org/2000/01/rdf-schema#label> "Tower 7" .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower07> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower07> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/tower08> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/entities/tower> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower08> <http://www.w3.org/2000/01/rdf-schema#label> "Tower 8" .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower08> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower08> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/tower09> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/entities/tower> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower09> <http://www.w3.org/2000/01/rdf-schema#label> "Tower 9" .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower09> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower09> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/tower10> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/entities/tower> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower10> <http://www.w3.org/2000/01/rdf-schema#label> "Tower 10" .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower10> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower10> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/tower11> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/entities/tower> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower11> <http://www.w3.org/2000/01/rdf-schema#label> "Tower 11" .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower11> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower11> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/tower12> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/entities/tower> .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower12> <http://www.w3.org/2000/01/rdf-schema#label> "Tower 12" .
+<http://digitalhumanities.umass.edu/p-lod/entities/tower12> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
 <http://digitalhumanities.umass.edu/p-lod/entities/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/numbered-entity> .
 <http://digitalhumanities.umass.edu/p-lod/entities/1> <http://www.w3.org/2000/01/rdf-schema#label> "P-LOD Entity 1" .
 <http://digitalhumanities.umass.edu/p-lod/entities/1> <http://www.w3.org/2002/07/owl#sameAs> <http://digitalhumanities.umass.edu/p-lod/entities/r1> .
@@ -1215,6 +1281,9 @@
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> <http://www.w3.org/2000/01/rdf-schema#label> "Street" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/wall-painting-style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/wall-painting-style> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeian Wall Painting Style" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/wall-painting-style> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/description> <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -1233,6 +1302,9 @@
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://www.w3.org/2000/01/rdf-schema#label> "Pagescan" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/getty-lod-equiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/getty-lod-equiv> <http://www.w3.org/2000/01/rdf-schema#label> "Getty LOD" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/getty-lod-equiv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/pleiades-equiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/pleiades-equiv> <http://www.w3.org/2000/01/rdf-schema#label> "Pleiades" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/pleiades-equiv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .

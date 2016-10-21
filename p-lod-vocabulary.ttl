@@ -81,6 +81,10 @@ p-lod-v:street a owl:Class ;
     rdfs:label "Street" ;
     rdfs:subClassOf p-lod-v:named-entity .
 
+p-lod-v:wall-painting-style a owl:Class ;
+    rdfs:label "Pompeian Wall Painting Style" ;
+    rdfs:subClassOf p-lod-v:named-entity .
+
 
 # DATATYPE PROPERTIES
 
@@ -110,6 +114,10 @@ p-lod-v:has-language a owl:ObjectProperty ;
 
 p-lod-v:pagescan a owl:ObjectProperty ;
      rdfs:label "Pagescan" ;
+    rdfs:domain p-lod-v:named-entity .
+
+p-lod-v:getty-lod-equiv a owl:ObjectProperty ;
+    rdfs:label "Getty LOD" ;
     rdfs:domain p-lod-v:named-entity .
 
 p-lod-v:pleiades-equiv a owl:ObjectProperty ;
