@@ -10,7 +10,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 p-lod-e:named-entities a p-lod-v:named-entity ;
-   rdfs:label "All P-LOD named entities" .
+   rdfs:label "Initial P-LOD Named Entities" .
 
 p-lod-e:pompeii a p-lod-v:named-entity ;
    rdfs:label "Pompeii" ;
@@ -20,7 +20,9 @@ p-lod-e:pompeii a p-lod-v:named-entity ;
    p-lod-v:edh-equiv <http://edh-www.adw.uni-heidelberg.de/edh/geographie/11925/karte> ;
    p-lod-v:pleiades-equiv <https://pleiades.stoa.org/places/433032> ;
    p-lod-v:wikidata-equiv <http://www.wikidata.org/entity/Q43332> ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/index.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/index.htm> ;
+   p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ruins_of_Pompeii_with_the_Vesuvius.jpg/640px-Ruins_of_Pompeii_with_the_Vesuvius.jpg" ;
+   p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:Ruins_of_Pompeii_with_the_Vesuvius.jpg)".
 
 # REGIONS
 
@@ -853,7 +855,9 @@ p-lod-e:porta-sarno a p-lod-v:city-gate ;
 p-lod-e:porta-nocera a p-lod-v:city-gate ;
    rdfs:label "Porta Nocera" ;
    dcterms:isPartOf p-lod-e:city-wall ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Nuceria.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Nuceria.htm> ;
+   p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Pompeii_2014.JPG/1024px-Pompeii_2014.JPG" ;
+   p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:Pompeii_2014.JPG)" .
    
 p-lod-e:porta-stabia a p-lod-v:city-gate ;
    rdfs:label "Porta Stabia" ;
@@ -863,14 +867,18 @@ p-lod-e:porta-stabia a p-lod-v:city-gate ;
 p-lod-e:porta-marina a p-lod-v:city-gate ;
    rdfs:label "Porta Marina" ;
    dcterms:isPartOf p-lod-e:city-wall ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Marine.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Marine.htm> ;
+   p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Pompei_2012_%288057057228%29.jpg/1024px-Pompei_2012_%288057057228%29.jpg" ;
+   p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:Pompei_2012_(8057057228).jpg)" .
 
 p-lod-e:porta-ercolano a p-lod-v:city-gate ;
    rdfs:label "Porta Ercolano" ;
    dcterms:isPartOf p-lod-e:city-wall ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Ercolano.htm> ;
    p-lod-v:latitude 40.751823 ;
-   p-lod-v:longitude 14.481116 .
+   p-lod-v:longitude 14.481116 ;
+   p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/The_Streets_of_Pompeii_%2814842927849%29.jpg/640px-The_Streets_of_Pompeii_%2814842927849%29.jpg" ;
+   p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:The_Streets_of_Pompeii_\(14842927849\).jpg)".
 
 p-lod-e:porta-vesuvio a p-lod-v:city-gate ;
    rdfs:label "Porta Vesuvio" ;
@@ -904,7 +912,9 @@ p-lod-e:oscan-language a p-lod-v:language ;
 
 p-lod-e:via-dei-sepulcri a p-lod-v:street ;
    rdfs:label "via dei Sepulcri" ;
-   dcterms:isPartOf p-lod-e:pompeii .
+   dcterms:isPartOf p-lod-e:pompeii ;
+   p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Pompeiana_-_the_topography%2C_edifices%2C_and_ornaments_of_Pompeii_%281817%29_%2814779093351%29.jpg/1024px-Pompeiana_-_the_topography%2C_edifices%2C_and_ornaments_of_Pompeii_%281817%29_%2814779093351%29.jpg" , "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Pompei_2012_%288057012453%29.jpg/1024px-Pompei_2012_%288057012453%29.jpg" ;
+   p-lod-v:visual-documentation-file-sources "[Wikimedia commons category](https://commons.wikimedia.org/wiki/Category:Via_dei_Sepolcri_\(Pompeii\))".
 
 p-lod-e:vicolo-di-narciso a p-lod-v:street ;
    rdfs:label "vicolo di Narciso" ;
@@ -956,7 +966,9 @@ p-lod-e:via-marina a p-lod-v:street ;
 
 p-lod-e:via-dell-abbondanza a p-lod-v:street ;
    rdfs:label "via dell'Abbondanza" ;
-   dcterms:isPartOf p-lod-e:pompeii .
+   dcterms:isPartOf p-lod-e:pompeii ;
+   p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ancient_Roman_Pompeii_-_Pompeji_-_Campania_-_Italy_-_July_10th_2013_-_36.jpg/1024px-Ancient_Roman_Pompeii_-_Pompeji_-_Campania_-_Italy_-_July_10th_2013_-_36.jpg" ;
+   p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:Ancient_Roman_Pompeii_-_Pompeji_-_Campania_-_Italy_-_July_10th_2013_-_36.jpg)" .
    
 p-lod-e:via-del-vesuvia a p-lod-v:street ;
    rdfs:label "via del Vesuvio" ;
@@ -8013,7 +8025,7 @@ p-lod-e:cil-iv-1308 a p-lod-v:cil-inscription ;
     dcterms:isPartOf p-lod-e:cil-iv ;
     p-lod-v:has-language p-lod-e:latin-language ;
     p-lod-v:visual-documentation-file <https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/1085%28Paris_isse%29.jpg/400px-1085%28Paris_isse%29.jpg> ;
-    p-lod-v:visual-documentation-file-sources "Image from wikimedia commons." .
+    p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:1085\(Paris_isse\).jpg)" .
 
 p-lod-e:cil-iv-1309 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 1309" ;
@@ -18872,6 +18884,7 @@ p-lod-e:cil-iv-2879 p-lod-v:next p-lod-e:cil-iv-2880 .
 
 p-lod-e:cie-2-2 a p-lod-v:bibliographic-resource ;
     rdfs:label "Corpus Inscriptionum Etruscarum, Volume 2, Fasicule 2" ;
+    dcterms:isPartOf p-lod-e:named-entities ;
     p-lod-v:description "Pandolfini, A. M., Pauli, C., Cristofani, M., Istituto per l'archeologia etrusco-italica (Rome)., Istituto nazionale di studi etruschi ed italici (Florence, Italie)., Preussische Akademie der Wissenschaften., Deutsche Akademie der Wissenschaften (RDA)., ... Akademie der Wissenschaften der DDR. (1996). <i>Corpus Inscriptionum Etruscarum: Voluminis Secundi [Sect II], Fasciculum 2</i>. Romae: Istituto per l'archeologia etrusco-italica del Consiglio nazionale delle ricerche." ;
     p-lod-v:see-also <http://www.worldcat.org/oclc/490162131> .
 

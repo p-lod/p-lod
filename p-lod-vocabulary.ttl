@@ -40,11 +40,11 @@ p-lod-v:bibliographic-resource a owl:Class ;
     rdfs:subClassOf p-lod-v:named-entity .
 
 p-lod-v:cie-inscription a owl:Class ;
-    rdfs:label "Inscription as published in Corpus Inscriptionum Etruscarum, Vol. II, fasc. 2" ;
+    rdfs:label "Inscription or other cataloged item as published in Corpus Inscriptionum Etruscarum, Vol. II, fasc. 2" ;
     rdfs:subClassOf p-lod-v:named-entity .
 
 p-lod-v:cil-inscription a owl:Class ;
-    rdfs:label "Inscription as published in CIL" ;
+    rdfs:label "Inscription or other cataloged item as published in CIL." ;
     rdfs:subClassOf p-lod-v:named-entity .
 
 p-lod-v:city-gate a owl:Class ;
@@ -139,3 +139,10 @@ p-lod-v:next a owl:AnnotationProperty ;
     
 p-lod-v:see-also a owl:AnnotationProperty ;
     rdfs:label "See also" .
+
+p-lod-v:visual-documentation-file a owl:AnnotationProperty ;
+    rdfs:label "Image or drawing" .
+
+p-lod-v:visual-documentation-file-sources a owl:AnnotationProperty ;
+    rdfs:label "Image or drawing source" ;
+    rdfs:range p-lod-v:markdown-literal .

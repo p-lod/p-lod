@@ -1,5 +1,5 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/named-entities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
-<http://digitalhumanities.umass.edu/p-lod/entities/named-entities> <http://www.w3.org/2000/01/rdf-schema#label> "All P-LOD named entities" .
+<http://digitalhumanities.umass.edu/p-lod/entities/named-entities> <http://www.w3.org/2000/01/rdf-schema#label> "Initial P-LOD Named Entities" .
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeii" .
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/named-entities> .
@@ -9,6 +9,8 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pleiades-equiv> <https://pleiades.stoa.org/places/433032> .
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://digitalhumanities.umass.edu/p-lod/vocabulary/wikidata-equiv> <http://www.wikidata.org/entity/Q43332> .
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/index.htm> .
+<http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file> "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ruins_of_Pompeii_with_the_Vesuvius.jpg/640px-Ruins_of_Pompeii_with_the_Vesuvius.jpg" .
+<http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:Ruins_of_Pompeii_with_the_Vesuvius.jpg)" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/region> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeii Region I" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
@@ -683,6 +685,8 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-nocera> <http://www.w3.org/2000/01/rdf-schema#label> "Porta Nocera" .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-nocera> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-nocera> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Nuceria.htm> .
+<http://digitalhumanities.umass.edu/p-lod/entities/porta-nocera> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file> "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Pompeii_2014.JPG/1024px-Pompeii_2014.JPG" .
+<http://digitalhumanities.umass.edu/p-lod/entities/porta-nocera> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:Pompeii_2014.JPG)" .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-stabia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/city-gate> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-stabia> <http://www.w3.org/2000/01/rdf-schema#label> "Porta Stabia" .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-stabia> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
@@ -691,12 +695,16 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-marina> <http://www.w3.org/2000/01/rdf-schema#label> "Porta Marina" .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-marina> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-marina> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Marine.htm> .
+<http://digitalhumanities.umass.edu/p-lod/entities/porta-marina> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file> "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Pompei_2012_%288057057228%29.jpg/1024px-Pompei_2012_%288057057228%29.jpg" .
+<http://digitalhumanities.umass.edu/p-lod/entities/porta-marina> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:Pompei_2012_(8057057228).jpg)" .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-ercolano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/city-gate> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-ercolano> <http://www.w3.org/2000/01/rdf-schema#label> "Porta Ercolano" .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-ercolano> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-ercolano> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Ercolano.htm> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-ercolano> <http://digitalhumanities.umass.edu/p-lod/vocabulary/latitude> "40.751823"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-ercolano> <http://digitalhumanities.umass.edu/p-lod/vocabulary/longitude> "14.481116"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://digitalhumanities.umass.edu/p-lod/entities/porta-ercolano> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file> "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/The_Streets_of_Pompeii_%2814842927849%29.jpg/640px-The_Streets_of_Pompeii_%2814842927849%29.jpg" .
+<http://digitalhumanities.umass.edu/p-lod/entities/porta-ercolano> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:The_Streets_of_Pompeii_(14842927849).jpg)" .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-vesuvio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/city-gate> .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-vesuvio> <http://www.w3.org/2000/01/rdf-schema#label> "Porta Vesuvio" .
 <http://digitalhumanities.umass.edu/p-lod/entities/porta-vesuvio> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/city-wall> .
@@ -720,6 +728,9 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/via-dei-sepulcri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-dei-sepulcri> <http://www.w3.org/2000/01/rdf-schema#label> "via dei Sepulcri" .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-dei-sepulcri> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-dei-sepulcri> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file> "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Pompeiana_-_the_topography%2C_edifices%2C_and_ornaments_of_Pompeii_%281817%29_%2814779093351%29.jpg/1024px-Pompeiana_-_the_topography%2C_edifices%2C_and_ornaments_of_Pompeii_%281817%29_%2814779093351%29.jpg" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-dei-sepulcri> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file> "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Pompei_2012_%288057012453%29.jpg/1024px-Pompei_2012_%288057012453%29.jpg" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-dei-sepulcri> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> "[Wikimedia commons category](https://commons.wikimedia.org/wiki/Category:Via_dei_Sepolcri_(Pompeii))" .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-narciso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-narciso> <http://www.w3.org/2000/01/rdf-schema#label> "vicolo di Narciso" .
 <http://digitalhumanities.umass.edu/p-lod/entities/vicolo-di-narciso> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/r6> .
@@ -759,6 +770,8 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/via-dell-abbondanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-dell-abbondanza> <http://www.w3.org/2000/01/rdf-schema#label> "via dell'Abbondanza" .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-dell-abbondanza> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-dell-abbondanza> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file> "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ancient_Roman_Pompeii_-_Pompeji_-_Campania_-_Italy_-_July_10th_2013_-_36.jpg/1024px-Ancient_Roman_Pompeii_-_Pompeji_-_Campania_-_Italy_-_July_10th_2013_-_36.jpg" .
+<http://digitalhumanities.umass.edu/p-lod/entities/via-dell-abbondanza> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:Ancient_Roman_Pompeii_-_Pompeji_-_Campania_-_Italy_-_July_10th_2013_-_36.jpg)" .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-del-vesuvia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/street> .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-del-vesuvia> <http://www.w3.org/2000/01/rdf-schema#label> "via del Vesuvio" .
 <http://digitalhumanities.umass.edu/p-lod/entities/via-del-vesuvia> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> .
@@ -6437,7 +6450,7 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1308> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1308> <http://digitalhumanities.umass.edu/p-lod/vocabulary/has-language> <http://digitalhumanities.umass.edu/p-lod/entities/latin-language> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1308> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file> <https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/1085%28Paris_isse%29.jpg/400px-1085%28Paris_isse%29.jpg> .
-<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1308> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> "Image from wikimedia commons." .
+<http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1308> <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:1085(Paris_isse).jpg)" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1309> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1309> <http://www.w3.org/2000/01/rdf-schema#label> "CIL IV 1309" .
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-1309> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv> .
@@ -15716,6 +15729,7 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-2879> <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/entities/cil-iv-2880> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cie-2-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/bibliographic-resource> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cie-2-2> <http://www.w3.org/2000/01/rdf-schema#label> "Corpus Inscriptionum Etruscarum, Volume 2, Fasicule 2" .
+<http://digitalhumanities.umass.edu/p-lod/entities/cie-2-2> <http://purl.org/dc/terms/isPartOf> <http://digitalhumanities.umass.edu/p-lod/entities/named-entities> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cie-2-2> <http://digitalhumanities.umass.edu/p-lod/vocabulary/description> "Pandolfini, A. M., Pauli, C., Cristofani, M., Istituto per l'archeologia etrusco-italica (Rome)., Istituto nazionale di studi etruschi ed italici (Florence, Italie)., Preussische Akademie der Wissenschaften., Deutsche Akademie der Wissenschaften (RDA)., ... Akademie der Wissenschaften der DDR. (1996). <i>Corpus Inscriptionum Etruscarum: Voluminis Secundi [Sect II], Fasciculum 2</i>. Romae: Istituto per l'archeologia etrusco-italica del Consiglio nazionale delle ricerche." .
 <http://digitalhumanities.umass.edu/p-lod/entities/cie-2-2> <http://digitalhumanities.umass.edu/p-lod/vocabulary/see-also> <http://www.worldcat.org/oclc/490162131> .
 <http://digitalhumanities.umass.edu/p-lod/entities/cie-8747> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/cie-inscription> .
@@ -16135,10 +16149,10 @@
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/bibliographic-resource> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliographic Resource" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/bibliographic-resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/cie-inscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://digitalhumanities.umass.edu/p-lod/vocabulary/cie-inscription> <http://www.w3.org/2000/01/rdf-schema#label> "Inscription as published in Corpus Inscriptionum Etruscarum, Vol. II, fasc. 2" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/cie-inscription> <http://www.w3.org/2000/01/rdf-schema#label> "Inscription or other cataloged item as published in Corpus Inscriptionum Etruscarum, Vol. II, fasc. 2" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/cie-inscription> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> <http://www.w3.org/2000/01/rdf-schema#label> "Inscription as published in CIL" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> <http://www.w3.org/2000/01/rdf-schema#label> "Inscription or other cataloged item as published in CIL." .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/cil-inscription> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/city-gate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/city-gate> <http://www.w3.org/2000/01/rdf-schema#label> "City gate" .
@@ -16203,3 +16217,8 @@
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://www.w3.org/2000/01/rdf-schema#label> "Next" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/see-also> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/see-also> <http://www.w3.org/2000/01/rdf-schema#label> "See also" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file> <http://www.w3.org/2000/01/rdf-schema#label> "Image or drawing" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> <http://www.w3.org/2000/01/rdf-schema#label> "Image or drawing source" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> <http://www.w3.org/2000/01/rdf-schema#range> <http://digitalhumanities.umass.edu/p-lod/vocabulary/markdown-literal> .
