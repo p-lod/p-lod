@@ -972,7 +972,9 @@ p-lod-e:via-dell-abbondanza a p-lod-v:street ;
    
 p-lod-e:via-del-vesuvia a p-lod-v:street ;
    rdfs:label "via del Vesuvio" ;
-   dcterms:isPartOf p-lod-e:pompeii .
+   dcterms:isPartOf p-lod-e:pompeii ;
+   p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Via_del_Vesuvio_1.JPG/1024px-Via_del_Vesuvio_1.JPG" ;
+   p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:Via_del_Vesuvio_1.JPG)" .
 
 p-lod-e:via-stabiana a p-lod-v:street ;
    rdfs:label "via Stabiana" ;
