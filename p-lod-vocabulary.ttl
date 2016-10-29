@@ -14,7 +14,8 @@ owl:Class rdfs:label "Category/class of entity" .
 owl:DatatypeProperty rdfs:label "Data Property" .
 owl:ObjectProperty rdfs:label "Object Property" .
 owl:sameAs rdfs:label "Same as" .
-rdf:type rdfs:label "Type" .
+rdf:type rdfs:label "Type" ; 
+    p-lod-v:sort-order "001top-003" .
 rdfs:comment rdfs:label "Comment or description" .
 rdfs:domain rdfs:label "RDF Domain" .
 rdfs:range rdfs:label "RDF Range" .
@@ -80,6 +81,11 @@ p-lod-v:room a owl:Class ;
 p-lod-v:street a owl:Class ;
     rdfs:label "Street" ;
     rdfs:subClassOf p-lod-v:named-entity .
+    
+p-lod-v:tower a owl:Class ;
+    rdfs:label "Tower" ;
+    rdfs:comment "A tower that is part of the Pompeii's city wall." ;
+    rdfs:subClassOf p-lod-v:named-entity .
 
 p-lod-v:wall-painting-style a owl:Class ;
     rdfs:label "Pompeian Wall Painting Style" ;
@@ -89,7 +95,8 @@ p-lod-v:wall-painting-style a owl:Class ;
 # DATATYPE PROPERTIES
 
 p-lod-v:description a owl:DatatypeProperty ;
-    rdfs:label "Description" .
+    rdfs:label "Description" ;
+    p-lod-v:sort-order "001top-002" .
     
 p-lod-v:latitude  a owl:DatatypeProperty ;
     rdfs:label "Latitude" . 
@@ -102,11 +109,13 @@ p-lod-v:longitude  a owl:DatatypeProperty ;
 
 p-lod-v:arachne-equiv a owl:ObjectProperty ;
     rdfs:label "Arachne" ;
-    rdfs:domain p-lod-v:named-entity .
+    rdfs:domain p-lod-v:named-entity ;
+    p-lod-v:sort-order "005links" .
     
 p-lod-v:edh-equiv a owl:ObjectProperty ;
     rdfs:label "Epigraphic Database Heidelberg" ;
-    rdfs:domain p-lod-v:named-entity .
+    rdfs:domain p-lod-v:named-entity ;
+    p-lod-v:sort-order "005links" .
 
 p-lod-v:has-language a owl:ObjectProperty ;
     rdfs:label "Has language" ;
@@ -118,31 +127,43 @@ p-lod-v:pagescan a owl:ObjectProperty ;
 
 p-lod-v:getty-lod-equiv a owl:ObjectProperty ;
     rdfs:label "Getty LOD" ;
-    rdfs:domain p-lod-v:named-entity .
+    rdfs:domain p-lod-v:named-entity ;
+    p-lod-v:sort-order "005links" .
+    
+p-lod-v:is-part-of a owl:ObjectProperty ;
+    rdfs:label "Is part of" ;
+    rdfs:domain p-lod-v:named-entity ;
+    p-lod-v:sort-order "001top-005" .
 
 p-lod-v:pleiades-equiv a owl:ObjectProperty ;
     rdfs:label "Pleiades" ;
-    rdfs:domain p-lod-v:named-entity .
+    rdfs:domain p-lod-v:named-entity ;
+    p-lod-v:sort-order "005links" .
 
 p-lod-v:p-in-p-equiv a owl:ObjectProperty ;
     rdfs:label "Pompeii in Pictures" ;
-    rdfs:domain p-lod-v:named-entity .
+    rdfs:domain p-lod-v:named-entity ;
+    p-lod-v:sort-order "005links" .
     
 p-lod-v:wikidata-equiv a owl:ObjectProperty ;
     rdfs:label "Wikidata" ;
-    rdfs:domain p-lod-v:named-entity .
+    rdfs:domain p-lod-v:named-entity ;
+    p-lod-v:sort-order "005links" .
 
 
 # ANNOTATION PROPERTIES
 p-lod-v:next a owl:AnnotationProperty ;
-    rdfs:label "Next" .
+    rdfs:label "Next" ;
+    p-lod-v:sort-order "001top-002" .
     
 p-lod-v:see-also a owl:AnnotationProperty ;
     rdfs:label "See also" .
 
 p-lod-v:visual-documentation-file a owl:AnnotationProperty ;
-    rdfs:label "Image or drawing" .
+    rdfs:label "Photo or drawing" ;
+    p-lod-v:sort-order "001top-000" .
 
 p-lod-v:visual-documentation-file-sources a owl:AnnotationProperty ;
-    rdfs:label "Image or drawing source" ;
-    rdfs:range p-lod-v:markdown-literal .
+    rdfs:label "Photo or drawing source" ;
+    rdfs:range p-lod-v:markdown-literal;
+    p-lod-v:sort-order "001top-0001" .
