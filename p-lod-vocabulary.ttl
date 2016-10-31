@@ -16,9 +16,10 @@ owl:sameAs rdfs:label "Same as" .
 rdf:type rdfs:label "Type" ; 
     p-lod-v:sort-order "001top-003" .
 rdfs:comment rdfs:label "Comment or description" .
-rdfs:domain rdfs:label "RDF Domain" .
-rdfs:range rdfs:label "RDF Range" .
-rdfs:subClassOf rdfs:label "RDF Subclass of" .
+rdfs:domain rdfs:label "Domain" .
+rdfs:range rdfs:label "Range" .
+rdfs:subClassOf rdfs:label "Subclass of".
+rdfs:subPropertyOf rdfs:label "Subproperty of" .
 
 
 # CLASSES
@@ -94,18 +95,23 @@ p-lod-v:wall-painting-style a owl:Class ;
     rdfs:label "Pompeian Wall Painting Style" ;
     rdfs:subClassOf p-lod-v:named-entity .
 
+p-lod-v:vocabulary-item a rdf:Property ;
+     rdfs:label "Top Level P-LOD Vocabulary Item." .
 
 # DATATYPE PROPERTIES
 
 p-lod-v:description a owl:DatatypeProperty ;
     rdfs:label "Description" ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item ;
     p-lod-v:sort-order "001top-002" .
     
 p-lod-v:latitude  a owl:DatatypeProperty ;
-    rdfs:label "Latitude" . 
+    rdfs:label "Latitude" ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item . 
     
 p-lod-v:longitude  a owl:DatatypeProperty ;
-    rdfs:label "Longitude" .
+    rdfs:label "Longitude" ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item .
 
 
 # OBJECT PROPERTIES
@@ -113,68 +119,86 @@ p-lod-v:longitude  a owl:DatatypeProperty ;
 p-lod-v:arachne-link a owl:ObjectProperty ;
     rdfs:label "Arachne" ;
     rdfs:domain p-lod-v:named-entity ;
-    p-lod-v:sort-order "005links" .
+    p-lod-v:sort-order "005links" ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item .
     
 p-lod-v:edh-equiv a owl:ObjectProperty ;
     rdfs:label "Epigraphic Database Heidelberg" ;
     rdfs:domain p-lod-v:named-entity ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item ;
     p-lod-v:sort-order "005links" .
 
 p-lod-v:europeana-link a owl:ObjectProperty ;
     rdfs:label "Europeana" ;
     rdfs:domain p-lod-v:named-entity ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item ;
     p-lod-v:sort-order "005links" .
 
 p-lod-v:has-language a owl:ObjectProperty ;
     rdfs:label "Has language" ;
-    rdfs:domain p-lod-v:named-entity .
+    rdfs:domain p-lod-v:named-entity ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item .
 
 p-lod-v:pagescan a owl:ObjectProperty ;
-     rdfs:label "Pagescan" ;
-    rdfs:domain p-lod-v:named-entity .
+    rdfs:label "Pagescan" ;
+    rdfs:comment "A link to an internet-based resource that will display a scanned page from a printed work relevent to a P-LOD entity." ;
+    rdfs:domain p-lod-v:named-entity ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item ;
+    p-lod-v:sort-order "005links" .
 
 p-lod-v:getty-lod-equiv a owl:ObjectProperty ;
     rdfs:label "Getty LOD" ;
     rdfs:domain p-lod-v:named-entity ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item ;
     p-lod-v:sort-order "005links" .
     
 p-lod-v:is-part-of a owl:ObjectProperty ;
     rdfs:label "Is part of" ;
     rdfs:domain p-lod-v:named-entity ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item ;
     p-lod-v:sort-order "001top-005" .
 
 p-lod-v:pleiades-equiv a owl:ObjectProperty ;
     rdfs:label "Pleiades" ;
     rdfs:domain p-lod-v:named-entity ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item ;
     p-lod-v:sort-order "005links" .
 
 p-lod-v:p-in-p-equiv a owl:ObjectProperty ;
     rdfs:label "Pompeii in Pictures" ;
     rdfs:domain p-lod-v:named-entity ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item ;
     p-lod-v:sort-order "005links" .
     
 p-lod-v:wikidata-equiv a owl:ObjectProperty ;
     rdfs:label "Wikidata" ;
     rdfs:domain p-lod-v:named-entity ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item ;
     p-lod-v:sort-order "005links" .
 
 
 # ANNOTATION PROPERTIES
+
 p-lod-v:next a owl:AnnotationProperty ;
     rdfs:label "Next" ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item ;
     p-lod-v:sort-order "001top-002" .
     
 p-lod-v:see-also a owl:AnnotationProperty ;
-    rdfs:label "See also" .
+    rdfs:label "See also" ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item .
     
 p-lod-v:sort-order a owl:AnnotationProperty ;
-    rdfs:label "Sort order" .
+    rdfs:label "Sort order" ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item .
 
 p-lod-v:visual-documentation-file a owl:AnnotationProperty ;
     rdfs:label "Photo or drawing" ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item ;
     p-lod-v:sort-order "001top-000" .
 
 p-lod-v:visual-documentation-file-sources a owl:AnnotationProperty ;
     rdfs:label "Photo or drawing source" ;
-    rdfs:range p-lod-v:markdown-literal;
+    rdfs:range p-lod-v:markdown-literal ;
+    rdfs:subPropertyOf p-lod-v:vocabulary-item ;
     p-lod-v:sort-order "001top-0001" .

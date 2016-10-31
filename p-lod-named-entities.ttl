@@ -17,7 +17,7 @@ p-lod-e:pompeii a p-lod-v:spatial-entity ;
    p-lod-v:is-part-of p-lod-e:named-entities ;
    p-lod-v:arachne-link <https://gazetteer.dainst.org/place/2338718> ;
    p-lod-v:description "High level identifier for the Roman-period town and archaeological site of Pompeii." ;
-   p-lod-v:edh-equiv <http://edh-www.adw.uni-heidelberg.de/edh/geographie/11925/karte> ;
+   p-lod-v:edh-equiv <http://edh-www.adw.uni-heidelberg.de/edh/geographie/11925> ;
    p-lod-v:pleiades-equiv <https://pleiades.stoa.org/places/433032> ;
    p-lod-v:wikidata-equiv <http://www.wikidata.org/entity/Q43332> ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/index.htm> ;

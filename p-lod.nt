@@ -5,7 +5,7 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/entities/named-entities> .
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://digitalhumanities.umass.edu/p-lod/vocabulary/arachne-link> <https://gazetteer.dainst.org/place/2338718> .
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://digitalhumanities.umass.edu/p-lod/vocabulary/description> "High level identifier for the Roman-period town and archaeological site of Pompeii." .
-<http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://digitalhumanities.umass.edu/p-lod/vocabulary/edh-equiv> <http://edh-www.adw.uni-heidelberg.de/edh/geographie/11925/karte> .
+<http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://digitalhumanities.umass.edu/p-lod/vocabulary/edh-equiv> <http://edh-www.adw.uni-heidelberg.de/edh/geographie/11925> .
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://digitalhumanities.umass.edu/p-lod/vocabulary/pleiades-equiv> <https://pleiades.stoa.org/places/433032> .
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://digitalhumanities.umass.edu/p-lod/vocabulary/wikidata-equiv> <http://www.wikidata.org/entity/Q43332> .
 <http://digitalhumanities.umass.edu/p-lod/entities/pompeii> <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://pompeiiinpictures.com/pompeiiinpictures/index.htm> .
@@ -16296,9 +16296,10 @@
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#label> "Type" .
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "001top-003" .
 <http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/2000/01/rdf-schema#label> "Comment or description" .
-<http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#label> "RDF Domain" .
-<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#label> "RDF Range" .
-<http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#label> "RDF Subclass of" .
+<http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#label> "Domain" .
+<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#label> "Range" .
+<http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#label> "Subclass of" .
+<http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> "Subproperty of" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/entity> <http://www.w3.org/2000/01/rdf-schema#label> "P-LOD Entity" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -16354,62 +16355,82 @@
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/wall-painting-style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/wall-painting-style> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeian Wall Painting Style" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/wall-painting-style> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> <http://www.w3.org/2000/01/rdf-schema#label> "Top Level P-LOD Vocabulary Item." .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/description> <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/description> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/description> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "001top-002" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/latitude> <http://www.w3.org/2000/01/rdf-schema#label> "Latitude" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/latitude> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/longitude> <http://www.w3.org/2000/01/rdf-schema#label> "Longitude" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/longitude> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/arachne-link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/arachne-link> <http://www.w3.org/2000/01/rdf-schema#label> "Arachne" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/arachne-link> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/arachne-link> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "005links" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/arachne-link> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/edh-equiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/edh-equiv> <http://www.w3.org/2000/01/rdf-schema#label> "Epigraphic Database Heidelberg" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/edh-equiv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/edh-equiv> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/edh-equiv> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "005links" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/europeana-link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/europeana-link> <http://www.w3.org/2000/01/rdf-schema#label> "Europeana" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/europeana-link> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/europeana-link> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/europeana-link> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "005links" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/has-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/has-language> <http://www.w3.org/2000/01/rdf-schema#label> "Has language" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/has-language> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/has-language> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://www.w3.org/2000/01/rdf-schema#label> "Pagescan" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/pagescan> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/getty-lod-equiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/getty-lod-equiv> <http://www.w3.org/2000/01/rdf-schema#label> "Getty LOD" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/getty-lod-equiv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/getty-lod-equiv> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/getty-lod-equiv> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "005links" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://www.w3.org/2000/01/rdf-schema#label> "Is part of" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "001top-005" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/pleiades-equiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/pleiades-equiv> <http://www.w3.org/2000/01/rdf-schema#label> "Pleiades" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/pleiades-equiv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/pleiades-equiv> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/pleiades-equiv> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "005links" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://www.w3.org/2000/01/rdf-schema#label> "Pompeii in Pictures" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/p-in-p-equiv> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "005links" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/wikidata-equiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/wikidata-equiv> <http://www.w3.org/2000/01/rdf-schema#label> "Wikidata" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/wikidata-equiv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/wikidata-equiv> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/wikidata-equiv> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "005links" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://www.w3.org/2000/01/rdf-schema#label> "Next" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/next> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "001top-002" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/see-also> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/see-also> <http://www.w3.org/2000/01/rdf-schema#label> "See also" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/see-also> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> <http://www.w3.org/2000/01/rdf-schema#label> "Sort order" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file> <http://www.w3.org/2000/01/rdf-schema#label> "Photo or drawing" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "001top-000" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> <http://www.w3.org/2000/01/rdf-schema#label> "Photo or drawing source" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> <http://www.w3.org/2000/01/rdf-schema#range> <http://digitalhumanities.umass.edu/p-lod/vocabulary/markdown-literal> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/visual-documentation-file-sources> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "001top-0001" .
