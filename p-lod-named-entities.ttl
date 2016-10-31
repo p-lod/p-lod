@@ -12,11 +12,11 @@
 p-lod-e:named-entities a p-lod-v:named-entity ;
    rdfs:label "Initial P-LOD Named Entities" .
 
-p-lod-e:pompeii a p-lod-v:named-entity ;
+p-lod-e:pompeii a p-lod-v:spatial-entity ;
    rdfs:label "Pompeii" ;
    p-lod-v:is-part-of p-lod-e:named-entities ;
-   p-lod-v:arachne-equiv <https://gazetteer.dainst.org/place/2338718> ;
-   p-lod-v:description "High level identifier for the concept of Pompeii." ;
+   p-lod-v:arachne-link <https://gazetteer.dainst.org/place/2338718> ;
+   p-lod-v:description "High level identifier for the Roman-period town and archaeological site of Pompeii." ;
    p-lod-v:edh-equiv <http://edh-www.adw.uni-heidelberg.de/edh/geographie/11925/karte> ;
    p-lod-v:pleiades-equiv <https://pleiades.stoa.org/places/433032> ;
    p-lod-v:wikidata-equiv <http://www.wikidata.org/entity/Q43332> ;
@@ -86,662 +86,774 @@ p-lod-e:r1-i1 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 1" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i2 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_01.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_01.htm> ;
+   p-lod-v:sort-order "r1-01" .
    
 p-lod-e:r1-i2 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 2" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i3 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_02.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_02.htm> ;
+   p-lod-v:sort-order "r1-02" .
    
 p-lod-e:r1-i3 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 3" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i4 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_03.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_03.htm> ;
+   p-lod-v:sort-order "r1-03" .
    
 p-lod-e:r1-i4 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 4" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i5 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_04.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_04.htm> ;
+   p-lod-v:sort-order "r1-04" .
    
 p-lod-e:r1-i5 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 5" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i6 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_05.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_05.htm> ;
+   p-lod-v:sort-order "r1-05" .
    
 p-lod-e:r1-i6 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 6" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i7 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_06.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_06.htm> ;
+   p-lod-v:sort-order "r1-06" .
    
 p-lod-e:r1-i7 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 7" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i8 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_07.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_07.htm> ;
+   p-lod-v:sort-order "r1-07" .
    
 p-lod-e:r1-i8 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 8" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i9 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_08.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_08.htm> ;
+   p-lod-v:sort-order "r1-08" .
    
 p-lod-e:r1-i9 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 9" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i10 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_09.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_09.htm> ;
+   p-lod-v:sort-order "r1-09" .
    
 p-lod-e:r1-i10 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 10" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i11 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_10.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_10.htm> ;
+   p-lod-v:sort-order "r1-10" .
    
 p-lod-e:r1-i11 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 11" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i12 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_11.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_11.htm> ;
+   p-lod-v:sort-order "r1-11" .
    
 p-lod-e:r1-i12 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 12" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i13 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_12.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_12.htm> ;
+   p-lod-v:sort-order "r1-12" .
    
 p-lod-e:r1-i13 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 13" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i14 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_14.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_14.htm> ;
+   p-lod-v:sort-order "r1-13" .
    
 p-lod-e:r1-i14 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 14" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i15 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_15.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_15.htm> ;
+   p-lod-v:sort-order "r1-14" .
    
 p-lod-e:r1-i15 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 15" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i16 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_16.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_16.htm> ;
+   p-lod-v:sort-order "r1-15" .
    
 p-lod-e:r1-i16 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 16" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i17 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_17.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_17.htm> ;
+   p-lod-v:sort-order "r1-16" .
    
 p-lod-e:r1-i17 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 17" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i18 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_18.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_18.htm> ;
+   p-lod-v:sort-order "r1-17" .
    
 p-lod-e:r1-i18 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 18" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i19 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_19.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_19.htm> ;
+   p-lod-v:sort-order "r1-18" .
    
 p-lod-e:r1-i19 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 19" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i20 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_19.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_19.htm> ;
+   p-lod-v:sort-order "r1-19" .
    
 p-lod-e:r1-i20 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 20" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i21 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_20.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_20.htm> ;
+   p-lod-v:sort-order "r1-20" .
    
 p-lod-e:r1-i21 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 21" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i22 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_21.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_21.htm> ;
+   p-lod-v:sort-order "r1-21" .
    
 p-lod-e:r1-i22 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 22" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
    p-lod-v:next p-lod-e:r1-i23 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_22.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_22.htm> ;
+   p-lod-v:sort-order "r1-22" .
    
 p-lod-e:r1-i23 a p-lod-v:insula ;
    rdfs:label "Pompeii Region I, Insula 23" ;
    p-lod-v:is-part-of p-lod-e:r1 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_23.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_1_23.htm> ;
+   p-lod-v:sort-order "r1-23" .
    
 p-lod-e:r2-i1 a p-lod-v:insula ;
    rdfs:label "Pompeii Region II, Insula 1" ;
    p-lod-v:is-part-of p-lod-e:r2 ;
    p-lod-v:next p-lod-e:r2-i2 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_01.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_01.htm> ;
+   p-lod-v:sort-order "r2-1" .
    
 p-lod-e:r2-i2 a p-lod-v:insula ;
    rdfs:label "Pompeii Region II, Insula 2" ;
    p-lod-v:is-part-of p-lod-e:r2 ;
    p-lod-v:next p-lod-e:r2-i3 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_02.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_02.htm> ;
+   p-lod-v:sort-order "r2-2" .
    
 p-lod-e:r2-i3 a p-lod-v:insula ;
    rdfs:label "Pompeii Region II, Insula 3" ;
    p-lod-v:is-part-of p-lod-e:r2 ;
    p-lod-v:next p-lod-e:r2-i4 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_03.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_03.htm> ;
+   p-lod-v:sort-order "r2-3" .
    
 p-lod-e:r2-i4 a p-lod-v:insula ;
    rdfs:label "Pompeii Region II, Insula 4" ;
    p-lod-v:is-part-of p-lod-e:r2 ;
    p-lod-v:next p-lod-e:r2-i5 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_04.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_04.htm> ;
+   p-lod-v:sort-order "r2-4" .
    
 p-lod-e:r2-i5 a p-lod-v:insula ;
    rdfs:label "Pompeii Region II, Insula 5" ;
    p-lod-v:is-part-of p-lod-e:r2 ;
    p-lod-v:next p-lod-e:r2-i6 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_05.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_05.htm> ;
+   p-lod-v:sort-order "r2-5" .
    
 p-lod-e:r2-i6 a p-lod-v:insula ;
    rdfs:label "Pompeii Region II, Insula 6" ;
    p-lod-v:is-part-of p-lod-e:r2 ;
    p-lod-v:next p-lod-e:r2-i7 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/R2/2%2006%2000%20p1.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/R2/2%2006%2000%20p1.htm> ;
+   p-lod-v:sort-order "r2-6" .
    
 p-lod-e:r2-i7 a p-lod-v:insula ;
    rdfs:label "Pompeii Region II, Insula 7" ;
    p-lod-v:is-part-of p-lod-e:r2 ;
    p-lod-v:next p-lod-e:r2-i8 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_07.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_07.htm> ;
+   p-lod-v:sort-order "r2-7" .
    
 p-lod-e:r2-i8 a p-lod-v:insula ;
    rdfs:label "Pompeii Region II, Insula 8" ;
    p-lod-v:is-part-of p-lod-e:r2 ;
    p-lod-v:next p-lod-e:r2-i9 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_08.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_08.htm> ;
+   p-lod-v:sort-order "r2-8" .
    
 p-lod-e:r2-i9 a p-lod-v:insula ;
    rdfs:label "Pompeii Region II, Insula 9" ;
    p-lod-v:is-part-of p-lod-e:r2 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_09.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_2_09.htm> ;
+   p-lod-v:sort-order "r2-9" .
    
 p-lod-e:r3-i1 a p-lod-v:insula ;
    rdfs:label "Pompeii Region III, Insula 1" ;
    p-lod-v:is-part-of p-lod-e:r3 ;
    p-lod-v:next p-lod-e:r3-i2 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_01.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_01.htm> ;
+   p-lod-v:sort-order "r3-01" .
    
 p-lod-e:r3-i2 a p-lod-v:insula ;
    rdfs:label "Pompeii Region III, Insula 2" ;
    p-lod-v:is-part-of p-lod-e:r3 ;
    p-lod-v:next p-lod-e:r3-i3 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_02.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_02.htm> ;
+   p-lod-v:sort-order "r3-02"  .
    
 p-lod-e:r3-i3 a p-lod-v:insula ;
    rdfs:label "Pompeii Region III, Insula 3" ;
    p-lod-v:is-part-of p-lod-e:r3 ;
    p-lod-v:next p-lod-e:r3-i4 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_03.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_03.htm> ;
+   p-lod-v:sort-order "r3-03"  .
    
 p-lod-e:r3-i4 a p-lod-v:insula ;
    rdfs:label "Pompeii Region III, Insula 4" ;
    p-lod-v:is-part-of p-lod-e:r3 ;
    p-lod-v:next p-lod-e:r3-i5 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_04.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_04.htm> ;
+   p-lod-v:sort-order "r3-04" .
    
 p-lod-e:r3-i5 a p-lod-v:insula ;
    rdfs:label "Pompeii Region III, Insula 5" ;
    p-lod-v:is-part-of p-lod-e:r3 ;
    p-lod-v:next p-lod-e:r3-i6 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_05.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_05.htm> ;
+   p-lod-v:sort-order "r3-05" .
 
 p-lod-e:r3-i6 a p-lod-v:insula ;
    rdfs:label "Pompeii Region III, Insula 6" ;
    p-lod-v:is-part-of p-lod-e:r3 ;
    p-lod-v:next p-lod-e:r3-i7 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_06.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_06.htm> ;
+   p-lod-v:sort-order "r3-06" .
    
 p-lod-e:r3-i7 a p-lod-v:insula ;
    rdfs:label "Pompeii Region III, Insula 7" ;
    p-lod-v:is-part-of p-lod-e:r3 ;
    p-lod-v:next p-lod-e:r3-i8 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_07.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_07.htm> ;
+   p-lod-v:sort-order "r3-07" .
    
 p-lod-e:r3-i8 a p-lod-v:insula ;
    rdfs:label "Pompeii Region III, Insula 8" ;
    p-lod-v:is-part-of p-lod-e:r3 ;
    p-lod-v:next p-lod-e:r3-i9 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_08.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_08.htm> ;
+   p-lod-v:sort-order "r3-08" .
    
 p-lod-e:r3-i9 a p-lod-v:insula ;
    rdfs:label "Pompeii Region III, Insula 9" ;
    p-lod-v:is-part-of p-lod-e:r3 ;
    p-lod-v:next p-lod-e:r3-i10 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_09.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_09.htm> ;
+   p-lod-v:sort-order "r3-09" .
    
 p-lod-e:r3-i10 a p-lod-v:insula ;
    rdfs:label "Pompeii Region III, Insula 10" ;
    p-lod-v:is-part-of p-lod-e:r3 ;
    p-lod-v:next p-lod-e:r3-i11 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_10.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_10.htm> ;
+   p-lod-v:sort-order "r3-10" .
    
 p-lod-e:r3-i11 a p-lod-v:insula ;
    rdfs:label "Pompeii Region III, Insula 11" ;
    p-lod-v:is-part-of p-lod-e:r3 ;
    p-lod-v:next p-lod-e:r3-i12 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_11.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_11.htm> ;
+   p-lod-v:sort-order "r3-11" .
    
 p-lod-e:r3-i12 a p-lod-v:insula ;
    rdfs:label "Pompeii Region III, Insula 12" ;
    p-lod-v:is-part-of p-lod-e:r3 ;
    p-lod-v:next p-lod-e:r3-i13 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_12.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_12.htm> ;
+   p-lod-v:sort-order "r3-12" .
    
 p-lod-e:r3-i13 a p-lod-v:insula ;
    rdfs:label "Pompeii Region III, Insula 13" ;
    p-lod-v:is-part-of p-lod-e:r3 ;
    p-lod-v:next p-lod-e:r3-i14 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_13.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_13.htm> ;
+   p-lod-v:sort-order "r3-13" .
    
 p-lod-e:r3-i14 a p-lod-v:insula ;
    rdfs:label "Pompeii Region III, Insula 14" ;
    p-lod-v:is-part-of p-lod-e:r3 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_14.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_3_14.htm> ;
+   p-lod-v:sort-order "r3-14" .
 
 p-lod-e:r4-i1 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IV, Insula 1" ;
    p-lod-v:is-part-of p-lod-e:r4 ;
    p-lod-v:next p-lod-e:r4-i2 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_01.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_01.htm> ;
+   p-lod-v:sort-order "r4-1" .
    
 p-lod-e:r4-i2 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IV, Insula 2" ;
    p-lod-v:is-part-of p-lod-e:r4 ;
    p-lod-v:next p-lod-e:r4-i3 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_02.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_02.htm> ;
+   p-lod-v:sort-order "r4-2" .
    
 p-lod-e:r4-i3 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IV, Insula 3" ;
    p-lod-v:is-part-of p-lod-e:r4 ;
    p-lod-v:next p-lod-e:r4-i4 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_03.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_03.htm> ;
+   p-lod-v:sort-order "r4-3" .
    
 p-lod-e:r4-i4 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IV, Insula 4" ;
    p-lod-v:is-part-of p-lod-e:r4 ;
    p-lod-v:next p-lod-e:r4-i5 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_04.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_04.htm> ;
+   p-lod-v:sort-order "r4-4" .
    
 p-lod-e:r4-i5 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IV, Insula 5" ;
    p-lod-v:is-part-of p-lod-e:r4 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_05.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_4_05.htm> ;
+   p-lod-v:sort-order "r4-5" .
 
 p-lod-e:r5-i1 a p-lod-v:insula ;
    rdfs:label "Pompeii Region V, Insula 1" ;
    p-lod-v:is-part-of p-lod-e:r5 ;
    p-lod-v:next p-lod-e:r5-i2 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_01.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_01.htm> ;
+   p-lod-v:sort-order "r5-1" .
    
 p-lod-e:r5-i2 a p-lod-v:insula ;
    rdfs:label "Pompeii Region V, Insula 2" ;
    p-lod-v:is-part-of p-lod-e:r5 ;
    p-lod-v:next p-lod-e:r5-i3 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_02.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_02.htm> ;
+   p-lod-v:sort-order "r5-2" .
 
 p-lod-e:r5-i3 a p-lod-v:insula ;
    rdfs:label "Pompeii Region V, Insula 3" ;
    p-lod-v:is-part-of p-lod-e:r5 ;
    p-lod-v:next p-lod-e:r5-i4 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_03.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_03.htm> ;
+   p-lod-v:sort-order "r5-3" .
    
 p-lod-e:r5-i4 a p-lod-v:insula ;
    rdfs:label "Pompeii Region V, Insula 4" ;
    p-lod-v:is-part-of p-lod-e:r5 ;
    p-lod-v:next p-lod-e:r5-i5 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_04.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_04.htm> ;
+   p-lod-v:sort-order "r5-4" .
    
 p-lod-e:r5-i5 a p-lod-v:insula ;
    rdfs:label "Pompeii Region V, Insula 5" ;
    p-lod-v:is-part-of p-lod-e:r5 ;
    p-lod-v:next p-lod-e:r5-i6 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_05.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_05.htm> ;
+   p-lod-v:sort-order "r5-5" .
 
 p-lod-e:r5-i6 a p-lod-v:insula ;
    rdfs:label "Pompeii Region V, Insula 6" ;
    p-lod-v:is-part-of p-lod-e:r5 ;
    p-lod-v:next p-lod-e:r5-i7 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_06.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_06.htm> ;
+   p-lod-v:sort-order "r5-6" .
    
 p-lod-e:r5-i7 a p-lod-v:insula ;
    rdfs:label "Pompeii Region V, Insula 7" ;
    p-lod-v:is-part-of p-lod-e:r5 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_07.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_5_07.htm> ;
+   p-lod-v:sort-order "r5-7" .
 
 p-lod-e:r6-i1 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 1" ;
    p-lod-v:next p-lod-e:r6-i2 ;
    p-lod-v:is-part-of p-lod-e:r6 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_01.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_01.htm> ;
+   p-lod-v:sort-order "r6-01"  .
    
 p-lod-e:r6-i2 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 2" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
    p-lod-v:next p-lod-e:r6-i3 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_02.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_02.htm> ;
+   p-lod-v:sort-order "r6-02" .
    
 p-lod-e:r6-i3 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 3" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
    p-lod-v:next p-lod-e:r6-i4 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_03.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_03.htm> ;
+   p-lod-v:sort-order "r6-03" .
    
 p-lod-e:r6-i4 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 4" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
    p-lod-v:next p-lod-e:r6-i5 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_04.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_04.htm> ;
+   p-lod-v:sort-order "r6-04" .
    
 p-lod-e:r6-i5 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 5" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
    p-lod-v:next p-lod-e:r6-i6 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_05.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_05.htm> ;
+   p-lod-v:sort-order "r6-05" .
    
 p-lod-e:r6-i6 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 6" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
    p-lod-v:next p-lod-e:r6-i7 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_06.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_06.htm> ;
+   p-lod-v:sort-order "r6-06" .
    
 p-lod-e:r6-i7 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 7" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
    p-lod-v:next p-lod-e:r6-i8 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_07.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_07.htm> ;
+   p-lod-v:sort-order "r6-07" .
    
 p-lod-e:r6-i8 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 8" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
    p-lod-v:next p-lod-e:r6-i9 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_08.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_08.htm> ;
+   p-lod-v:sort-order "r6-08" .
    
 p-lod-e:r6-i9 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 9" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
    p-lod-v:next p-lod-e:r6-i10 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_09.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_09.htm> ;
+   p-lod-v:sort-order "r6-09" .
    
 p-lod-e:r6-i10 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 10" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
    p-lod-v:next p-lod-e:r6-i11 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_10.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_10.htm> ;
+   p-lod-v:sort-order "r6-10" .
    
 p-lod-e:r6-i11 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 11" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
    p-lod-v:next p-lod-e:r6-i12 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_11.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_11.htm> ;
+   p-lod-v:sort-order "r6-11" .
    
 p-lod-e:r6-i12 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 12" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
    p-lod-v:next p-lod-e:r6-i13 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_12.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_12.htm> ;
+   p-lod-v:sort-order "r6-12" .
    
 p-lod-e:r6-i13 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 13" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
    p-lod-v:next p-lod-e:r6-i14 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_13.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_13.htm> ;
+   p-lod-v:sort-order "r6-13" .
    
 p-lod-e:r6-i14 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 14" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
    p-lod-v:next p-lod-e:r6-i15 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_14.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_14.htm> ;
+   p-lod-v:sort-order "r6-14" .
    
 p-lod-e:r6-i15 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 15" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
    p-lod-v:next p-lod-e:r6-i16 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_15.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_15.htm> ;
+   p-lod-v:sort-order "r6-15" .
    
 p-lod-e:r6-i16 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 16" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
    p-lod-v:next p-lod-e:r6-i17 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_17.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_17.htm> ;
+   p-lod-v:sort-order "r6-16" .
    
 p-lod-e:r6-i17 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VI, Insula 17" ;
    p-lod-v:is-part-of p-lod-e:r6 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_17.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_6_17.htm> ;
+   p-lod-v:sort-order "r6-17" .
 
 p-lod-e:r7-i1 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 1" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
    p-lod-v:next p-lod-e:r7-i2 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_01.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_01.htm> ;
+   p-lod-v:sort-order "r7-01"  .
    
 p-lod-e:r7-i2 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 2" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
    p-lod-v:next p-lod-e:r7-i3 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_02.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_02.htm> ;
+   p-lod-v:sort-order "r7-02" .
    
 p-lod-e:r7-i3 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 3" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
    p-lod-v:next p-lod-e:r7-i4 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_03.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_03.htm> ;
+   p-lod-v:sort-order "r7-03" .
    
 p-lod-e:r7-i4 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 4" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
    p-lod-v:next p-lod-e:r7-i5 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_04.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_04.htm> ;
+   p-lod-v:sort-order "r7-04" .
    
 p-lod-e:r7-i5 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 5" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
    p-lod-v:next p-lod-e:r7-i6 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_05.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_05.htm> ;
+   p-lod-v:sort-order "r7-05" .
    
 p-lod-e:r7-i6 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 6" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
    p-lod-v:next p-lod-e:r7-i7 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_06.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_06.htm> ;
+   p-lod-v:sort-order "r7-06" .
    
 p-lod-e:r7-i7 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 7" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
    p-lod-v:next p-lod-e:r7-i8  ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_07.htm>  .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_07.htm> ;
+   p-lod-v:sort-order "r7-07"  .
    
 p-lod-e:r7-i8 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 8" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
    p-lod-v:next p-lod-e:r7-i9 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_08.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_08.htm> ;
+   p-lod-v:sort-order "r7-08" .
    
 p-lod-e:r7-i9 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 9" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
    p-lod-v:next p-lod-e:r7-i10 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_09.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_09.htm> ;
+   p-lod-v:sort-order "r7-09" .
    
 p-lod-e:r7-i10 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 10" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
    p-lod-v:next p-lod-e:r7-i11 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_10.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_10.htm> ;
+   p-lod-v:sort-order "r7-10" .
    
 p-lod-e:r7-i11 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 11" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
    p-lod-v:next p-lod-e:r7-i12 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_11.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_11.htm> ;
+   p-lod-v:sort-order "r7-11" .
    
 p-lod-e:r7-i12 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 12" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
    p-lod-v:next p-lod-e:r7-i13 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_12.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_12.htm> ;
+   p-lod-v:sort-order "r7-12" .
    
 p-lod-e:r7-i13 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 13" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
    p-lod-v:next p-lod-e:r7-i14 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_13.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_13.htm> ;
+   p-lod-v:sort-order "r7-13" .
    
 p-lod-e:r7-i14 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 14" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
    p-lod-v:next p-lod-e:r7-i15 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_14.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_14.htm> ;
+   p-lod-v:sort-order "r7-14" .
    
 p-lod-e:r7-i15 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 15" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_15.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_15.htm> ;
+   p-lod-v:sort-order "r7-15" .
    
 p-lod-e:r7-i16 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VII, Insula 16" ;
    p-lod-v:is-part-of p-lod-e:r7 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_16.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_7_16.htm> ;
+   p-lod-v:sort-order "r7-16" .
 
 p-lod-e:r8-i1 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VIII, Insula 1" ;
    p-lod-v:is-part-of p-lod-e:r8 ;
    p-lod-v:next p-lod-e:r8-i2  ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_8_01.htm>.
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_8_01.htm> ;
+   p-lod-v:sort-order "r8-1" .
    
 p-lod-e:r8-i2 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VIII, Insula 2" ;
    p-lod-v:is-part-of p-lod-e:r8 ;
    p-lod-v:next p-lod-e:r8-i3  ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_8_02.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_8_02.htm> ;
+   p-lod-v:sort-order "r8-2" .
    
 p-lod-e:r8-i3 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VIII, Insula 3" ;
    p-lod-v:is-part-of p-lod-e:r8 ;
    p-lod-v:next p-lod-e:r8-i4  ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_8_03.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_8_03.htm> ;
+   p-lod-v:sort-order "r8-3" .
    
 p-lod-e:r8-i4 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VIII, Insula 4" ;
    p-lod-v:is-part-of p-lod-e:r8 ;
    p-lod-v:next p-lod-e:r8-i5  ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_8_04.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_8_04.htm> ;
+   p-lod-v:sort-order "r8-4" .
    
 p-lod-e:r8-i5 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VIII, Insula 5" ;
    p-lod-v:is-part-of p-lod-e:r8 ;
    p-lod-v:next p-lod-e:r8-i6   ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_8_05.htm>.
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_8_05.htm> ;
+   p-lod-v:sort-order "r8-5" .
    
 p-lod-e:r8-i6 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VIII, Insula 6" ;
    p-lod-v:is-part-of p-lod-e:r8 ;
    p-lod-v:next p-lod-e:r8-i7  ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_8_06.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_8_06.htm> ;
+   p-lod-v:sort-order "r8-6" .
    
 p-lod-e:r8-i7 a p-lod-v:insula ;
    rdfs:label "Pompeii Region VIII, Insula 7" ;
    p-lod-v:is-part-of p-lod-e:r8  ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_8_07.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_8_07.htm> ;
+   p-lod-v:sort-order "r8-7" .
 
 p-lod-e:r9-i1 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IX, Insula 1" ;
    p-lod-v:is-part-of p-lod-e:r9 ;
    p-lod-v:next p-lod-e:r9-i2  ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_01.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_01.htm> ;
+   p-lod-v:sort-order "r9-01" .
    
 p-lod-e:r9-i2 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IX, Insula 2" ;
    p-lod-v:is-part-of p-lod-e:r9 ;
    p-lod-v:next p-lod-e:r9-i3  ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_02.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_02.htm> ;
+   p-lod-v:sort-order "r9-02" .
    
 p-lod-e:r9-i3 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IX, Insula 3" ;
    p-lod-v:is-part-of p-lod-e:r9 ;
    p-lod-v:next p-lod-e:r9-i4  ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_03.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_03.htm> ;
+   p-lod-v:sort-order "r9-03" .
    
 p-lod-e:r9-i4 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IX, Insula 4" ;
    p-lod-v:is-part-of p-lod-e:r9 ;
    p-lod-v:next p-lod-e:r9-i5 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_04.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_04.htm> ;
+   p-lod-v:sort-order "r9-04" .
    
 p-lod-e:r9-i5 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IX, Insula 5" ;
    p-lod-v:is-part-of p-lod-e:r9 ;
    p-lod-v:next p-lod-e:r9-i6 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_05.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_05.htm> ;
+   p-lod-v:sort-order "r9-05" .
    
 p-lod-e:r9-i6 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IX, Insula 6" ;
    p-lod-v:is-part-of p-lod-e:r9 ;
    p-lod-v:next p-lod-e:r9-i7 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_06.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_06.htm> ;
+   p-lod-v:sort-order "r9-06" .
    
 p-lod-e:r9-i7 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IX, Insula 7" ;
    p-lod-v:is-part-of p-lod-e:r9 ;
    p-lod-v:next p-lod-e:r9-i8 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_07.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_07.htm> ;
+   p-lod-v:sort-order "r9-07" .
    
 p-lod-e:r9-i8 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IX, Insula 8" ;
    p-lod-v:is-part-of p-lod-e:r9 ;
    p-lod-v:next p-lod-e:r9-i9 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_08.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_08.htm> ;
+   p-lod-v:sort-order "r9-08" .
    
 p-lod-e:r9-i9 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IX, Insula 9" ;
    p-lod-v:is-part-of p-lod-e:r9 ;
    p-lod-v:next p-lod-e:r9-i10 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_09.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_09.htm> ;
+   p-lod-v:sort-order "r9-09" .
    
 p-lod-e:r9-i10 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IX, Insula 10" ;
    p-lod-v:is-part-of p-lod-e:r9 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_10.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_10.htm> ;
+   p-lod-v:sort-order "r9-10" .
    
 p-lod-e:r9-i11 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IX, Insula 11" ;
    p-lod-v:is-part-of p-lod-e:r9 ;
    p-lod-v:next p-lod-e:r9-i11 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_11.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_11.htm> ;
+   p-lod-v:sort-order "r9-11" .
    
 p-lod-e:r9-i12 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IX, Insula 12" ;
    p-lod-v:is-part-of p-lod-e:r9 ;
    p-lod-v:next p-lod-e:r9-i13 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_12.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_12.htm> ;
+   p-lod-v:sort-order "r9-12" .
    
 p-lod-e:r9-i13 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IX, Insula 13" ;
    p-lod-v:is-part-of p-lod-e:r9 ;
    p-lod-v:next p-lod-e:r9-i14 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_13.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_13.htm> ;
+   p-lod-v:sort-order "r9-13" .
    
 p-lod-e:r9-i14 a p-lod-v:insula ;
    rdfs:label "Pompeii Region IX, Insula 14" ;
    p-lod-v:is-part-of p-lod-e:r9 ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_14.htm> .
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Plans/plan_9_14.htm> ;
+   p-lod-v:sort-order "r9-14" .
 
 # PROPERTIES (p-lod-v:property)
 
@@ -840,12 +952,14 @@ p-lod-e:r1-i1-d10 a p-lod-v:doorway ;
    rdfs:label "Doorway 10 of Region I, Insula 1" ;
    p-lod-v:is-part-of p-lod-e:r1-i1-p1 , p-lod-e:r1-i1-p1-rm.f .
 
+
 # GATES
 
 p-lod-e:porta-nola a p-lod-v:city-gate ;
    rdfs:label "Porta Nola" ;
    p-lod-v:is-part-of p-lod-e:city-wall ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Nola.htm> ;
+   p-lod-v:pleiades-equiv <https://pleiades.stoa.org/places/11924823> ;
    p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pompeji-via-di-nola.JPG/1024px-Pompeji-via-di-nola.JPG" ;
    p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:Pompeji-via-di-nola.JPG)" .
 
@@ -858,6 +972,7 @@ p-lod-e:porta-nocera a p-lod-v:city-gate ;
    rdfs:label "Porta Nocera" ;
    p-lod-v:is-part-of p-lod-e:city-wall ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Nuceria.htm> ;
+   p-lod-v:pleiades-equiv <https://pleiades.stoa.org/places/11924821> ;
    p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Pompeii_2014.JPG/1024px-Pompeii_2014.JPG" ;
    p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:Pompeii_2014.JPG)" .
    
@@ -865,6 +980,7 @@ p-lod-e:porta-stabia a p-lod-v:city-gate ;
    rdfs:label "Porta Stabia" ;
    p-lod-v:is-part-of p-lod-e:city-wall;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Stabian.htm> ;
+   p-lod-v:pleiades-equiv <https://pleiades.stoa.org/places/260329425> ;
    p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Pompeii_street08.jpg/1024px-Pompeii_street08.jpg" ;
    p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Pompeii_street08.jpg/1024px-Pompeii_street08.jpg)".
 
@@ -872,15 +988,17 @@ p-lod-e:porta-marina a p-lod-v:city-gate ;
    rdfs:label "Porta Marina" ;
    p-lod-v:is-part-of p-lod-e:city-wall ;
    p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Marine.htm> ;
+   p-lod-v:pleiades-equiv <https://pleiades.stoa.org/places/615138225> ;
    p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Pompei_2012_%288057057228%29.jpg/1024px-Pompei_2012_%288057057228%29.jpg" ;
    p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:Pompei_2012_(8057057228).jpg)" .
 
 p-lod-e:porta-ercolano a p-lod-v:city-gate ;
    rdfs:label "Porta Ercolano" ;
    p-lod-v:is-part-of p-lod-e:city-wall ;
-   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Ercolano.htm> ;
    p-lod-v:latitude 40.751823 ;
    p-lod-v:longitude 14.481116 ;
+   p-lod-v:p-in-p-equiv <http://pompeiiinpictures.com/pompeiiinpictures/Gates/Gate%20Ercolano.htm> ;
+   p-lod-v:pleiades-equiv <https://pleiades.stoa.org/places/797109353> ;
    p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/The_Streets_of_Pompeii_%2814842927849%29.jpg/640px-The_Streets_of_Pompeii_%2814842927849%29.jpg" ;
    p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:The_Streets_of_Pompeii_\(14842927849\).jpg)".
 
@@ -1166,27 +1284,42 @@ p-lod-e:via-degli-augustali a p-lod-v:street ;
 p-lod-e:first-style a p-lod-v:wall-painting-style ;
     rdfs:label "First Style" ;
     p-lod-v:is-part-of p-lod-e:named-entities ;
-    p-lod-v:getty-lod-equiv <http://vocab.getty.edu/aat/300020607> .
+    p-lod-v:getty-lod-equiv <http://vocab.getty.edu/aat/300020607> ;
+    p-lod-v:next p-lod-e:second-style ;
+    p-lod-v:sort-order "style1" ;
+    p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/A_cubiculum_decorated_in_the_first_style_with_bands_of_stucco_in_the_House_of_the_Ship_Europa%2C_Pompeii_%2815143252086%29.jpg/509px-A_cubiculum_decorated_in_the_first_style_with_bands_of_stucco_in_the_House_of_the_Ship_Europa%2C_Pompeii_%2815143252086%29.jpg" ;
+    p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:A_cubiculum_decorated_in_the_first_style_with_bands_of_stucco_in_the_House_of_the_Ship_Europa,_Pompeii_(15143252086).jpg)" .
 
 p-lod-e:second-style a p-lod-v:wall-painting-style ;
     rdfs:label "Second Style" ;
     p-lod-v:is-part-of p-lod-e:named-entities ;
-    p-lod-v:getty-lod-equiv <http://vocab.getty.edu/aat/300020609> .
+    p-lod-v:getty-lod-equiv <http://vocab.getty.edu/aat/300020609> ;
+    p-lod-v:next p-lod-e:third-style ;
+    p-lod-v:sort-order "style2"  ;
+    p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Metropolitan_wall_painting_Roman_1C_BC_3.jpg/1024px-Metropolitan_wall_painting_Roman_1C_BC_3.jpg" ;
+    p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:Metropolitan_wall_painting_Roman_1C_BC_3.jpg)".
 
 p-lod-e:third-style a p-lod-v:wall-painting-style ;
     rdfs:label "Third Style" ;
     p-lod-v:is-part-of p-lod-e:named-entities ;
-    p-lod-v:getty-lod-equiv <http://vocab.getty.edu/aat/300020611> .
+    p-lod-v:getty-lod-equiv <http://vocab.getty.edu/aat/300020611> ;
+    p-lod-v:next p-lod-e:fourth-style ;
+    p-lod-v:sort-order "style3"  ;
+    p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Pompeji_Casa_Di_Octavio_Quartio_Wall.jpg/859px-Pompeji_Casa_Di_Octavio_Quartio_Wall.jpg" ;
+    p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:Pompeji_Casa_Di_Octavio_Quartio_Wall.jpg)" .
 
 p-lod-e:fourth-style a p-lod-v:wall-painting-style ;
     rdfs:label "Fourth Style" ;
     p-lod-v:is-part-of p-lod-e:named-entities ;
-    p-lod-v:getty-lod-equiv <http://vocab.getty.edu/aat/300020613> .
+    p-lod-v:getty-lod-equiv <http://vocab.getty.edu/aat/300020613> ;
+    p-lod-v:sort-order "style4"  ;
+    p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Pompeji_Casa_Dei_Vettii_Hercules_Child.jpg/515px-Pompeji_Casa_Dei_Vettii_Hercules_Child.jpg" ;
+    p-lod-v:visual-documentation-file-sources "[Wikimedia commons](https://commons.wikimedia.org/wiki/File:Pompeji_Casa_Dei_Vettii_Hercules_Child.jpg)" .
     
 
 # CITY WALL & TOWERS
 
-p-lod-e:city-wall a p-lod-v:named-entity ;
+p-lod-e:city-wall a p-lod-v:spatial-entity ;
     rdfs:label "City Wall of Pompeii" ;
     p-lod-v:is-part-of p-lod-e:pompeii ;
     p-lod-v:visual-documentation-file "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Torre_di_Mercurio.JPG/1024px-Torre_di_Mercurio.JPG" ;
@@ -1275,7 +1408,7 @@ p-lod-e:tower12 a p-lod-v:tower ;
 p-lod-e:cil-iv a p-lod-v:bibliographic-resource ;
     rdfs:label "CIL IV" ;
     p-lod-v:is-part-of p-lod-e:named-entities ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buch/2688> ;
+    p-lod-v:arachne-link <http://arachne.uni-koeln.de/item/buch/2688> ;
     p-lod-v:description "Zangemeister, K. F. W., & Schöne, R. (1871). <i>Corpus inscriptionum latinarum</i>: Vol. 4. Berolini: Apud Georgium Reimerum." .
 
 p-lod-e:cil-iv-0001 a p-lod-v:cil-inscription ;
@@ -10336,6 +10469,7 @@ p-lod-e:cil-iv-1763 a p-lod-v:cil-inscription ;
 
 p-lod-e:cil-iv-1764 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 1764" ;
+    p-lod-v:europeana-link <http://www.europeana.eu/portal/en/record/2058806/EDR__7c8cd8f5ba0e5be4d134af6ff0aff092__artifact__cho> ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
     p-lod-v:has-language p-lod-e:latin-language .
 
@@ -12252,121 +12386,121 @@ p-lod-e:cil-iv-2146 a p-lod-v:cil-inscription ;
 p-lod-e:cil-iv-2147 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2147" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2148 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2148" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2149 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2149" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2150 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2150" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2151 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2151" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2152 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2152" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2153 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2153" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2154 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2154" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2155 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2155" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2156 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2156" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2157 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2157" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2158 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2158" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2159 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2159" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2160 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2160" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2161 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2161" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2162 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2162" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2163 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2163" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2164 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2164" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:greek-language .
 
 p-lod-e:cil-iv-2165 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2165" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 p-lod-e:cil-iv-2165a a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 2165a" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv <http://arachne.uni-koeln.de/item/buchseite/555017> ;
+    p-lod-v:pagescan <http://arachne.uni-koeln.de/item/buchseite/555017> ;
     p-lod-v:has-language p-lod-e:latin-language .
 
 
@@ -16022,13 +16156,13 @@ p-lod-e:cil-iv-3556 a p-lod-v:cil-inscription ;
 p-lod-e:cil-iv-4961 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 4961" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv "http://arachne.uni-koeln.de/item/buchseite/555385" ;
+    p-lod-v:pagescan "http://arachne.uni-koeln.de/item/buchseite/555385" ;
     p-lod-v:has-language p-lod-e:old-arabic-language .
     
 p-lod-e:cil-iv-4962 a p-lod-v:cil-inscription ;
     rdfs:label "CIL IV 4962" ;
     p-lod-v:is-part-of p-lod-e:cil-iv ;
-    p-lod-v:arachne-equiv "http://arachne.uni-koeln.de/item/buchseite/555385" ;
+    p-lod-v:pagescan "http://arachne.uni-koeln.de/item/buchseite/555385" ;
     p-lod-v:has-language p-lod-e:old-arabic-language .
 
 

@@ -9,7 +9,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-dcterms:isPartOf rdfs:label "Is part of" .
 owl:Class rdfs:label "Category/class of entity" .
 owl:DatatypeProperty rdfs:label "Data Property" .
 owl:ObjectProperty rdfs:label "Object Property" .
@@ -19,18 +18,17 @@ rdf:type rdfs:label "Type" ;
 rdfs:comment rdfs:label "Comment or description" .
 rdfs:domain rdfs:label "RDF Domain" .
 rdfs:range rdfs:label "RDF Range" .
-rdfs:subClassOf rdfs:label "Subclass of" .
+rdfs:subClassOf rdfs:label "RDF Subclass of" .
 
 
 # CLASSES
 
 p-lod-v:entity a owl:Class ;
-    rdfs:label "P-LOD Entity" ;
-    rdfs:subClassOf owl:NamedIndividual .
+    rdfs:label "P-LOD Entity" .
     
 p-lod-v:named-entity a owl:Class ;
     rdfs:label "P-LOD Named Entity" ;
-    rdfs:subClassOf  p-lod-v:entity .
+    rdfs:subClassOf  p-lod-v:entity, owl:NamedIndividual .
     
 p-lod-v:numbered-entity a owl:Class ;
     rdfs:label "P-LOD Numbered Entity" ;
@@ -51,15 +49,15 @@ p-lod-v:cil-inscription a owl:Class ;
 p-lod-v:city-gate a owl:Class ;
     rdfs:label "City gate" ;
     rdfs:comment "This class is used for the major city gates of Pompeii." ;
-    rdfs:subClassOf p-lod-v:named-entity .
+    rdfs:subClassOf p-lod-v:spatial-entity .
 
 p-lod-v:doorway a owl:Class ;
     rdfs:label "Doorway" ;
     rdfs:comment "This class is used for public facing entrances." ;
-    rdfs:subClassOf p-lod-v:named-entity .
+    rdfs:subClassOf p-lod-v:spatial-entity .
 
 p-lod-v:insula a owl:Class ;
-    rdfs:subClassOf p-lod-v:named-entity ;
+    rdfs:subClassOf p-lod-v:spatial-entity ;
     rdfs:label "Pompeian Insula" .
 
 p-lod-v:language a owl:Class ;
@@ -68,24 +66,29 @@ p-lod-v:language a owl:Class ;
 
 p-lod-v:property a owl:Class ;
     rdfs:label "Pompeian Property" ;
-    rdfs:subClassOf p-lod-v:named-entity .
+    rdfs:subClassOf p-lod-v:spatial-entity .
 
 p-lod-v:region a owl:Class ;
     rdfs:label "Pompeian Region" ;
-    rdfs:subClassOf p-lod-v:named-entity .
+    rdfs:subClassOf p-lod-v:spatial-entity .
 
 p-lod-v:room a owl:Class ;
     rdfs:label "Room" ;
+    rdfs:subClassOf p-lod-v:spatial-entity .
+    
+p-lod-v:spatial-entity a owl:Class ;
+    rdfs:label "Spatial entity" ;
+    rdfs:comment "A named entity that has a fixed physical location at Pompeii. Or Pompeii itself." ;
     rdfs:subClassOf p-lod-v:named-entity .
     
 p-lod-v:street a owl:Class ;
     rdfs:label "Street" ;
-    rdfs:subClassOf p-lod-v:named-entity .
+    rdfs:subClassOf p-lod-v:spatial-entity .
     
 p-lod-v:tower a owl:Class ;
     rdfs:label "Tower" ;
-    rdfs:comment "A tower that is part of the Pompeii's city wall." ;
-    rdfs:subClassOf p-lod-v:named-entity .
+    rdfs:comment "A tower that is part of Pompeii's city wall." ;
+    rdfs:subClassOf p-lod-v:spatial-entity .
 
 p-lod-v:wall-painting-style a owl:Class ;
     rdfs:label "Pompeian Wall Painting Style" ;
@@ -107,13 +110,18 @@ p-lod-v:longitude  a owl:DatatypeProperty ;
 
 # OBJECT PROPERTIES
 
-p-lod-v:arachne-equiv a owl:ObjectProperty ;
+p-lod-v:arachne-link a owl:ObjectProperty ;
     rdfs:label "Arachne" ;
     rdfs:domain p-lod-v:named-entity ;
     p-lod-v:sort-order "005links" .
     
 p-lod-v:edh-equiv a owl:ObjectProperty ;
     rdfs:label "Epigraphic Database Heidelberg" ;
+    rdfs:domain p-lod-v:named-entity ;
+    p-lod-v:sort-order "005links" .
+
+p-lod-v:europeana-link a owl:ObjectProperty ;
+    rdfs:label "Europeana" ;
     rdfs:domain p-lod-v:named-entity ;
     p-lod-v:sort-order "005links" .
 
@@ -158,6 +166,9 @@ p-lod-v:next a owl:AnnotationProperty ;
     
 p-lod-v:see-also a owl:AnnotationProperty ;
     rdfs:label "See also" .
+    
+p-lod-v:sort-order a owl:AnnotationProperty ;
+    rdfs:label "Sort order" .
 
 p-lod-v:visual-documentation-file a owl:AnnotationProperty ;
     rdfs:label "Photo or drawing" ;
