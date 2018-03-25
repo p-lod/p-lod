@@ -880,67 +880,67 @@ p-lod-e:r1-i1-p4 a p-lod-v:property ;
 p-lod-e:r1-i8-p1 a p-lod-v:property ;
    rdfs:label "Property I 8, 1" ;
    p-lod-v:is-part-of p-lod-e:r1-i8 ;
-   p-lod-v:hgp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/1> .
+   p-lod-v:agp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/1> .
    
 p-lod-e:r1-i8-p2 a p-lod-v:property ;
    rdfs:label "Property I 8, 2" ;
    p-lod-v:is-part-of p-lod-e:r1-i8 ;
-   p-lod-v:hgp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/2> .
+   p-lod-v:agp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/2> .
    
 p-lod-e:r1-i8-p3 a p-lod-v:property ;
    rdfs:label "Property I 8, 3" ;
    p-lod-v:is-part-of p-lod-e:r1-i8 ;
-   p-lod-v:hgp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/3> .
+   p-lod-v:agp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/3> .
 
 p-lod-e:r1-i8-p5 a p-lod-v:property ;
    rdfs:label "Property I 8, 5" ;
    p-lod-v:is-part-of p-lod-e:r1-i8 ;
-   p-lod-v:hgp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/5> .
+   p-lod-v:agp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/5> .
 
 p-lod-e:r1-i8-p8 a p-lod-v:property ;
    rdfs:label "Property I 8, 8" ;
    p-lod-v:is-part-of p-lod-e:r1-i8 ;
-   p-lod-v:hgp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/8>  .
+   p-lod-v:agp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/8>  .
 
 p-lod-e:r1-i8-p9 a p-lod-v:property ;
    rdfs:label "Property I 8, 9" ;
    p-lod-v:is-part-of p-lod-e:r1-i8 ;
-   p-lod-v:hgp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/9> .
+   p-lod-v:agp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/9> .
 
 p-lod-e:r1-i8-p10 a p-lod-v:property ;
    rdfs:label "Property I 8, 10" ;
    p-lod-v:is-part-of p-lod-e:r1-i8 ;
-   p-lod-v:hgp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/10>  .
+   p-lod-v:agp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/10>  .
 
 p-lod-e:r1-i8-p13 a p-lod-v:property ;
    rdfs:label "Property I 8, 13" ;
    p-lod-v:is-part-of p-lod-e:r1-i8 ;
-   p-lod-v:hgp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/13> .
+   p-lod-v:agp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/13> .
 
 p-lod-e:r1-i8-p14 a p-lod-v:property ;
    rdfs:label "Property I 8, 14" ;
    p-lod-v:is-part-of p-lod-e:r1-i8 ;
-   p-lod-v:hgp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/14>  .
+   p-lod-v:agp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/14>  .
 
 p-lod-e:r1-i8-p15 a p-lod-v:property ;
    rdfs:label "Property I 8, 15" ;
    p-lod-v:is-part-of p-lod-e:r1-i8 ;
-   p-lod-v:hgp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/15> .
+   p-lod-v:agp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/15> .
 
 p-lod-e:r1-i8-p16 a p-lod-v:property ;
    rdfs:label "Property I 8, 16" ;
    p-lod-v:is-part-of p-lod-e:r1-i8 ;
-   p-lod-v:hgp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/16>  .
+   p-lod-v:agp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/16>  .
 
 p-lod-e:r1-i8-p17 a p-lod-v:property ;
    rdfs:label "Property I 8, 17" ;
    p-lod-v:is-part-of p-lod-e:r1-i8 ;
-   p-lod-v:hgp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/17> .
+   p-lod-v:agp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/17> .
    
 p-lod-e:r1-i8-p18 a p-lod-v:property ;
    rdfs:label "Property I 8, 18" ;
    p-lod-v:is-part-of p-lod-e:r1-i8 ;
-   p-lod-v:hgp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/18> .
+   p-lod-v:agp-equiv <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/18> .
 
 
 

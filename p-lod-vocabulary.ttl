@@ -152,8 +152,8 @@ p-lod-v:getty-lod-equiv a owl:ObjectProperty ;
     rdfs:subPropertyOf p-lod-v:vocabulary-item ;
     p-lod-v:sort-order "005links" .
     
-p-lod-v:hgp-equiv a owl:ObjectProperty ;
-    rdfs:label "Herculaneum Graffiti Project" ;
+p-lod-v:agp-equiv a owl:ObjectProperty ;
+    rdfs:label "Ancient Graffiti Project" ;
     rdfs:domain p-lod-v:named-entity ;
     rdfs:subPropertyOf p-lod-v:vocabulary-item ;
     p-lod-v:sort-order "005links" .

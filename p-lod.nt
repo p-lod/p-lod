@@ -735,55 +735,55 @@
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p1> <http://www.w3.org/2000/01/rdf-schema#label> "Property I 8, 1" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p1> <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8> .
-<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p1> <http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/1> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p1> <http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/1> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p2> <http://www.w3.org/2000/01/rdf-schema#label> "Property I 8, 2" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p2> <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8> .
-<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p2> <http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/2> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p2> <http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/2> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p3> <http://www.w3.org/2000/01/rdf-schema#label> "Property I 8, 3" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p3> <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8> .
-<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p3> <http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/3> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p3> <http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/3> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p5> <http://www.w3.org/2000/01/rdf-schema#label> "Property I 8, 5" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p5> <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8> .
-<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p5> <http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/5> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p5> <http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/5> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p8> <http://www.w3.org/2000/01/rdf-schema#label> "Property I 8, 8" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p8> <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8> .
-<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p8> <http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/8> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p8> <http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/8> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p9> <http://www.w3.org/2000/01/rdf-schema#label> "Property I 8, 9" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p9> <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8> .
-<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p9> <http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/9> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p9> <http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/9> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p10> <http://www.w3.org/2000/01/rdf-schema#label> "Property I 8, 10" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p10> <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8> .
-<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p10> <http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/10> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p10> <http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/10> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p13> <http://www.w3.org/2000/01/rdf-schema#label> "Property I 8, 13" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p13> <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8> .
-<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p13> <http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/13> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p13> <http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/13> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p14> <http://www.w3.org/2000/01/rdf-schema#label> "Property I 8, 14" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p14> <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8> .
-<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p14> <http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/14> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p14> <http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/14> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p15> <http://www.w3.org/2000/01/rdf-schema#label> "Property I 8, 15" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p15> <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8> .
-<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p15> <http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/15> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p15> <http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/15> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p16> <http://www.w3.org/2000/01/rdf-schema#label> "Property I 8, 16" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p16> <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8> .
-<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p16> <http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/16> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p16> <http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/16> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p17> <http://www.w3.org/2000/01/rdf-schema#label> "Property I 8, 17" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p17> <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8> .
-<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p17> <http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/17> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p17> <http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/17> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/property> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p18> <http://www.w3.org/2000/01/rdf-schema#label> "Property I 8, 18" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p18> <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i8> .
-<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p18> <http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/18> .
+<http://digitalhumanities.umass.edu/p-lod/entities/r1-i8-p18> <http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://agp.wlu.edu/Graffiti/property/Pompeii/I.8/18> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p1-rm.a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://digitalhumanities.umass.edu/p-lod/vocabulary/room> .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p1-rm.a> <http://www.w3.org/2000/01/rdf-schema#label> "Property I 1, 1, room a" .
 <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p1-rm.a> <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://digitalhumanities.umass.edu/p-lod/entities/r1-i1-p1> .
@@ -16449,11 +16449,11 @@
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/getty-lod-equiv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/getty-lod-equiv> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/getty-lod-equiv> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "005links" .
-<http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://www.w3.org/2000/01/rdf-schema#label> "Herculaneum Graffiti Project" .
-<http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
-<http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
-<http://digitalhumanities.umass.edu/p-lod/vocabulary/hgp-equiv> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "005links" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://www.w3.org/2000/01/rdf-schema#label> "Ancient Graffiti Project" .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://digitalhumanities.umass.edu/p-lod/vocabulary/vocabulary-item> .
+<http://digitalhumanities.umass.edu/p-lod/vocabulary/agp-equiv> <http://digitalhumanities.umass.edu/p-lod/vocabulary/sort-order> "005links" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://www.w3.org/2000/01/rdf-schema#label> "Is part of" .
 <http://digitalhumanities.umass.edu/p-lod/vocabulary/is-part-of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://digitalhumanities.umass.edu/p-lod/vocabulary/named-entity> .
